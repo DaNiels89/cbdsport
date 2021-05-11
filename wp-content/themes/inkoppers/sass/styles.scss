@@ -50,9 +50,12 @@ html {
 
 body {
 	background-color: $white;
-	font-family: "Poppins", serif;
+	font-family: PlusJakartaSansLight;
 	color: $black;
 	font-size: 1em;
+}
+
+h2 {
 }
 
 @media (min-width: 768px) {
