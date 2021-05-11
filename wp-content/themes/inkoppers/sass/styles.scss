@@ -1,5 +1,48 @@
-$black: #000;
-$white: #fff;
+// CSS Variables
+$black: #000000;
+$white: #ffffff;
+$gray: #707070;
+$yellow: #fff251;
+$lightGray: #d0d0d0;
+// End CSS Variables
+
+// Fonts
+// PlusJakartaSans-Light
+@font-face {
+	font-family: "PlusJakartaSansLight";
+	src: url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Light.woff2)
+			format("woff2"),
+		url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Light.woff)
+			format("woff"),
+		url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Light.ttf)
+			format("truetype");
+	font-stretch: normal;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+// PlusJakartaSans-Medium
+@font-face {
+	font-family: "PlusJakartaSansMedium";
+	src: url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Medium.woff2)
+			format("woff2"),
+		url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Medium.woff)
+			format("woff"),
+		url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Medium.ttf)
+			format("truetype");
+	font-stretch: normal;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+// Degular is also used and configured in functions.php
+// <link rel="stylesheet" href="https://use.typekit.net/xso5pxc.css">
+// font-family: degular, sans-serif;
+// font-style: normal;
+// font-weight: 500;
+// End fonts
 
 html {
 	font-size: 14px;

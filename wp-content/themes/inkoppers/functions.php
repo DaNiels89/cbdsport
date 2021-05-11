@@ -43,3 +43,11 @@ function wpharvest_yoasttobottom()
 }
 
 add_filter("wpseo_metabox_prio", "wpharvest_yoasttobottom");
+
+/* Add Degular font for every page */
+add_action('wp_head', 'your_function_name');
+function your_function_name(){
+?>
+  <link rel="stylesheet" href="https://use.typekit.net/xso5pxc.css">
+<?php
+};
