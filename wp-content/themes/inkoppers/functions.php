@@ -51,3 +51,4 @@ function your_function_name(){
   <link rel="stylesheet" href="https://use.typekit.net/xso5pxc.css">
 <?php
 };
+/* End add Degular font for every page */

@@ -3,7 +3,7 @@
 defined("ABSPATH") || exit;
 ?>
 
-<div id="footer-cbds" class="container">
+<div id="footer" class="container">
     <div class="row">
         <div class="col">
             <h2 class="footer-h2">Laten we<br />samen werken.</h2>
