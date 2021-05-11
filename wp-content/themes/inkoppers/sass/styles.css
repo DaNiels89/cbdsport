@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #fff;
-  font-family: "Poppins", serif;
+  font-family: 'Poppins', serif;
   color: #000;
   font-size: 1em;
 }
@@ -14,4 +14,4 @@ body {
     font-size: 16px;
   }
 }
-/*# sourceMappingURL=styles.min.css.map */
+/*# sourceMappingURL=styles.css.map */

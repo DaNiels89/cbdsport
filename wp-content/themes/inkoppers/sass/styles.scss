@@ -2,30 +2,27 @@ $black: #000;
 $white: #fff;
 
 html {
-    font-size: 14px;
+	font-size: 14px;
 }
 
 body {
-    background-color: $white;
-    font-family: 'Poppins', serif;
-    color: $black;
-    font-size: 1em;
+	background-color: $white;
+	font-family: "Poppins", serif;
+	color: $black;
+	font-size: 1em;
 }
 
 @media (min-width: 768px) {
-
 }
 
 @media (min-width: 992px) {
-    html {
-        font-size: 16px;
-    }
+	html {
+		font-size: 16px;
+	}
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
-
 }
