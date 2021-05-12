@@ -7,6 +7,6 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<?php include "flexible-content.php"; ?>
+<h1>Test</h1>
 
 <?php get_footer();
