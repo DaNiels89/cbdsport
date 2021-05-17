@@ -7,7 +7,7 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <h2 class="">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h2>
@@ -16,7 +16,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">

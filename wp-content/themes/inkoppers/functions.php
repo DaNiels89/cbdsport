@@ -20,6 +20,7 @@ function enqueue_scripts()
 
     wp_enqueue_style("bootstrap-css", get_stylesheet_directory_uri() . "/css/bootstrap.min.css", [], $version);
     wp_enqueue_style("font-awesome-css", get_stylesheet_directory_uri() . "/css/all.min.css", [], $version);
+    wp_enqueue_style("adobe-fonts", "https://use.typekit.net/xbj7lle.css", [], $version);
     wp_enqueue_style("google-fonts", "https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap", [], $version);
     wp_enqueue_style("styles-css", get_stylesheet_directory_uri() . "/css/styles.min.css", [], $version);
 
@@ -43,12 +44,3 @@ function wpharvest_yoasttobottom()
 }
 
 add_filter("wpseo_metabox_prio", "wpharvest_yoasttobottom");
-
-/* Add Degular font for every page */
-add_action('wp_head', 'your_function_name');
-function your_function_name(){
-?>
-  <link rel="stylesheet" href="https://use.typekit.net/xso5pxc.css">
-<?php
-};
-/* End add Degular font for every page */

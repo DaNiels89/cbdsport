@@ -14,9 +14,9 @@ defined( "ABSPATH" ) || exit;
 <body <?php body_class(); ?>>
 <?php do_action("wp_body_open"); ?>
 
-<div id="header" class="container">
-    <div class="row">
-        <div class="col">
+<div id="header" class="container-fluid">
+    <div class="row d-flex justify-content-between">
+        <div class="col my-4">
             <a href="/cbdsport" class="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="34.821" height="34.821" viewBox="0 0 34.821 34.821">
                     <g id="Group_903" data-name="Group 903" transform="translate(-733.027 -470.176)">
@@ -32,33 +32,35 @@ defined( "ABSPATH" ) || exit;
                 </svg>
             </a>
         </div>
-        <div class="col">
-            <div class="header-close">Close</div>
+        <div class="col my-4 text-right">
+            <div class="header-close">Menu O</div>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <h2 class=""><a href="http://localhost/cbdsport/werk" class="">Werk</a></h2>
-            <h2 class=""><a href="http://localhost/cbdsport/over-ons" class="">Over ons</a></h2>
-            <h2 class=""><a href="http://localhost/cbdsport/contact" class="">Contact</a></h2>
+    <div class="d-none">
+        <div class="row">
+            <div class="col">
+                <h2 class=""><a href="http://localhost/cbdsport/werk" class="">Werk</a></h2>
+                <h2 class=""><a href="http://localhost/cbdsport/over-ons" class="">Over ons</a></h2>
+                <h2 class=""><a href="http://localhost/cbdsport/contact" class="">Contact</a></h2>
+            </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="col">
-            <h2 class="footer-h2">Laten we<br />samen werken.</h2>
+        <div class="row">
+            <div class="col">
+                <h2 class="footer-h2">Laten we<br />samen werken.</h2>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-8">
-            <a href="mailto:info@quarterback.nl" title="E-mailadres Quarterback">info@quarterback.nl</a>
-            <div class="">Emmaustraat 1</div>
-            <div class="">5492BK Sint-Oedenrode</div>
-        </div>
-        <div class="col-4">
-            <a href="https://www.instagram.com/quarterback.nl/" target="_blank" title="Instagram Quarterback">Instagram</a>
-            <a href="https://nl.linkedin.com/in/danny-siebers" target="_blank" title="LinkedIn Quarterback">LinkedIn</a>
-            <a href="https://www.facebook.com/quarterback.nl/" target="_blank" title="Facebook Quarterback">Facebook</a>
+        <div class="row">
+            <div class="col-8">
+                <a href="mailto:info@quarterback.nl" title="E-mailadres Quarterback">info@quarterback.nl</a>
+                <div class="">Emmaustraat 1</div>
+                <div class="">5492BK Sint-Oedenrode</div>
+            </div>
+            <div class="col-4">
+                <a href="https://www.instagram.com/quarterback.nl/" target="_blank" title="Instagram Quarterback">Instagram</a>
+                <a href="https://nl.linkedin.com/in/danny-siebers" target="_blank" title="LinkedIn Quarterback">LinkedIn</a>
+                <a href="https://www.facebook.com/quarterback.nl/" target="_blank" title="Facebook Quarterback">Facebook</a>
+            </div>
         </div>
     </div>
 </div>

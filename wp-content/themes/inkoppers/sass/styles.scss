@@ -52,15 +52,38 @@ $lightGray: #d0d0d0;
 	font-display: swap;
 }
 
+.font-jakarta-light {
+	font-family: PlusJakartaSansLight;
+}
+
+.font-jakarta-regular {
+	font-family: PlusJakartaSansRegular;
+}
+
+.font-jakarta-medium {
+	font-family: PlusJakartaSansMedium;
+}
+
 // Degular (Adobe Font) is also used and configured in functions.php
-// <link rel="stylesheet" href="https://use.typekit.net/xso5pxc.css">
+// <link rel="stylesheet" href="https://use.typekit.net/xbj7lle.css">
+// Degular Medium
 // font-family: degular, sans-serif;
-// font-style: normal;
 // font-weight: 500;
+// font-style: normal;
+
+// Degular Display Medium
+// font-family: degular-display, sans-serif;
+// font-weight: 500;
+// font-style: normal;
+
+// Degular Text Medium
+// font-family: degular-text, sans-serif;
+// font-weight: 500;
+// font-style: normal;
 // End fonts
 
 html {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 body {
@@ -70,15 +93,114 @@ body {
 	font-size: 1em;
 }
 
-h2 {
+h1 {
+	font-family: degular, sans-serif;
+	font-size: clamp(2.5rem, 10vw, 5rem);
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1;
 }
+
+h2 {
+	font-family: degular, sans-serif;
+	font-size: clamp(2.5rem, 10vw, 5rem);
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1;
+}
+
+h4 {
+	font-family: degular, sans-serif;
+	font-size: clamp(1 0.5rem, 10vw, 2.5rem);
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	font-family: PlusJakartaSansRegular;
+	font-size: clamp(1.25rem, 2.5vw, 2.5rem);
+	line-height: 1.75em;
+}
+
+.bg-black {
+	background-color: $black;
+}
+
+.half-white-half-black {
+	background: linear-gradient(180deg, $white 50%, $black 50%);
+}
+
+.half-black-half-white {
+	background: linear-gradient(180deg, $black 50%, $white 50%);
+}
+
+.a-showreal {
+	font-family: PlusJakartaSansLight;
+	color: $black;
+	font-size: clamp(1.125rem, 2.5vw, 2.5rem);
+}
+
+.p-gray {
+	color: $gray;
+	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
+}
+
+// Header
+
+// End header
+
+// Footer
+.footer-h2 {
+	font-family: degular, sans-serif;
+	font-size: clamp(2.5rem, 10vw, 5rem);
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1;
+}
+
+#footer a {
+	color: $black;
+	font-size: 1.125rem;
+	text-decoration: underline;
+}
+
+#footer p {
+	margin-bottom: 0;
+	font-size: 1.125rem;
+	text-decoration: underline;
+}
+
+.footer-contact-info {
+	padding-right: 0;
+}
+
+#footer .p-footer-copyright {
+	border-top: 1px solid $black;
+	font-size: 0.875rem;
+	text-decoration: none;
+}
+
+#footer .a-footer-copyright {
+	font-size: 0.875rem;
+	margin-right: 1em;
+}
+
+.lh-175 {
+	line-height: 1.75;
+}
+// End footer
 
 @media (min-width: 768px) {
 }
 
 @media (min-width: 992px) {
 	html {
-		font-size: 16px;
+		// font-size: 16px;
 	}
 }
 

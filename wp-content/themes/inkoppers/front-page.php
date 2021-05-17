@@ -5,50 +5,52 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
- <div class="container">
+ <div class="container-fluid">
     <div class="row">
-        <div class="col">
-            <h2 class="">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h2>
+        <div class="col my-4">
+            <h1 class="">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <p class="">Bekijk showreal 
+            <a href="/" class="a-showreal mr-3">Bekijk showreal</a>
+            <a href="/" class="">
                 <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
                     <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                 </svg>
-            </p>
+            </a>
         </div>
     </div>
 </div>
 
 <div class="container-fluid">
-    <div class="row">
+    <div class="row my-5">
         <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
-            <p class="color-light-gray">Over ons</p>
+            <p class="p-gray">Over ons</p>
             <p class="">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            <p class="">Meer over ons</p>
+        <div class="col mt-2 mb-5">
+            <a href="/" class="a-showreal mr-3">Meer over ons</a>
+            <a href="/" class="">
                 <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
                     <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                 </svg>
-            </p>
+            </a>
         </div>
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid half-white-half-black">
     <div class="row">
         <div class="col">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
@@ -56,53 +58,53 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid bg-black text-white pt-5">
     <div class="row">
         <div class="col">
-            <p class="color-light-gray">Ons werk</p>
-            <h2 class="">Design and development for every stage of your journey.</h2>
+            <p class="p-gray mt-5">Ons werk</p>
+            <h2 class="mb-5">Design and development for every stage of your journey.</h2>
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
-            <h5 class="">CBD+Sport</h5>
-            <p class="">The smart athletes choice</p>
+        <div class="col-12">
+            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
+            <h4 class="mt-4 mb-2">CBD+Sport</h4>
+            <p class="p-gray">The smart athletes choice</p>
         </div>
-        <div class="col">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
-            <h5 class="">CBD+Sport</h5>
-            <p class="">The smart athletes choice</p>
+        <div class="col-12">
+            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
+            <h4 class="mt-4 mb-2">CBD+Sport</h4>
+            <p class="p-gray">The smart athletes choice</p>
         </div>
-        <div class="col">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
-            <h5 class="">CBD+Sport</h5>
-            <p class="">The smart athletes choice</p>
+        <div class="col-12">
+            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
+            <h4 class="mt-4 mb-2">CBD+Sport</h4>
+            <p class="p-gray">The smart athletes choice</p>
         </div>
-        <div class="col">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
-            <h5 class="">CBD+Sport</h5>
-            <p class="">The smart athletes choice</p>
+        <div class="col-12 mb-5">
+            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
+            <h4 class="mt-4 mb-2">CBD+Sport</h4>
+            <p class="p-gray">The smart athletes choice</p>
         </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <hr />
     </div>
 </div>
 
-<div class="container">
+<!-- <div class="container-fluid">
+    <div class="row">
+        <hr class="hr-gray" />
+    </div>
+</div> -->
+
+<div class="container-fluid bg-black text-white mt-5">
     <div class="row">
         <div class="col">
-            <p class="">Ons werk</p>
+            <p class="p-gray mt-5">Ons werk</p>
             <h2 class="">Design and development for every stage of your journey.</h2>
         </div> 
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <h3>Concept</h3>
@@ -119,7 +121,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-6 col-md-3">
             <svg id="Group_1183" data-name="Group 1183" xmlns="http://www.w3.org/2000/svg" width="79.684" height="55.451" viewBox="0 0 79.684 55.451">
@@ -460,7 +462,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <p class="">Meer klanten</p>
@@ -473,7 +475,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-sm-12 col-md-5">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">

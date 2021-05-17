@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-25 19:59:32+0000\n"
+"PO-Revision-Date: 2021-05-07 08:26:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6322,7 +6322,7 @@ msgstr "Of de inhoud beschermd is met een wachtwoord."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2315
 msgid "HTML title for the object, transformed for display."
-msgstr "HTML-titel voor het object, aangepast voor weergave."
+msgstr "HTML titel voor het object, omgezet voor weergave."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2310
 msgid "Title for the object, as it exists in the database."
@@ -9785,7 +9785,7 @@ msgstr "Aangepaste afmetingen"
 #: wp-includes/media-template.php:1090
 #: wp-includes/js/dist/block-library.js:22099
 msgid "Display Settings"
-msgstr "Weergave-instellingen"
+msgstr "Weergave instellingen"
 
 #: wp-includes/media-template.php:1225
 msgid "Edit Original"
@@ -9954,7 +9954,7 @@ msgstr "Alles vervangen"
 #: wp-includes/class-wp-editor.php:1284
 msgctxt "find/replace"
 msgid "Find"
-msgstr "Zoeken"
+msgstr "Vind"
 
 #: wp-includes/class-wp-editor.php:1283
 msgctxt "find/replace"
@@ -11094,7 +11094,7 @@ msgstr "Galerij-instellingen"
 
 #: wp-includes/media-template.php:764
 msgid "Attachment Display Settings"
-msgstr "Weergave-instellingen bijlagen"
+msgstr "Weergave instellingen bijlagen"
 
 #: wp-includes/ms-functions.php:2291
 msgid "WordPress &rsaquo; Success"
@@ -11309,7 +11309,7 @@ msgstr "%1$s %2$s %3$s Feed"
 
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:179
 msgid "Display post date?"
-msgstr "Berichtdatum tonen?"
+msgstr "Toon berichtdatum?"
 
 #: wp-includes/class-wp-xmlrpc-server.php:5395 wp-admin/includes/post.php:40
 #: wp-admin/includes/post.php:85
@@ -12234,7 +12234,7 @@ msgstr "Dit bestand hoeft niet langer te worden toegevoegd."
 #: wp-includes/js/dist/block-library.js:10080
 #: wp-includes/js/dist/block-library.js:12394
 msgid "Display as dropdown"
-msgstr "Als dropdown weergeven"
+msgstr "Toon als dropdown"
 
 #: wp-includes/class-wp-xmlrpc-server.php:610
 msgid "Large size image height"
@@ -14497,11 +14497,11 @@ msgstr "Tagwolk"
 
 #: wp-includes/widgets.php:1682
 msgid "Display item date?"
-msgstr "Itemdatum tonen?"
+msgstr "Toon item datum?"
 
 #: wp-includes/widgets.php:1679
 msgid "Display item author if available?"
-msgstr "Itemauteur tonen als deze beschikbaar is?"
+msgstr "Toon item auteur als deze beschikbaar is?"
 
 #: wp-includes/widgets.php:1676
 msgid "Display item content?"

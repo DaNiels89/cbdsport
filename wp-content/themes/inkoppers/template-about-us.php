@@ -7,7 +7,7 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-sm-12 col-md-6">
             <h2 class="">Wij ontwikkelen concepten en bouwen merken</h2>
@@ -18,7 +18,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
@@ -26,7 +26,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <p class="">Wat we doen</p>
@@ -35,7 +35,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <h4 class="">Concept</h4>
@@ -51,7 +51,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
@@ -59,7 +59,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <p class="">Wat we doen</p>
@@ -68,7 +68,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <details>
@@ -105,7 +105,7 @@ get_header();
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
