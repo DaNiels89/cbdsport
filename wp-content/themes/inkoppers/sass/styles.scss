@@ -150,6 +150,16 @@ p {
 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
 }
 
+.p-color-light {
+	color: $lightGray;
+	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
+}
+
+#home-ons-werk p {
+	border-top: 1px solid $gray;
+	padding-top: 3em;
+}
+
 // Header
 
 // End header
@@ -161,22 +171,32 @@ p {
 	font-style: normal;
 	font-weight: 500;
 	line-height: 1;
+	padding-top: 1.5em;
+	border-top: 1px solid $black;
 }
 
 #footer a {
 	color: $black;
 	font-size: 1.125rem;
 	text-decoration: underline;
+	text-underline-offset: 1px;
 }
 
 #footer p {
 	margin-bottom: 0;
 	font-size: 1.125rem;
 	text-decoration: underline;
+	text-underline-offset: 1px;
 }
 
 .footer-contact-info {
 	padding-right: 0;
+}
+
+#footer .p-footer {
+	font-family: PlusJakartaSansLight;
+	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
+	line-height: 1.5;
 }
 
 #footer .p-footer-copyright {
