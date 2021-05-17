@@ -96,6 +96,7 @@ body {
 	font-family: PlusJakartaSansLight;
 	color: $black;
 	font-size: 1em;
+	counter-reset: card;
 }
 
 h1 {
@@ -164,6 +165,13 @@ p {
 	border-top: 1px solid $gray;
 	padding-top: 3em;
 }
+
+// Accordeon about us
+.card button::before {
+	counter-increment: card;
+	content: "0" counter(card) ".";
+}
+// End accordeon about us
 
 // Header
 
