@@ -33,7 +33,7 @@ defined( "ABSPATH" ) || exit;
             </a>
         </div>
         <div class="col my-4 text-right">
-            <div class="header-close">Menu O</div>
+            <div class="header-close font-manrope">Menu O</div>
         </div>
     </div>
     <div class="d-none">
