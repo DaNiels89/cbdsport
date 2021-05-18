@@ -15,51 +15,37 @@ defined( "ABSPATH" ) || exit;
 <?php do_action("wp_body_open"); ?>
 
 <div id="header" class="container-fluid">
-    <div class="row d-flex justify-content-between">
-        <div class="col my-4">
+    <div class="row d-flex justify-content-between ">
+        <div class="col my-5 d-flex justify-content-start">
             <a href="/cbdsport" class="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="34.821" height="34.821" viewBox="0 0 34.821 34.821">
-                    <g id="Group_903" data-name="Group 903" transform="translate(-733.027 -470.176)">
-                        <g id="Group_901" data-name="Group 901">
-                            <path id="Path_601" data-name="Path 601" d="M733.027,481.783a11.606,11.606,0,0,0,11.607,11.607V470.176A11.606,11.606,0,0,0,733.027,481.783Z"/>
-                            <path id="Path_602" data-name="Path 602" d="M744.634,470.176l11.607,11.607V470.176Z"/>
-                        </g>
-                        <g id="Group_902" data-name="Group 902">
-                            <path id="Path_603" data-name="Path 603" d="M744.634,505h11.607L744.634,493.39Z"/>
-                            <path id="Path_604" data-name="Path 604" d="M756.241,481.783V505a11.607,11.607,0,0,0,0-23.214Z"/>
-                        </g>
-                    </g>
-                </svg>
+                <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/menu-logo-svg.svg" alt="" class="header-logo-svg" width="25" height="25">
             </a>
         </div>
-        <div class="col my-4 text-right">
-            <div class="header-close font-manrope">Menu O</div>
+        <div class="col my-5 d-flex justify-content-end">
+            <div class="header-menu-btn">Menu O</div>
         </div>
     </div>
-    <div class="d-none">
-        <div class="row">
+    <div class="header-pages">
+        <div class="row header-pages-titles">
             <div class="col">
-                <h2 class=""><a href="http://localhost/cbdsport/werk" class="">Werk</a></h2>
-                <h2 class=""><a href="http://localhost/cbdsport/over-ons" class="">Over ons</a></h2>
-                <h2 class=""><a href="http://localhost/cbdsport/contact" class="">Contact</a></h2>
+                <h2 class="header-h2 active"><a href="http://localhost/cbdsport/werk" class="header-a">Werk</a></h2>
+                <h2 class="header-h2"><a href="http://localhost/cbdsport/over-ons" class="header-a">Over ons</a></h2>
+                <h2 class="header-h2"><a href="http://localhost/cbdsport/contact" class="header-a">Contact</a></h2>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col">
-                <h2 class="footer-h2">Laten we<br />samen werken.</h2>
+        <div class="row header-info">
+            <div class="col-sm-3">
+                <h3 class="header-h3 d-none d-sm-block">Contact</h3>
+                <div class=""><a href="mailto:info@quarterback.nl" class="header-a" title="E-mailadres Quarterback">info@quarterback.nl</a></div>
+                <div class="header-address header-a">Emmaustraat 1</div>
+                <div class="header-address header-a">5492BK Sint-Oedenrode</div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-8">
-                <a href="mailto:info@quarterback.nl" title="E-mailadres Quarterback">info@quarterback.nl</a>
-                <div class="">Emmaustraat 1</div>
-                <div class="">5492BK Sint-Oedenrode</div>
-            </div>
-            <div class="col-4">
-                <a href="https://www.instagram.com/quarterback.nl/" target="_blank" title="Instagram Quarterback">Instagram</a>
-                <a href="https://nl.linkedin.com/in/danny-siebers" target="_blank" title="LinkedIn Quarterback">LinkedIn</a>
-                <a href="https://www.facebook.com/quarterback.nl/" target="_blank" title="Facebook Quarterback">Facebook</a>
+            <div class="col-4 offset-8 col-sm-3 offset-sm-0 text-align-right">
+                <h3 class="header-h3 d-none d-sm-block">Socials</h3>
+                <div class=""><a href="https://www.instagram.com/quarterback.nl/" class="header-a" target="_blank" title="Instagram Quarterback">Instagram</a></div>
+                <div class=""><a href="https://nl.linkedin.com/in/danny-siebers" class="header-a" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></div>
+                <div class=""><a href="https://www.facebook.com/quarterback.nl/" class="header-a" target="_blank" title="Facebook Quarterback">Facebook</a></div>
             </div>
         </div>
     </div>

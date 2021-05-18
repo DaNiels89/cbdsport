@@ -53,15 +53,15 @@ $lightGray: #d0d0d0;
 }
 
 .font-jakarta-light {
-	font-family: PlusJakartaSansLight;
+	font-family: PlusJakartaSansLight, sans-serif;
 }
 
 .font-jakarta-regular {
-	font-family: PlusJakartaSansRegular;
+	font-family: PlusJakartaSansRegular, sans-serif;
 }
 
 .font-jakarta-medium {
-	font-family: PlusJakartaSansMedium;
+	font-family: PlusJakartaSansMedium, sans-serif;
 }
 
 .font-manrope {
@@ -93,7 +93,7 @@ html {
 
 body {
 	background-color: $white;
-	font-family: PlusJakartaSansLight;
+	font-family: PlusJakartaSansLight, sans-serif;
 	color: $black;
 	font-size: 1em;
 	counter-reset: card;
@@ -128,13 +128,17 @@ img {
 }
 
 p {
-	font-family: PlusJakartaSansRegular;
+	font-family: PlusJakartaSansRegular, sans-serif;
 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
 	line-height: 1.75em;
 }
 
 .bg-black {
 	background-color: $black;
+}
+
+.lh-175 {
+	line-height: 1.75;
 }
 
 #home-page-image-1 {
@@ -154,7 +158,7 @@ p {
 }
 
 .a-showreal {
-	font-family: PlusJakartaSansLight;
+	font-family: PlusJakartaSansLight, sans-serif;
 	color: $black;
 	font-size: clamp(1.125rem, 2.5vw, 2.5rem);
 }
@@ -174,15 +178,68 @@ p {
 	padding-top: 3em;
 }
 
-// Accordeon about us
+.hr {
+	border-top: 1px solid $black;
+}
+
+// Accordion about us
 .card button::before {
 	counter-increment: card;
 	content: "0" counter(card) ".";
 }
-// End accordeon about us
+// End accordion about us
 
 // Header
+.header-logo-svg {
+	width: unset;
+}
 
+.header-menu-btn {
+	font-family: "Manrope", sans-serif;
+	font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+}
+.header-pages-titles .col {
+	padding: 0;
+}
+
+.header-h2 {
+	font-family: PlusJakartaSansMedium, sans-serif;
+}
+
+.header-h2::before {
+	content: " ";
+}
+
+.header-h2.active {
+	text-decoration: underline;
+	&::before {
+		content: "->";
+	}
+}
+
+.header-a {
+	color: $black;
+	text-decoration: underline;
+}
+
+.header-pages-titles {
+	margin: 5em 0;
+}
+
+.header-h3 {
+	font-family: PlusJakartaSansMedium, sans-serif;
+	font-size: 1.875rem;
+	margin-bottom: 1.5em;
+}
+
+.header-info {
+	margin: 5em 0;
+}
+
+.header-info .header-a {
+	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
+	line-height: 2;
+}
 // End header
 
 // Footer
@@ -193,21 +250,26 @@ p {
 	font-weight: 500;
 	line-height: 1;
 	padding-top: 1.5em;
-	border-top: 1px solid $black;
 }
 
 #footer a {
 	color: $black;
-	font-size: 1.125rem;
+	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
 	text-decoration: underline;
 	text-underline-offset: 1px;
 }
 
 #footer p {
 	margin-bottom: 0;
-	font-size: 1.125rem;
+	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
 	text-decoration: underline;
 	text-underline-offset: 1px;
+}
+
+.footer-h3 {
+	font-family: PlusJakartaSansMedium, sans-serif;
+	font-size: 1.875rem;
+	margin-bottom: 1.5em;
 }
 
 .footer-contact-info {
@@ -215,26 +277,56 @@ p {
 }
 
 #footer .p-footer {
-	font-family: PlusJakartaSansLight;
+	font-family: PlusJakartaSansLight, sans-serif;
 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-	line-height: 1.5;
 }
 
 #footer .p-footer-copyright {
-	border-top: 1px solid $black;
-	font-size: 0.875rem;
+	font-size: clamp(0.875rem, 2.5vw, 1.125rem);
 	text-decoration: none;
 }
 
 #footer .a-footer-copyright {
-	font-size: 0.875rem;
+	font-size: clamp(0.875rem, 2.5vw, 1.125rem);
+}
+
+#footer .a-footer-copyright-1 {
 	margin-right: 1em;
 }
 
-.lh-175 {
-	line-height: 1.75;
-}
 // End footer
+
+@media (min-width: 540px) {
+	// Header
+	#header a {
+		font-family: PlusJakartaSansLight, sans-serif;
+		text-decoration: none;
+	}
+
+	#header p {
+		font-family: PlusJakartaSansLight, sans-serif;
+		text-decoration: none;
+	}
+
+	.header-address {
+		text-decoration: none;
+	}
+	// End header
+	// Footer
+	.footer-h2 {
+		padding-top: 0;
+	}
+	#footer a {
+		font-family: PlusJakartaSansLight, sans-serif;
+		text-decoration: none;
+	}
+
+	#footer p {
+		font-family: PlusJakartaSansLight, sans-serif;
+		text-decoration: none;
+	}
+	// End footer
+}
 
 @media (min-width: 768px) {
 }
