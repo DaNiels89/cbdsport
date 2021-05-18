@@ -10,7 +10,7 @@ get_header();
 <div class="container-fluid bg-black text-white">
     <div class="row">
         <div class="col-sm-12 col-md-6 my-5">
-            <h2 class="">Wij ontwikkelen concepten en bouwen merken</h2>
+            <h1 class="">Wij ontwikkelen concepten en bouwen merken</h1>
         </div>
         <div class="col-sm-12 col-md-6">
             <p class="mt-4 mb-5">We zijn nuchtere mensen die geloven in hard werken en het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met een geweldig ontwerp en doen er alles aan om een service te bieden die we zelf graag zouden willen ervaren.</p>

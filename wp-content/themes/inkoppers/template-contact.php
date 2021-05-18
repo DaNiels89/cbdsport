@@ -7,6 +7,6 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<?php include "flexible-content.php"; ?>
+<img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
 
 <?php get_footer();

@@ -129,12 +129,20 @@ img {
 
 p {
 	font-family: PlusJakartaSansRegular;
-	font-size: clamp(1.25rem, 2.5vw, 2.5rem);
+	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
 	line-height: 1.75em;
 }
 
 .bg-black {
 	background-color: $black;
+}
+
+#home-page-image-1 {
+	background-image: url("http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png");
+	background-color: $white;
+	background-size: cover;
+	background-position: center center;
+	min-height: 40vh;
 }
 
 .half-white-half-black {
