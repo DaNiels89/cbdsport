@@ -74,14 +74,21 @@ get_header();
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
+          Ontdekken
         </button>
       </h5>
     </div>
-
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <p class="">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
+        <div class="d-flex flex-column">
+          <a href="" class="">Merk & Identiteit</a>
+          <a href="" class="">Art direction</a>
+          <a href="" class="">Creatief advies</a>
+          <a href="" class="">UX/UI Design</a>
+          <a href="" class="">Website design</a>
+          <a href="" class="">Website development</a>
+        </div>
       </div>
     </div>
   </div>
@@ -89,13 +96,21 @@ get_header();
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
+          Ontwerpen
         </button>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <p class="">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
+        <div class="d-flex flex-column">
+          <a href="" class="">Merk & Identiteit</a>
+          <a href="" class="">Art direction</a>
+          <a href="" class="">Creatief advies</a>
+          <a href="" class="">UX/UI Design</a>
+          <a href="" class="">Website design</a>
+          <a href="" class="">Website development</a>
+        </div>
       </div>
     </div>
   </div>
@@ -103,53 +118,24 @@ get_header();
     <div class="card-header" id="headingThree">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
+          Ontwikkelen
         </button>
       </h5>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <p class="">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
+        <div class="d-flex flex-column">
+          <a href="" class="">Merk & Identiteit</a>
+          <a href="" class="">Art direction</a>
+          <a href="" class="">Creatief advies</a>
+          <a href="" class="">UX/UI Design</a>
+          <a href="" class="">Website design</a>
+          <a href="" class="">Website development</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <details>
-                <summary>Ontdekken</summary>
-                <p class="">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
-                <p class="">Merk & Identiteit</p>
-                <p class="">Art direction</p>
-                <p class="">Creatief advies</p>
-                <p class="">UX/UI Design</p>
-                <p class="">Website design</p>
-                <p class="">Website development</p>
-            </details>
-            <details>
-                <summary>Ontwerpen</summary>
-                <p class="">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
-                <p class="">Merk & Identiteit</p>
-                <p class="">Art direction</p>
-                <p class="">Creatief advies</p>
-                <p class="">UX/UI Design</p>
-                <p class="">Website design</p>
-                <p class="">Website development</p>
-            </details>
-            <details>
-                <summary>Ontwikkelen</summary>
-                <p class="">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
-                <p class="">Merk & Identiteit</p>
-                <p class="">Art direction</p>
-                <p class="">Creatief advies</p>
-                <p class="">UX/UI Design</p>
-                <p class="">Website design</p>
-                <p class="">Website development</p>
-            </details>
-        </div>
-    </div>
 </div>
 
 <div class="container-fluid bg-black text-white pt-5">
