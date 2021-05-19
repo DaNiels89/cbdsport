@@ -141,12 +141,15 @@ p {
 	line-height: 1.75;
 }
 
+#homepage-top-div {
+	padding: auto;
+}
+
 #home-page-image-1 {
 	background-image: url("http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png");
 	background-color: $white;
 	background-size: cover;
-	background-position: center center;
-	min-height: 40vh;
+	background-position: center;
 }
 
 .half-white-half-black {
@@ -206,16 +209,12 @@ p {
 	font-family: PlusJakartaSansMedium, sans-serif;
 }
 
-.header-h2::before {
-	content: " ";
-}
-
-.header-h2.active {
-	text-decoration: underline;
-	&::before {
-		content: "->";
-	}
-}
+// .header-h2.active {
+// 	text-decoration: none;
+// 	&::before {
+// 		content: "->";
+// 	}
+// }
 
 .header-a {
 	color: $black;
@@ -313,6 +312,10 @@ p {
 	}
 	// End header
 	// Footer
+	#footer {
+		padding: 0 4em;
+	}
+
 	.footer-h2 {
 		padding-top: 0;
 	}

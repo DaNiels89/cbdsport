@@ -8,12 +8,13 @@ get_header();
 ?>
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-12 col-md-6 my-5">
+    <div class="row p-5">
+        <div class="col-sm-12 col-md-6 my-5 p-5">
+            <p class="p-gray d-none d-sm-block">Klanten</p>
             <h1 class="">Met deze bedrijven hebben wij een duurzame relatie</h1>
         </div>
-        <div class="col-sm-12 col-md-6">
-             <p class="mt-4 mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
+        <div class="col-sm-12 col-md-6 d-flex align-items-center">
+             <p class="my-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
         </div>
     </div>
     <div class="row my-5">
@@ -25,8 +26,8 @@ get_header();
                 $klantenlogo = get_field('klantenlogo');
                 $website = get_field('website');
         ?>
-            <div class="col-6 col-md-3 py-5 d-flex justify-content-center">
-                <a href="<?php echo $website ?>" class="" target="_blank">
+            <div class="col-6 col-xl-3 py-5 d-flex justify-content-center align-items-center">
+                <a href="<?php echo $website ?>" class="p-3" target="_blank">
                     <img src="<?php echo $klantenlogo['sizes']['large']; ?>" alt="<?php echo $klantenlogo['alt']; ?>" />
                 </a>
             </div>
