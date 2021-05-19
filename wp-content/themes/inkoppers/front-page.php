@@ -8,7 +8,7 @@ get_header();
 <div class="container-fluid">
     <div class="row align-items-center">
         <div class="col-md-6 d-flex justify-content-center">
-            <div class=" ">
+            <div class="">
                 <h2>Titel</h2>
                 Hier komt een hoop tekst om te kijken wat er allemaal gebeurt.  Hier komt een hoop tekst om te kijken wat er allemaal gebeurt.  Hier komt een hoop tekst om te kijken wat er allemaal gebeurt.
             </div>

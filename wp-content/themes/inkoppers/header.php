@@ -25,7 +25,7 @@ defined( "ABSPATH" ) || exit;
             <div class="header-menu-btn">Menu O</div>
         </div>
     </div>
-    <div class="header-pages">
+    <div class="header-pages d-none">
         <div class="row header-pages-titles">
             <div class="col">
                 <h2 class="header-h2 active"><a href="http://localhost/cbdsport/werk" class="header-a">Werk</a></h2>
