@@ -148,14 +148,14 @@ p {
 
 .header-project-image {
 	transform: translateY(-135px);
-	min-height: 80vh;
+	min-height: 60vh;
 	z-index: -1;
 }
 
 .project-image-text {
 	position: absolute;
-	left: 10em;
-	bottom: 8em;
+	left: 2em;
+	bottom: 4em;
 }
 
 .bg-black {
@@ -345,6 +345,14 @@ p {
 		text-decoration: none;
 	}
 	// End header
+
+	// Single project page
+	.project-image-text {
+		position: absolute;
+		left: 10em;
+		bottom: 8em;
+	}
+	// End singe project page
 	// Footer
 	#footer {
 		padding: 0 4em;

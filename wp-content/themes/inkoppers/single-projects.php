@@ -30,10 +30,10 @@ get_header();
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col">
+        <div class="col-xl-6 py-3">
             <div class="background-image"></div>
         </div>
-        <div class="col">
+        <div class="col-xl-6">
             <div class="background-image"></div>
         </div>
     </div>
@@ -68,10 +68,10 @@ get_header();
 
 <div class="container-fluid bg-black">
     <div class="row">
-        <div class="col">
+        <div class="col-xl-6 py-3">
             <div class="background-image"></div>
         </div>
-        <div class="col">
+        <div class="col-xl-6">
             <div class="background-image"></div>
         </div>
     </div>

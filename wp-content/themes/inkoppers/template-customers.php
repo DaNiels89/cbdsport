@@ -8,12 +8,12 @@ get_header();
 ?>
 
 <div class="container-fluid">
-    <div class="row p-5">
-        <div class="col-sm-12 col-md-6 my-5 p-5">
+    <div class="row p-xl-5">
+        <div class="col-xl-6 my-xl-5 p-xl-5">
             <p class="p-gray d-none d-sm-block">Klanten</p>
             <h1 class="">Met deze bedrijven hebben wij een duurzame relatie</h1>
         </div>
-        <div class="col-sm-12 col-md-6 d-flex align-items-center">
+        <div class="col-xl-6 d-flex align-items-center">
              <p class="my-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
         </div>
     </div>
