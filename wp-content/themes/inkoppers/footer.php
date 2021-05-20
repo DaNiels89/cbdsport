@@ -3,10 +3,10 @@
 defined("ABSPATH") || exit;
 ?>
 
-<div id="footer" class="container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> py-5">
-    <div class="row mb-8">
+<div id="footer" class="container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> py-xl-5">
+    <div class="row mb-5 mb-xl-8">
         <div class="col-xl-6 my-4">
-            <h2 class="footer-h2">Laten we<br />samen werken.</h2>
+            <h2 class="footer-h2 mb-4">Laten we<br />samen werken.</h2>
         </div>
 
         <div class="col col-xl-3 footer-contact-info d-flex flex-column">
@@ -37,7 +37,7 @@ defined("ABSPATH") || exit;
  
     <hr class="hr footer-hr">
  
-     <div class="row">
+     <div class="row pb-5">
         <div class="col-12 col-xl-6 footer-copyright">
             <p class="p-footer-copyright">Copyright &copy; 2021 Quarterback</p>
         </div>

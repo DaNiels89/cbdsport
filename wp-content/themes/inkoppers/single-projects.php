@@ -7,7 +7,7 @@ get_header();
 
 <div class="container-fluid p-0">
     <div class="row">
-        <div class="col">
+        <div class="col p-0">
             <div class="background-image header-project-image">
                 <div class="project-image-text">
                     <h1 class=""><?php the_title(); ?></h1>
@@ -105,11 +105,15 @@ get_header();
                 <div><a href="tel:0031610835300" class="">+31 6 10 83 53 00</a></div>
             </div>            
         </div>
-        <div class="col-xl-8 px-xl-0">
-            <div class="background-image">
-                <p class="">Volgend project</p>
-                <span class="degular-big">Bossche locals</span>
-            </div>
+        <div id="next-project-image-rel" class="col-xl-8 px-xl-0">
+            <a href="#" class="">
+                <div class="background-image">
+                    <div class="next-project-image-abs">
+                        <p class="mb-0">Volgend project</p>
+                        <span class="degular-big mt-0">Bossche locals</span>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
 </div>

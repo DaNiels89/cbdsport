@@ -7,10 +7,10 @@ get_header();
 
 <div class="container-fluid bg-ink-dark">
     <div class="row align-items-center">
-        <div class="col-xl-8 mb-5">
+        <div class="col-xl-7 mb-5">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-2">
         </div>
-        <div class="col-xl-4">
+        <div class="col-xl-5 p-xl-5">
             <p class="p-gray mt-4 mb-0">404</p>
             <h1 class="mb-4">Pagina niet<br /> gevonden.</h1>
             <p class="">Om de pijn te verzachten is hier een link naar onze Spotify office playlist.</p>
