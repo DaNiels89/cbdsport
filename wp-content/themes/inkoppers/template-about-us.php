@@ -61,19 +61,19 @@ get_header();
 </div>
 
 <div class="container-fluid">
-    <div class="row">
+    <div class="row mb-5">
         <div class="col">
             <p class="p-gray mt-5">Wat we doen</p>
-            <h2 class="">Design and development for every stage of your journey.</h2>
+            <span class="degular-big">Design and development for every stage of your journey.</span>
         </div>
     </div>
 </div>
 
 <div id="accordion">
   <div class="card">
-    <div class="card-header" id="headingOne">
+    <div class="card-header bg-ink-light" id="headingOne">
       <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link ink-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Ontdekken
         </button>
       </h5>
@@ -82,20 +82,20 @@ get_header();
       <div class="card-body">
         <p class="">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
         <div class="d-flex flex-column">
-          <a href="" class="">Merk & Identiteit</a>
-          <a href="" class="">Art direction</a>
-          <a href="" class="">Creatief advies</a>
-          <a href="" class="">UX/UI Design</a>
-          <a href="" class="">Website design</a>
-          <a href="" class="">Website development</a>
+          <a href="#" class="a-light-gray">Merk & Identiteit</a>
+          <a href="#" class="a-light-gray">Art direction</a>
+          <a href="#" class="a-light-gray">Creatief advies</a>
+          <a href="#" class="a-light-gray">UX/UI Design</a>
+          <a href="#" class="a-light-gray">Website design</a>
+          <a href="#" class="a-light-gray">Website development</a>
         </div>
       </div>
     </div>
   </div>
   <div class="card">
-    <div class="card-header" id="headingTwo">
+    <div class="card-header bg-ink-light" id="headingTwo">
       <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="btn btn-link ink-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Ontwerpen
         </button>
       </h5>
@@ -104,20 +104,20 @@ get_header();
       <div class="card-body">
         <p class="">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
         <div class="d-flex flex-column">
-          <a href="" class="">Merk & Identiteit</a>
-          <a href="" class="">Art direction</a>
-          <a href="" class="">Creatief advies</a>
-          <a href="" class="">UX/UI Design</a>
-          <a href="" class="">Website design</a>
-          <a href="" class="">Website development</a>
+          <a href="#" class="a-light-gray">Merk & Identiteit</a>
+          <a href="#" class="a-light-gray">Art direction</a>
+          <a href="#" class="a-light-gray">Creatief advies</a>
+          <a href="#" class="a-light-gray">UX/UI Design</a>
+          <a href="#" class="a-light-gray">Website design</a>
+          <a href="#" class="a-light-gray">Website development</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
+  <div class="card mb-6">
+    <div class="card-header bg-ink-light" id="headingThree">
       <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-link ink-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Ontwikkelen
         </button>
       </h5>
@@ -126,12 +126,12 @@ get_header();
       <div class="card-body">
         <p class="">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
         <div class="d-flex flex-column">
-          <a href="" class="">Merk & Identiteit</a>
-          <a href="" class="">Art direction</a>
-          <a href="" class="">Creatief advies</a>
-          <a href="" class="">UX/UI Design</a>
-          <a href="" class="">Website design</a>
-          <a href="" class="">Website development</a>
+          <a href="#" class="a-light-gray">Merk & Identiteit</a>
+          <a href="#" class="a-light-gray">Art direction</a>
+          <a href="#" class="a-light-gray">Creatief advies</a>
+          <a href="#" class="a-light-gray">UX/UI Design</a>
+          <a href="#" class="a-light-gray">Website design</a>
+          <a href="#" class="a-light-gray">Website development</a>
         </div>
       </div>
     </div>

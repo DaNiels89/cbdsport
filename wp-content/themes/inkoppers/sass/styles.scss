@@ -58,6 +58,9 @@ p {
 
 a {
 	color: $ink-dark;
+	&.a-light-gray {
+		color: $ink-lightGray;
+	}
 }
 
 hr {
@@ -148,6 +151,10 @@ hr {
 .card button::before {
 	counter-increment: card;
 	content: "0" counter(card) ".";
+	font-size: 1rem;
+	transform: translateY(-3em);
+	margin-right: 2em;
+	vertical-align: top;
 }
 
 // Style number in front of title accordion
@@ -155,6 +162,16 @@ hr {
 	font-size: 1.5rem;
 	margin-right: 3em;
 	vertical-align: top;
+}
+
+.ink-btn {
+	@include degular-medium;
+	font-size: $clamp2440;
+	color: $ink-dark;
+}
+
+.card-header {
+	border-bottom: none;
 }
 // End accordion about us
 
