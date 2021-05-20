@@ -96,16 +96,16 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark">
-    <div class="row ink-container-1600 p-5">
+<div class="container-fluid bg-ink-dark p-0">
+    <div class="row ink-container-1600p-xl-5">
         <div class="col-xl-4 px-xl-0 d-flex align-items-center">
-            <div id="project-div" class="vh40 d-flex flex-column justify-content-center p-xl-5">
+            <div id="project-div" class="vh40 d-flex flex-column justify-content-center p-3 p-xl-5">
                 <h2 class="mb-5">Meer weten over dit project?</h2>
                 <div class="mb-4"><a href="mailto:info@quarterback.nl" class="">info@quarterback.nl</a></div>
                 <div><a href="tel:0031610835300" class="">+31 6 10 83 53 00</a></div>
             </div>            
         </div>
-        <div id="next-project-image-rel" class="col-xl-8 px-xl-0">
+        <div id="next-project-image-rel" class="col-xl-8 px-0">
             <a href="#" class="">
                 <div class="background-image">
                     <div class="next-project-image-abs">
