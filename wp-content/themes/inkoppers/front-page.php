@@ -65,7 +65,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-dark pt-5">
+<div class="container-fluid bg-ink-dark pt-5">
     <div class="row">
         <div class="col">
             <p class="p-gray mt-5">Ons werk</p>
@@ -102,7 +102,7 @@ get_header();
     </div>
 </div> -->
 
-<div id="home-ons-werk" class="container-fluid bg-dark">
+<div id="home-ons-werk" class="container-fluid bg-ink-dark">
     <div class="row">
         <div class="col">
             <p class="p-gray mt-5">Ons werk</p>
@@ -111,7 +111,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-dark">
+<div class="container-fluid bg-ink-dark">
     <div class="row">
         <div class="col-12">
             <h4 class="mb-4">Concept</h4>

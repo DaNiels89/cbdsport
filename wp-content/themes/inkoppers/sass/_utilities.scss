@@ -1,4 +1,25 @@
-.container-example {
+.ink-container-1600 {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding-bottom: 5em;
+}
+
+.ink-container {
+	max-width: 1000px;
+	margin: 0 auto 5em;
+}
+
+.ink-container-small {
+	max-width: 800px;
+	margin: 5em auto;
+}
+
+.color-dark {
+	color: $dark !important;
+}
+
+.color-light {
+	color: $light !important;
 }
 
 // Margin & padding classes
@@ -8,14 +29,44 @@ $spaceamounts: (6, 7, 8, 9, 10);
 	.m-#{$space} {
 		margin: #{$space}rem;
 	}
+	.mx-#{$space} {
+		margin: 0 #{$space}rem;
+	}
 	.my-#{$space} {
 		margin: #{$space}rem 0;
+	}
+	.mt-#{$space} {
+		margin-top: #{$space}rem;
+	}
+	.mr-#{$space} {
+		margin-right: #{$space}rem;
+	}
+	.mb-#{$space} {
+		margin-bottom: #{$space}rem;
+	}
+	.ml-#{$space} {
+		margin-left: #{$space}rem;
 	}
 
 	.p-#{$space} {
 		padding: #{$space}rem;
 	}
+	.px-#{$space} {
+		padding: 0 #{$space}rem;
+	}
 	.py-#{$space} {
 		padding: #{$space}rem 0;
+	}
+	.pt-#{$space} {
+		padding-top: #{$space}rem;
+	}
+	.pr-#{$space} {
+		padding-right: #{$space}rem;
+	}
+	.pb-#{$space} {
+		padding-bottom: #{$space}rem;
+	}
+	.pl-#{$space} {
+		padding-left: #{$space}rem;
 	}
 }

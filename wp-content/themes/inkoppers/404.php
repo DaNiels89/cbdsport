@@ -5,7 +5,7 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div class="container-fluid bg-dark">
+<div class="container-fluid bg-ink-dark">
     <div class="row align-items-center">
         <div class="col-xl-8 mb-5">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-2">

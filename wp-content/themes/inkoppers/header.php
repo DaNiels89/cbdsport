@@ -14,7 +14,7 @@ defined( "ABSPATH" ) || exit;
 <body <?php body_class(); ?>>
 <?php do_action("wp_body_open"); ?>
 
-<div id="header" class="container-fluid <?php if (get_field("header_dark")): echo "dark-light"; endif; ?>">
+<div id="header" class="container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
     <div class="row d-flex justify-content-between ">
         <div class="col my-5 d-flex justify-content-start">
             <a href="/cbdsport" class="">

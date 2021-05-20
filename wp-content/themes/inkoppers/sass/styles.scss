@@ -7,18 +7,20 @@ html {
 
 body {
 	@include jakarta-light;
-	background-color: $light;
-	color: $dark;
-	font-size: 1rem;
+	background-color: $ink-light;
+	color: $ink-dark;
+	font-size: $clamp1825;
 	counter-reset: card;
 }
 
 h1 {
 	@include degular-big;
+	font-size: $clamp4080;
 }
 
 h2 {
 	@include degular-big;
+	font-size: $clamp2440;
 }
 
 h3 {
@@ -36,25 +38,50 @@ img {
 p {
 	@include jakarta-regular;
 	line-height: 1.75em;
-	.p-dark {
-		color: $dark;
-		font-size: $clamp1625;
+	&.p-dark {
+		color: $ink-dark;
 	}
 
-	.p-gray {
-		color: $gray;
-		font-size: $clamp1625;
+	&.p-gray {
+		color: $ink-gray;
+		margin-bottom: 2em;
 	}
 
-	.p-color-light {
-		color: $lightGray;
-		font-size: $clamp1625;
+	&.p-color-light {
+		color: $ink-lightGray;
 	}
+	&.fs-18-40 {
+		font-size: $clamp1840;
+		margin-bottom: 2em;
+	}
+}
+
+a {
+	color: $ink-dark;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: $ink-dark;
+}
+
+.bg-ink-dark {
+	@include set-background($ink-dark);
+}
+
+.bg-ink-light {
+	@include set-background($ink-light);
+}
+
+.degular-big {
+	@include degular-big;
+	font-size: $clamp4080;
 }
 
 .background-image {
 	background-image: url("http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png");
-	background-color: $light;
+	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
 	min-height: 40vh;
@@ -77,10 +104,6 @@ p {
 	bottom: 4em;
 }
 
-.bg-dark {
-	background-color: $dark;
-}
-
 .lh-175 {
 	line-height: 1.75;
 }
@@ -91,47 +114,47 @@ p {
 
 #home-page-image-1 {
 	background-image: url("http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png");
-	background-color: $light;
+	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
 }
 
 .half-light-half-dark {
-	background: linear-gradient(180deg, $light 50%, $dark 50%);
+	background: linear-gradient(180deg, $ink-light 50%, $ink-dark 50%);
 }
 
 .half-dark-half-light {
-	background: linear-gradient(180deg, $dark 50%, $light 50%);
+	background: linear-gradient(180deg, $ink-dark 50%, $ink-light 50%);
 }
 
 .a-showreal {
 	font-family: PlusJakartaSansLight, sans-serif;
-	color: $dark;
-	font-size: clamp(1.125rem, 2.5vw, 2.5rem);
+	color: $ink-dark;
+	font-size: $clamp1840;
 }
 
 #home-ons-werk p {
-	border-top: 1px solid $gray;
+	border-top: 1px solid $ink-gray;
 	padding-top: 3em;
 }
 
-.hr {
-	border-top: 1px solid $dark;
-}
-
-.dark-light {
-	background-color: $dark;
-	color: $light;
-}
-
-.dark-light .div-footer-a {
-	color: $light;
-}
+// Project page
+// #project-div {
+// 	background: white;
+// }
+// End project page
 
 // Accordion about us
 .card button::before {
 	counter-increment: card;
 	content: "0" counter(card) ".";
+}
+
+// Style number in front of title accordion
+.stage-number {
+	font-size: 1.5rem;
+	margin-right: 3em;
+	vertical-align: top;
 }
 // End accordion about us
 
@@ -152,15 +175,8 @@ p {
 	font-family: PlusJakartaSansMedium, sans-serif;
 }
 
-// .header-h2.active {
-// 	text-decoration: none;
-// 	&::before {
-// 		content: "->";
-// 	}
-// }
-
 .header-a {
-	color: $dark;
+	color: $ink-dark;
 	text-decoration: underline;
 }
 
@@ -187,7 +203,7 @@ p {
 // Footer
 .footer-h2 {
 	font-family: degular, sans-serif;
-	font-size: clamp(2.5rem, 10vw, 5rem);
+	font-size: $clamp4080;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 1;
@@ -195,7 +211,6 @@ p {
 }
 
 #footer a {
-	color: $dark;
 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
 	text-decoration: underline;
 	text-underline-offset: 1px;
