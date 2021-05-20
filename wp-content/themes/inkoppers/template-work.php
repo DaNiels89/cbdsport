@@ -7,7 +7,7 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div class="container-fluid bg-black text-white">
+<div class="container-fluid bg-dark">
     <div class="row">
         <div class="col">
             <h1 class="my-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
@@ -18,22 +18,22 @@ get_header();
 
 <div class="container-fluid">
     <div class="row mb-3">
-        <div class="col-12 bg-black text-white">
+        <div class="col-12 bg-dark">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
             <h4 class="mt-4 mb-2">CBD+Sport</h4>
             <p class="p-gray">The smart athletes choice</p>
         </div>
-        <div class="col-12 bg-black text-white">
+        <div class="col-12 bg-dark">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
             <h4 class="mt-4 mb-2">CBD+Sport</h4>
             <p class="p-gray">The smart athletes choice</p>
         </div>
-        <div class="col-12 bg-black text-white">
+        <div class="col-12 bg-dark">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
             <h4 class="mt-4 mb-2">CBD+Sport</h4>
             <p class="p-gray">The smart athletes choice</p>
         </div>
-        <div class="col-12 half-black-half-white">
+        <div class="col-12 half-dark-half-light">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
             <h4 class="mt-4 mb-2">CBD+Sport</h4>
             <p class="p-gray">The smart athletes choice</p>

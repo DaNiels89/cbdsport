@@ -23,7 +23,7 @@ get_header();
         <div class="col">
             <p class="p-gray">Wat we doen</p>
             <p class="">We specialise in building brands, selling products and telling stories. We are a team of creatives who design identities, custom-built WordPress and Shopify websites and launch digital products that empower teams.</p>
-            <p class="p-black">Merk & identiteit</p>
+            <p class="p-dark">Merk & identiteit</p>
         </div>
     </div>
 </div>
@@ -58,7 +58,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid half-white-half-black">
+<div class="container-fluid half-light-half-dark">
     <div class="row">
         <div class="col p-3">
             <div class="background-image"></div>
@@ -66,7 +66,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-black">
+<div class="container-fluid bg-dark">
     <div class="row">
         <div class="col-xl-6 py-3">
             <div class="background-image"></div>
@@ -77,7 +77,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-black text-white">
+<div class="container-fluid bg-dark">
     <div class="row align-items-center">
         <div class="col p-3 d-flex justify-content-center">
             <div class="mx-5">
@@ -88,7 +88,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-black">
+<div class="container-fluid bg-dark">
     <div class="row">
         <div class="col p-3">
             <div class="background-image"></div>
@@ -96,7 +96,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-black">
+<div class="container-fluid bg-dark">
     <div class="row align-items-center p-5">
         <div class="col-xl-4 px-xl-0">
             <div class="vh40 bg-white text-black">

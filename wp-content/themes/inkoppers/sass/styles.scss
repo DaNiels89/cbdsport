@@ -1,126 +1,32 @@
-// CSS Variables
-$black: #000000;
-$white: #ffffff;
-$gray: #707070;
-$yellow: #fff251;
-$lightGray: #d0d0d0;
-// End CSS Variables
-
-// Fonts
-// PlusJakartaSans-Light
-@font-face {
-	font-family: "PlusJakartaSansLight";
-	src: url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Light.woff2)
-			format("woff2"),
-		url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Light.woff)
-			format("woff"),
-		url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Light.ttf)
-			format("truetype");
-	font-stretch: normal;
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-// PlusJakartaSans-Regular
-@font-face {
-	font-family: "PlusJakartaSansRegular";
-	src: url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Regular.woff2)
-			format("woff2"),
-		url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Regular.woff)
-			format("woff"),
-		url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Regular.ttf)
-			format("truetype");
-	font-stretch: normal;
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-// PlusJakartaSans-Medium
-@font-face {
-	font-family: "PlusJakartaSansMedium";
-	src: url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Medium.woff2)
-			format("woff2"),
-		url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Medium.woff)
-			format("woff"),
-		url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Medium.ttf)
-			format("truetype");
-	font-stretch: normal;
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-
-.font-jakarta-light {
-	font-family: PlusJakartaSansLight, sans-serif;
-}
-
-.font-jakarta-regular {
-	font-family: PlusJakartaSansRegular, sans-serif;
-}
-
-.font-jakarta-medium {
-	font-family: PlusJakartaSansMedium, sans-serif;
-}
-
-.font-manrope {
-	font-family: "Manrope", sans-serif;
-	font-size: 1.25rem;
-}
-
-// Degular (Adobe Font) is also used and configured in functions.php
-// <link rel="stylesheet" href="https://use.typekit.net/xbj7lle.css">
-// Degular Medium
-// font-family: degular, sans-serif;
-// font-weight: 500;
-// font-style: normal;
-
-// Degular Display Medium
-// font-family: degular-display, sans-serif;
-// font-weight: 500;
-// font-style: normal;
-
-// Degular Text Medium
-// font-family: degular-text, sans-serif;
-// font-weight: 500;
-// font-style: normal;
-// End fonts
+@import "config";
+@import "utilities";
 
 html {
 	font-size: 16px;
 }
 
 body {
-	background-color: $white;
-	font-family: PlusJakartaSansLight, sans-serif;
-	color: $black;
-	font-size: 1em;
+	@include jakarta-light;
+	background-color: $light;
+	color: $dark;
+	font-size: 1rem;
 	counter-reset: card;
 }
 
 h1 {
-	font-family: degular, sans-serif;
-	font-size: clamp(2.5rem, 10vw, 5rem);
-	font-style: normal;
-	font-weight: 500;
-	line-height: 1;
+	@include degular-big;
 }
 
 h2 {
-	font-family: degular, sans-serif;
-	font-size: clamp(2.5rem, 10vw, 5rem);
-	font-style: normal;
-	font-weight: 500;
-	line-height: 1;
+	@include degular-big;
+}
+
+h3 {
+	@include jakarta-regular;
 }
 
 h4 {
-	font-family: degular, sans-serif;
-	font-size: clamp(1 0.5rem, 10vw, 2.5rem);
-	font-style: normal;
-	font-weight: 500;
-	line-height: 1;
+	@include degular-medium;
 }
 
 img {
@@ -128,14 +34,27 @@ img {
 }
 
 p {
-	font-family: PlusJakartaSansRegular, sans-serif;
-	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
+	@include jakarta-regular;
 	line-height: 1.75em;
+	.p-dark {
+		color: $dark;
+		font-size: $clamp1625;
+	}
+
+	.p-gray {
+		color: $gray;
+		font-size: $clamp1625;
+	}
+
+	.p-color-light {
+		color: $lightGray;
+		font-size: $clamp1625;
+	}
 }
 
 .background-image {
 	background-image: url("http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png");
-	background-color: $white;
+	background-color: $light;
 	background-size: cover;
 	background-position: center;
 	min-height: 40vh;
@@ -158,8 +77,8 @@ p {
 	bottom: 4em;
 }
 
-.bg-black {
-	background-color: $black;
+.bg-dark {
+	background-color: $dark;
 }
 
 .lh-175 {
@@ -172,38 +91,23 @@ p {
 
 #home-page-image-1 {
 	background-image: url("http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png");
-	background-color: $white;
+	background-color: $light;
 	background-size: cover;
 	background-position: center;
 }
 
-.half-white-half-black {
-	background: linear-gradient(180deg, $white 50%, $black 50%);
+.half-light-half-dark {
+	background: linear-gradient(180deg, $light 50%, $dark 50%);
 }
 
-.half-black-half-white {
-	background: linear-gradient(180deg, $black 50%, $white 50%);
+.half-dark-half-light {
+	background: linear-gradient(180deg, $dark 50%, $light 50%);
 }
 
 .a-showreal {
 	font-family: PlusJakartaSansLight, sans-serif;
-	color: $black;
+	color: $dark;
 	font-size: clamp(1.125rem, 2.5vw, 2.5rem);
-}
-
-.p-black {
-	color: $black;
-	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-}
-
-.p-gray {
-	color: $gray;
-	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-}
-
-.p-color-light {
-	color: $lightGray;
-	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
 }
 
 #home-ons-werk p {
@@ -212,7 +116,16 @@ p {
 }
 
 .hr {
-	border-top: 1px solid $black;
+	border-top: 1px solid $dark;
+}
+
+.dark-light {
+	background-color: $dark;
+	color: $light;
+}
+
+.dark-light .div-footer-a {
+	color: $light;
 }
 
 // Accordion about us
@@ -247,7 +160,7 @@ p {
 // }
 
 .header-a {
-	color: $black;
+	color: $dark;
 	text-decoration: underline;
 }
 
@@ -282,7 +195,7 @@ p {
 }
 
 #footer a {
-	color: $black;
+	color: $dark;
 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
 	text-decoration: underline;
 	text-underline-offset: 1px;
@@ -299,6 +212,14 @@ p {
 	font-family: PlusJakartaSansMedium, sans-serif;
 	font-size: 1.875rem;
 	margin-bottom: 1.5em;
+}
+
+.title {
+	font-weight: 700;
+
+	&.alt {
+		font-weight: 400;
+	}
 }
 
 .footer-contact-info {

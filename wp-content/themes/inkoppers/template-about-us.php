@@ -7,7 +7,7 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div class="container-fluid bg-black text-white">
+<div class="container-fluid bg-dark">
     <div class="row">
         <div class="col-sm-12 col-md-6 my-5">
             <h1 class="">Wij ontwikkelen concepten en bouwen merken</h1>
@@ -18,7 +18,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-black py-5">
+<div class="container-fluid bg-dark py-5">
     <div class="row">
         <div class="col">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
@@ -26,7 +26,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-black text-white py-5">
+<div class="container-fluid bg-dark py-5">
     <div class="row">
         <div class="col">
             <p class="p-gray">Wat we doen</p>
@@ -35,7 +35,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-black text-white">
+<div class="container-fluid bg-dark">
     <div class="row">
         <div class="col-12">
             <h4 class="mb-4">Concept</h4>
@@ -54,7 +54,7 @@ get_header();
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col half-black-half-white">
+        <div class="col half-dark-half-light">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
         </div>
     </div>
@@ -138,7 +138,7 @@ get_header();
   </div>
 </div>
 
-<div class="container-fluid bg-black text-white pt-5">
+<div class="container-fluid bg-dark pt-5">
     <div class="row">
         <div class="col-12">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">

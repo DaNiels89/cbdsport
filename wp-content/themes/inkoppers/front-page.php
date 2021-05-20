@@ -57,7 +57,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid half-white-half-black">
+<div class="container-fluid half-light-half-dark">
     <div class="row">
         <div class="col">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
@@ -65,7 +65,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-black text-white pt-5">
+<div class="container-fluid bg-dark pt-5">
     <div class="row">
         <div class="col">
             <p class="p-gray mt-5">Ons werk</p>
@@ -102,7 +102,7 @@ get_header();
     </div>
 </div> -->
 
-<div id="home-ons-werk" class="container-fluid bg-black text-white">
+<div id="home-ons-werk" class="container-fluid bg-dark">
     <div class="row">
         <div class="col">
             <p class="p-gray mt-5">Ons werk</p>
@@ -111,7 +111,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-black text-white">
+<div class="container-fluid bg-dark">
     <div class="row">
         <div class="col-12">
             <h4 class="mb-4">Concept</h4>
