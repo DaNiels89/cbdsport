@@ -37,7 +37,9 @@ img {
 
 p {
 	@include jakarta-regular;
-	line-height: 1.75em;
+	&.lh175 {
+		line-height: 1.75em;
+	}
 	&.fs-1840 {
 		font-size: $clamp1840;
 	}
@@ -99,6 +101,14 @@ hr {
 	@include set-background($ink-dark);
 }
 
+.fs-1418 {
+	font-size: $clamp1418;
+}
+
+.fs-30 {
+	font-size: 1.875rem;
+}
+
 .degular-font {
 	@include degular-font;
 	&.fs-2440 {
@@ -107,6 +117,14 @@ hr {
 	&.fs-4080 {
 		font-size: $clamp4080;
 	}
+}
+
+.lh-15 {
+	line-height: 1.5;
+}
+
+.lh-175 {
+	line-height: 1.75;
 }
 
 .background-image {
@@ -223,67 +241,92 @@ hr {
 // End header
 
 // Footer
-.footer-h2 {
-	font-family: degular, sans-serif;
-	font-size: $clamp4080;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 1;
-	padding-top: 1.5em;
-}
-
-#footer a {
-	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-	text-decoration: underline;
-	text-underline-offset: 1px;
-}
-
-#footer p {
-	margin-bottom: 0;
-	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-	text-decoration: underline;
-	text-underline-offset: 1px;
-}
-
-.footer-h3 {
-	font-family: PlusJakartaSansMedium, sans-serif;
-	font-size: 1.875rem;
-	margin-bottom: 1.5em;
-}
-
-.title {
-	font-weight: 700;
-
-	&.alt {
-		font-weight: 400;
+#footer {
+	a,
+	p {
+		text-decoration: underline;
+		margin-bottom: 0.25em;
+		&.p-copyright {
+			text-decoration: none;
+		}
 	}
 }
+// .footer-h2 {
+// 	font-family: degular, sans-serif;
+// 	font-size: $clamp4080;
+// 	font-style: normal;
+// 	font-weight: 500;
+// 	line-height: 1;
+// 	padding-top: 1.5em;
+// }
 
-.footer-contact-info {
-	padding-right: 0;
-}
+// #footer a {
+// 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
+// 	text-decoration: underline;
+// 	text-underline-offset: 1px;
+// }
 
-#footer .p-footer {
-	font-family: PlusJakartaSansLight, sans-serif;
-	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-}
+// #footer p {
+// 	margin-bottom: 0;
+// 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
+// 	text-decoration: underline;
+// 	text-underline-offset: 1px;
+// }
 
-#footer .p-footer-copyright {
-	font-size: clamp(0.875rem, 2.5vw, 1.125rem);
-	text-decoration: none;
-}
+// .footer-h3 {
+// 	font-family: PlusJakartaSansMedium, sans-serif;
+// 	font-size: 1.875rem;
+// 	margin-bottom: 1.5em;
+// }
 
-#footer .a-footer-copyright {
-	font-size: clamp(0.875rem, 2.5vw, 1.125rem);
-}
+// .footer-contact-info {
+// 	padding-right: 0;
+// }
 
-#footer .a-footer-copyright-1 {
-	margin-right: 1em;
-}
+// #footer .p-footer {
+// 	font-family: PlusJakartaSansLight, sans-serif;
+// 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
+// }
+
+// #footer .p-footer-copyright {
+// 	font-size: clamp(0.875rem, 2.5vw, 1.125rem);
+// 	text-decoration: none;
+// }
+
+// #footer .a-footer-copyright {
+// 	font-size: clamp(0.875rem, 2.5vw, 1.125rem);
+// }
+
+// #footer .a-footer-copyright-1 {
+// 	margin-right: 1em;
+// }
 
 // End footer
 
-@media (min-width: 540px) {
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+	html {
+		// font-size: 16px;
+	}
+}
+
+@media (min-width: 1200px) {
+	div {
+		&.height-600 {
+			height: 600px;
+		}
+	}
+	#accordion {
+		margin: 10em;
+	}
+	.card {
+		border: none;
+		button::before {
+			vertical-align: bottom;
+		}
+	}
 	// Header
 	#header {
 		padding: 0 4em;
@@ -311,50 +354,16 @@ hr {
 		bottom: 8em;
 	}
 	// End singe project page
+
 	// Footer
 	#footer {
-		padding: 0 4em;
-	}
-
-	.footer-h2 {
-		padding-top: 0;
-	}
-	#footer a {
-		font-family: PlusJakartaSansLight, sans-serif;
-		text-decoration: none;
-	}
-
-	#footer p {
-		font-family: PlusJakartaSansLight, sans-serif;
-		text-decoration: none;
+		a,
+		p {
+			text-decoration: none;
+			margin-bottom: 1em;
+		}
 	}
 	// End footer
-}
-
-@media (min-width: 768px) {
-}
-
-@media (min-width: 992px) {
-	html {
-		// font-size: 16px;
-	}
-	div {
-		&.height-600 {
-			height: 600px;
-		}
-	}
-	#accordion {
-		margin: 10em;
-	}
-	.card {
-		border: none;
-		button::before {
-			vertical-align: bottom;
-		}
-	}
-}
-
-@media (min-width: 1200px) {
 }
 
 @media (min-width: 1400px) {
