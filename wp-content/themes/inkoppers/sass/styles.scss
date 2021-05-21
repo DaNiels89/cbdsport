@@ -199,45 +199,45 @@ hr {
 // End accordion about us
 
 // Header
-.header-logo-svg {
-	width: unset;
-}
+// .header-logo-svg {
+// 	width: unset;
+// }
 
-.header-menu-btn {
-	font-family: "Manrope", sans-serif;
-	font-size: clamp(1.25rem, 2.5vw, 1.625rem);
-}
-.header-pages-titles .col {
-	padding: 0;
-}
+// .header-menu-btn {
+// 	font-family: "Manrope", sans-serif;
+// 	font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+// }
+// .header-pages-titles .col {
+// 	padding: 0;
+// }
 
-.header-h2 {
-	font-family: PlusJakartaSansMedium, sans-serif;
-}
+// .header-h2 {
+// 	font-family: PlusJakartaSansMedium, sans-serif;
+// }
 
-.header-a {
-	color: $ink-dark;
-	text-decoration: underline;
-}
+// .header-a {
+// 	color: $ink-dark;
+// 	text-decoration: underline;
+// }
 
-.header-pages-titles {
-	margin: 5em 0;
-}
+// .header-pages-titles {
+// 	margin: 5em 0;
+// }
 
-.header-h3 {
-	font-family: PlusJakartaSansMedium, sans-serif;
-	font-size: 1.875rem;
-	margin-bottom: 1.5em;
-}
+// .header-h3 {
+// 	font-family: PlusJakartaSansMedium, sans-serif;
+// 	font-size: 1.875rem;
+// 	margin-bottom: 1.5em;
+// }
 
-.header-info {
-	margin: 5em 0;
-}
+// .header-info {
+// 	margin: 5em 0;
+// }
 
-.header-info .header-a {
-	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-	line-height: 2;
-}
+// .header-info .header-a {
+// 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
+// 	line-height: 2;
+// }
 // End header
 
 // Footer
@@ -251,56 +251,6 @@ hr {
 		}
 	}
 }
-// .footer-h2 {
-// 	font-family: degular, sans-serif;
-// 	font-size: $clamp4080;
-// 	font-style: normal;
-// 	font-weight: 500;
-// 	line-height: 1;
-// 	padding-top: 1.5em;
-// }
-
-// #footer a {
-// 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-// 	text-decoration: underline;
-// 	text-underline-offset: 1px;
-// }
-
-// #footer p {
-// 	margin-bottom: 0;
-// 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-// 	text-decoration: underline;
-// 	text-underline-offset: 1px;
-// }
-
-// .footer-h3 {
-// 	font-family: PlusJakartaSansMedium, sans-serif;
-// 	font-size: 1.875rem;
-// 	margin-bottom: 1.5em;
-// }
-
-// .footer-contact-info {
-// 	padding-right: 0;
-// }
-
-// #footer .p-footer {
-// 	font-family: PlusJakartaSansLight, sans-serif;
-// 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-// }
-
-// #footer .p-footer-copyright {
-// 	font-size: clamp(0.875rem, 2.5vw, 1.125rem);
-// 	text-decoration: none;
-// }
-
-// #footer .a-footer-copyright {
-// 	font-size: clamp(0.875rem, 2.5vw, 1.125rem);
-// }
-
-// #footer .a-footer-copyright-1 {
-// 	margin-right: 1em;
-// }
-
 // End footer
 
 @media (min-width: 768px) {
@@ -328,23 +278,23 @@ hr {
 		}
 	}
 	// Header
-	#header {
-		padding: 0 4em;
-	}
+	// #header {
+	// 	padding: 0 4em;
+	// }
 
-	#header a {
-		font-family: PlusJakartaSansLight, sans-serif;
-		text-decoration: none;
-	}
+	// #header a {
+	// 	font-family: PlusJakartaSansLight, sans-serif;
+	// 	text-decoration: none;
+	// }
 
-	#header p {
-		font-family: PlusJakartaSansLight, sans-serif;
-		text-decoration: none;
-	}
+	// #header p {
+	// 	font-family: PlusJakartaSansLight, sans-serif;
+	// 	text-decoration: none;
+	// }
 
-	.header-address {
-		text-decoration: none;
-	}
+	// .header-address {
+	// 	text-decoration: none;
+	// }
 	// End header
 
 	// Single project page
