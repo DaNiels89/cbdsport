@@ -109,6 +109,9 @@ hr {
 	font-size: 1.875rem;
 }
 
+.fs-45120 {
+	font-size: clamp(2.8125rem, 10vw, 8rem);
+}
 .degular-font {
 	@include degular-font;
 	&.fs-2440 {
@@ -165,10 +168,6 @@ hr {
 }
 
 // Project page
-// #project-div {
-// 	background: white;
-// }
-// End project page
 
 // Accordion about us
 .card button::before {
@@ -199,48 +198,16 @@ hr {
 // End accordion about us
 
 // Header
-// .header-logo-svg {
-// 	width: unset;
-// }
-
-// .header-menu-btn {
-// 	font-family: "Manrope", sans-serif;
-// 	font-size: clamp(1.25rem, 2.5vw, 1.625rem);
-// }
-// .header-pages-titles .col {
-// 	padding: 0;
-// }
-
-// .header-h2 {
-// 	font-family: PlusJakartaSansMedium, sans-serif;
-// }
-
-// .header-a {
-// 	color: $ink-dark;
-// 	text-decoration: underline;
-// }
-
-// .header-pages-titles {
-// 	margin: 5em 0;
-// }
-
-// .header-h3 {
-// 	font-family: PlusJakartaSansMedium, sans-serif;
-// 	font-size: 1.875rem;
-// 	margin-bottom: 1.5em;
-// }
-
-// .header-info {
-// 	margin: 5em 0;
-// }
-
-// .header-info .header-a {
-// 	font-size: clamp(1.125rem, 2.5vw, 1.5625rem);
-// 	line-height: 2;
-// }
+#header {
+	.header-menu-btn {
+		font-family: "Manrope", sans-serif;
+		font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+	}
+}
 // End header
 
 // Footer
+#header,
 #footer {
 	a,
 	p {
@@ -278,23 +245,7 @@ hr {
 		}
 	}
 	// Header
-	// #header {
-	// 	padding: 0 4em;
-	// }
 
-	// #header a {
-	// 	font-family: PlusJakartaSansLight, sans-serif;
-	// 	text-decoration: none;
-	// }
-
-	// #header p {
-	// 	font-family: PlusJakartaSansLight, sans-serif;
-	// 	text-decoration: none;
-	// }
-
-	// .header-address {
-	// 	text-decoration: none;
-	// }
 	// End header
 
 	// Single project page
@@ -306,6 +257,7 @@ hr {
 	// End singe project page
 
 	// Footer
+	#header,
 	#footer {
 		a,
 		p {
