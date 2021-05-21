@@ -16,12 +16,12 @@ defined( "ABSPATH" ) || exit;
 
 <div id="header" class="container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
     <div class="row">
-        <div class="col-xl-6 my-5 d-flex justify-content-start">
+        <div class="col-6 my-5 d-flex justify-content-start">
             <a href="/" class="">
                 <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/menu-logo-svg.svg" alt="" class="header-logo-svg <?php if (get_field("header_dark")): echo "bg-ink-light"; endif; ?>" width="25" height="25">
             </a>
         </div>
-        <div class="col-xl-6 my-5 d-flex justify-content-end">
+        <div class="col-6 my-5 d-flex justify-content-end">
             <div class="header-menu-btn">Menu O</div>
         </div>
     </div>
