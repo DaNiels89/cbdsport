@@ -35,7 +35,7 @@ defined("ABSPATH") || exit;
         </div>
     </div>
  
-    <hr class="hr footer-hr">
+    <hr class="hr">
  
      <div class="row pb-5">
         <div class="col-12 col-xl-6 footer-copyright">

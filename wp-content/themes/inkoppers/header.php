@@ -18,7 +18,7 @@ defined( "ABSPATH" ) || exit;
     <div class="row d-flex justify-content-between ">
         <div class="col my-5 d-flex justify-content-start">
             <a href="/cbdsport" class="">
-                <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/menu-logo-svg.svg" alt="" class="header-logo-svg" width="25" height="25">
+                <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/menu-logo-svg.svg" alt="" class="header-logo-svg <?php if (get_field("header_dark")): echo "bg-ink-light"; endif; ?>" width="25" height="25">
             </a>
         </div>
         <div class="col my-5 d-flex justify-content-end">

@@ -7,21 +7,7 @@ get_header();
 
 <div class="container-fluid">
     <div class="row align-items-center">
-        <div class="col-md-6 d-flex justify-content-center">
-            <div class="">
-                <h2>Titel</h2>
-                Hier komt een hoop tekst om te kijken wat er allemaal gebeurt.  Hier komt een hoop tekst om te kijken wat er allemaal gebeurt.  Hier komt een hoop tekst om te kijken wat er allemaal gebeurt.
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div style="width:100%; height: 50vw; background-color: red"></div>
-        </div>
-    </div>
-</div>
-
- <div class="container-fluid">
-    <div class="row homepage-top-div align-items-center">
-        <div id="homepage-top-div-1" class="col-12 col-sm-6">
+        <div class="col-xl-6 p-xl-5">
             <h1 class="">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
             <a href="/" class="a-showreal mr-3">Bekijk showreal</a>
             <a href="/" class="">
@@ -31,21 +17,29 @@ get_header();
                 </svg>
             </a>
         </div>
+        <div class="col-xl-6 background-image">
+        </div>
+    </div>
+</div>
 
-        <div id="home-page-image-1" class="col-12 col-sm-6">
+<div class="container-fluid bg-ink-dark d-none d-xl-block">
+    <div class="row py-xl-4">
+        <div class="col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
+            <p class="font-manrope p-yellow">Deze site maakt gebruik van cookies, je blijft wel anoniem. Voor meer informatie <a href="#" class="font-manrope a-yellow">Cookie en Privacy Voorwaarden</a></p>
+            <button class="font-manrope btn-ink-yellow">OK</button>
         </div>
     </div>
 </div>
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col">
+    <div class="row align-items-center">
+        <div class="col-xl-4 p-xl-0 d-xl-block">
+            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="" height="600">
+        </div>       
+        <div class="col-xl-7 py-5 p-xl-5">
             <p class="p-gray">Over ons</p>
             <p class="">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col mt-2 mb-5">
+
             <a href="/" class="a-showreal mr-3">Meer over ons</a>
             <a href="/" class="">
                 <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
@@ -57,7 +51,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid half-light-half-dark">
+<div class="container-fluid half-light-half-dark d-xl-none">
     <div class="row">
         <div class="col">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
@@ -67,69 +61,66 @@ get_header();
 
 <div class="container-fluid bg-ink-dark pt-5">
     <div class="row">
-        <div class="col">
+        <div class="col-xl-7 offset-xl-1 mb-6">
             <p class="p-gray mt-5">Ons werk</p>
-            <h2 class="mb-5">Design and development for every stage of your journey.</h2>
+            <span class="degular-font fs-4080 mb-5">Design and development for every stage of your journey.</span>
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
+        <div class="col-xl-5 offset-xl-1">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
             <h4 class="mt-4 mb-2">CBD+Sport</h4>
             <p class="p-gray">The smart athletes choice</p>
         </div>
-        <div class="col-12">
+        <div class="col-xl-5">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
             <h4 class="mt-4 mb-2">CBD+Sport</h4>
             <p class="p-gray">The smart athletes choice</p>
         </div>
-        <div class="col-12">
+        <div class="col-xl-5 offset-xl-1">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
             <h4 class="mt-4 mb-2">CBD+Sport</h4>
             <p class="p-gray">The smart athletes choice</p>
         </div>
-        <div class="col-12">
+        <div class="col-xl-5">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mt-4">
             <h4 class="mt-4 mb-2">CBD+Sport</h4>
             <p class="p-gray">The smart athletes choice</p>
         </div>
-    </div>
-</div>
-
-<!-- <div class="container-fluid">
-    <div class="row">
-        <hr class="hr-gray" />
-    </div>
-</div> -->
-
-<div id="home-ons-werk" class="container-fluid bg-ink-dark">
-    <div class="row">
-        <div class="col">
-            <p class="p-gray mt-5">Ons werk</p>
-            <h2 class="mt-2 mb-5">Design and development for every stage of your journey.</h2>
-        </div> 
     </div>
 </div>
 
 <div class="container-fluid bg-ink-dark">
     <div class="row">
-        <div class="col-12">
-            <h4 class="mb-4">Concept</h4>
-            <p class="p-color-light mb-5">Er zit iets unieks in het DNA van uw bedrijf. Wij helpen u om het te  lokaliseren, te verfijnen en over te brengen naar uw klanten met verfrissende eenvoud.</p>
+        <hr class="bg-ink-light offset-xl-1" />
+    </div>
+</div>
+
+<div class="container-fluid bg-ink-dark">
+    <div class="row">
+        <div class="col-xl-7 offset-xl-1 mb-5">
+            <p class="p-gray">Ons werk</p>
+            <span class="degular-font fs-4080">Design and development for every stage of your journey.</span>
+        </div> 
+    </div>
+    <div class="row">
+        <div class="col-xl-3 offset-xl-1">
+            <span class="degular-font fs-2440">Concept</span>
+            <p class="p-color-light my-5">Er zit iets unieks in het DNA van uw bedrijf. Wij helpen u om het te  lokaliseren, te verfijnen en over te brengen naar uw klanten met verfrissende eenvoud.</p>
         </div>
-        <div class="col-12">
-            <h4 class="mb-4">Branding</h4>
-            <p class="p-color-light mb-5">De conclusie van het onderzoek vormt de basis van een concept. We bundelen informatie/ ideeën en leggen we de basis voor merk-DNA.</p>
+        <div class="col-xl-3">
+            <span class="degular-font fs-2440">Branding</span>
+            <p class="p-color-light my-5">De conclusie van het onderzoek vormt de basis van een concept. We bundelen informatie/ ideeën en leggen we de basis voor merk-DNA.</p>
         </div>
-        <div class="col-12 mb-5">
-            <h4 class="mb-4">Design</h4>
-            <p class="p-color-light mb-5">Alles blijft mooi als je het goed onderhoudt, zo ook je merk. Je merk is dan ook op zijn best als je het regelmatig een beetje oppoetst.</p>
+        <div class="col-xl-3">
+            <span class="degular-font fs-2440 mb-4">Design</span>
+            <p class="p-color-light my-5">Alles blijft mooi als je het goed onderhoudt, zo ook je merk. Je merk is dan ook op zijn best als je het regelmatig een beetje oppoetst.</p>
         </div>
     </div>
 </div>
 
 <div class="container-fluid">
-    <div class="row my-5">
+    <div class="row my-5 py-xl-5">
         <?php
             $query = new WP_Query(["post_status" => "publish", "posts_per_page" => 8, "post_type" => "customers", "orderby" => "ID", "order" => "ASC"]);
 
@@ -165,20 +156,22 @@ get_header();
 </div>
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-12 col-md-5">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mb-5">
+    <div class="row align-items-center">
+        <div class="col-xl-5 pl-xl-0">
+            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mb-5" height="600">
         </div>
 
-        <div class="col-sm-12 col-md-7 mb-5">
-            <h2 class="my-5">Helping companies prototype & Launch their ideas faster.</h2>
-            <a href="/" class="a-showreal mr-3">Meer over ons</a>
-            <a href="/" class="">
-                <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
-                    <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                </svg>
-            </a>
+        <div class="col-xl-6 mb-5 p-xl-5">
+            <span class="degular-font fs-4080 my-5">Helping companies prototype & Launch their ideas faster.</span>
+            <div class="mt-4">
+                <a href="/" class="a-showreal mr-3">Meer over ons</a>
+                <a href="/" class="">
+                    <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
+                        <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
 </div>

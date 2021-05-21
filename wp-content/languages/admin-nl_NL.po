@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-15 09:07:30+0000\n"
+"PO-Revision-Date: 2021-05-19 12:28:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2190,7 +2190,7 @@ msgstr "Het toegevoegde bestand kon niet worden gevonden."
 #: wp-admin/includes/template.php:2218
 msgctxt "page label"
 msgid "Privacy Policy Page"
-msgstr "Privacybeleidspagina"
+msgstr "Privacybeleid pagina"
 
 #: wp-admin/includes/template.php:2213
 msgctxt "page label"
@@ -4209,7 +4209,7 @@ msgstr "Privacybeleid"
 #. Policy page.
 #: wp-admin/options-privacy.php:204
 msgid "<a href=\"%1$s\">Edit</a> or <a href=\"%2$s\">preview</a> your Privacy Policy page content."
-msgstr "De inhoud van je privacybeleidspagina <a href=\"%1$s\">bewerken</a> of als <a href=\"%2$s\">voorbeeld</a> bekijken."
+msgstr "De inhoud van je privacybeleid pagina <a href=\"%1$s\">bewerken</a> of als <a href=\"%2$s\">voorbeeld</a> bekijken."
 
 #: wp-admin/includes/file.php:39
 msgid "Privacy Policy Page"
@@ -4222,7 +4222,7 @@ msgstr "%s (Concept)"
 
 #: wp-admin/options-privacy.php:39
 msgid "Privacy Policy page updated successfully."
-msgstr "Privacybeleidspagina succesvol bijgewerkt."
+msgstr "Privacybeleid pagina succesvol geüpdatet."
 
 #. translators: %s: admin_init
 #: wp-admin/includes/plugin.php:2346
@@ -4245,13 +4245,13 @@ msgstr "Er zijn geen pagina's."
 
 #: wp-admin/options-privacy.php:177
 msgid "After your Privacy Policy page is set, we suggest that you edit it."
-msgstr "Nadat je privacybeleidspagina is ingesteld, stellen we voor dat je deze aanpast."
+msgstr "Nadat je privacybeleid pagina is ingesteld, stellen we voor dat je deze aanpast."
 
 #. translators: 1: Privacy Policy guide URL, 2: Additional link attributes, 3:
 #. Accessibility text.
 #: wp-admin/options-privacy.php:215
 msgid "Need help putting together your new Privacy Policy page? <a href=\"%1$s\" %2$s>Check out our Privacy Policy guide%3$s</a> for recommendations on what content to include, along with policies suggested by your plugins and theme."
-msgstr "Hulp nodig bij het maken van je privacybeleidspagina? <a href=\"%1$s\" %2$s>Bekijk onze gids%3$s</a> voor aanbevelingen over welke inhoud je moet toevoegen samen met policies die door je plugins en thema voorgesteld worden."
+msgstr "Hulp nodig bij het maken van je privacybeleid pagina? <a href=\"%1$s\" %2$s>Bekijk onze privacybeleid gids%3$s</a> voor aanbevelingen over welke inhoud je moet toevoegen samen met policies die door je plugins en thema voorgesteld worden."
 
 #: wp-admin/privacy-policy-guide.php:65 wp-admin/privacy-policy-guide.php:74
 msgid "Privacy Policy Guide"
@@ -4713,17 +4713,17 @@ msgstr "Deze pagina gebruiken"
 
 #: wp-admin/options-privacy.php:266
 msgid "Select a Privacy Policy page"
-msgstr "Een privacybeleidspagina selecteren"
+msgstr "Een privacybeleid pagina selecteren"
 
 #: wp-admin/options-privacy.php:264
 msgid "Change your Privacy Policy page"
-msgstr "Je privacybeleidspagina wijzigen"
+msgstr "Je privacybeleid pagina wijzigen"
 
 #. translators: 1: URL to edit Privacy Policy page, 2: URL to view Privacy
 #. Policy page.
 #: wp-admin/options-privacy.php:197
 msgid "<a href=\"%1$s\">Edit</a> or <a href=\"%2$s\">view</a> your Privacy Policy page content."
-msgstr "De inhoud van je privacybeleidspagina <a href=\"%1$s\">bewerken</a> of <a href=\"%2$s\">bekijken</a>."
+msgstr "De inhoud van je privacybeleid pagina <a href=\"%1$s\">bewerken</a> of <a href=\"%2$s\">bekijken</a>."
 
 #: wp-admin/options-privacy.php:178
 msgid "We would also suggest reviewing your Privacy Policy from time to time, especially after installing or updating any themes or plugins. There may be changes or new suggested information for you to consider adding to your policy."
@@ -4744,15 +4744,15 @@ msgstr "Als je al een privacybeleid pagina hebt, selecteer deze hieronder. Zo ni
 #. translators: %s: URL to Pages Trash.
 #: wp-admin/options-privacy.php:118
 msgid "The currently selected Privacy Policy page is in the Trash. Please create or select a new Privacy Policy page or <a href=\"%s\">restore the current page</a>."
-msgstr "De huidig geselecteerde privacybeleidspagina bevindt zich in de prullenmand. Maak of selecteer een nieuwe privacybeleidspagina of <a href=\"%s\">herstel de huidige pagina</a>."
+msgstr "De huidig geselecteerde privacybeleid pagina bevindt zich in de prullenbak. Maak of selecteer een nieuwe privacybeleid pagina of <a href=\"%s\">herstel de huidige pagina</a>."
 
 #: wp-admin/options-privacy.php:108
 msgid "The currently selected Privacy Policy page does not exist. Please create or select a new page."
-msgstr "De nu geselecteerde privacybeleidspagina bestaat niet. Maak of selecteer een nieuwe pagina."
+msgstr "De huidig geselecteerde privacybeleid pagina bestaat niet. Maak of selecteer een nieuwe pagina."
 
 #: wp-admin/options-privacy.php:84
 msgid "Unable to create a Privacy Policy page."
-msgstr "Het is niet gelukt een privacybeleidspagina aan te maken."
+msgstr "Het is niet gelukt een privacybeleid pagina aan te maken."
 
 #. translators: Privacy Policy page slug.
 #: wp-admin/includes/upgrade.php:382
@@ -4762,7 +4762,7 @@ msgstr "privacybeleid"
 #. translators: %s: URL to Customizer -> Menus.
 #: wp-admin/options-privacy.php:56
 msgid "Privacy Policy page setting updated successfully. Remember to <a href=\"%s\">update your menus</a>!"
-msgstr "Privacybeleidspagina instelling is succesvol geüpdatet. Vergeet niet om <a href=\"%s\">je menu's te updaten</a>!"
+msgstr "Privacybeleid pagina instelling is succesvol geüpdatet. Vergeet niet om <a href=\"%s\">je menu's te updaten</a>!"
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:427

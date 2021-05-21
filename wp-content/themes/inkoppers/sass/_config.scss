@@ -60,14 +60,7 @@ $clamp4080: clamp(2.5rem, 10vw, 5rem);
 	font-display: swap;
 }
 
-@mixin degular-big {
-	font-family: degular, sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 1;
-}
-
-@mixin degular-medium {
+@mixin degular-font {
 	font-family: degular, sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -80,6 +73,11 @@ $clamp4080: clamp(2.5rem, 10vw, 5rem);
 
 @mixin jakarta-regular {
 	font-family: PlusJakartaSansRegular, sans-serif;
+}
+
+.font-manrope {
+	font-family: "Manrope", sans-serif;
+	font-size: 1.25rem;
 }
 
 // @font-face {
@@ -106,11 +104,6 @@ $clamp4080: clamp(2.5rem, 10vw, 5rem);
 
 // .font-jakarta-medium {
 // 	font-family: PlusJakartaSansMedium, sans-serif;
-// }
-
-// .font-manrope {
-// 	font-family: "Manrope", sans-serif;
-// 	font-size: 1.25rem;
 // }
 
 // Degular (Adobe Font) is also used and configured in functions.php

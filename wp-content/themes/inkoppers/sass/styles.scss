@@ -14,12 +14,12 @@ body {
 }
 
 h1 {
-	@include degular-big;
+	@include degular-font;
 	font-size: $clamp4080;
 }
 
 h2 {
-	@include degular-big;
+	@include degular-font;
 	font-size: $clamp2440;
 }
 
@@ -28,7 +28,7 @@ h3 {
 }
 
 h4 {
-	@include degular-medium;
+	@include degular-font;
 }
 
 img {
@@ -38,17 +38,26 @@ img {
 p {
 	@include jakarta-regular;
 	line-height: 1.75em;
+	&.fs-1840 {
+		font-size: $clamp1840;
+	}
 	&.p-dark {
 		color: $ink-dark;
 	}
 
 	&.p-gray {
 		color: $ink-gray;
-		margin-bottom: 2em;
+		margin-bottom: 1em;
+		&.fs-1825 {
+			font-size: $clamp1825;
+		}
 	}
-
 	&.p-color-light {
 		color: $ink-lightGray;
+	}
+	&.p-yellow {
+		color: $ink-yellow;
+		margin-bottom: 0;
 	}
 	&.fs-18-40 {
 		font-size: $clamp1840;
@@ -60,6 +69,23 @@ a {
 	color: $ink-dark;
 	&.a-light-gray {
 		color: $ink-lightGray;
+		line-height: 1.75;
+	}
+	&.a-showreal {
+		color: $ink-dark;
+		font-size: $clamp1825;
+	}
+	&.a-yellow {
+		color: $ink-yellow !important;
+		text-decoration: underline;
+	}
+}
+
+button {
+	&.btn-ink-yellow {
+		background: $ink-dark;
+		color: $ink-yellow;
+		border: none;
 	}
 }
 
@@ -73,13 +99,14 @@ hr {
 	@include set-background($ink-dark);
 }
 
-.bg-ink-light {
-	@include set-background($ink-light);
-}
-
-.degular-big {
-	@include degular-big;
-	font-size: $clamp4080;
+.degular-font {
+	@include degular-font;
+	&.fs-2440 {
+		font-size: $clamp2440;
+	}
+	&.fs-4080 {
+		font-size: $clamp4080;
+	}
 }
 
 .background-image {
@@ -87,7 +114,7 @@ hr {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 40vh;
+	min-height: 50vh;
 	position: relative;
 }
 
@@ -111,34 +138,12 @@ hr {
 	line-height: 1.75;
 }
 
-#homepage-top-div {
-	padding: auto;
-}
-
-#home-page-image-1 {
-	background-image: url("http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png");
-	background-color: $ink-light;
-	background-size: cover;
-	background-position: center;
-}
-
 .half-light-half-dark {
 	background: linear-gradient(180deg, $ink-light 50%, $ink-dark 50%);
 }
 
 .half-dark-half-light {
 	background: linear-gradient(180deg, $ink-dark 50%, $ink-light 50%);
-}
-
-.a-showreal {
-	font-family: PlusJakartaSansLight, sans-serif;
-	color: $ink-dark;
-	font-size: $clamp1840;
-}
-
-#home-ons-werk p {
-	border-top: 1px solid $ink-gray;
-	padding-top: 3em;
 }
 
 // Project page
@@ -165,7 +170,7 @@ hr {
 }
 
 .ink-btn {
-	@include degular-medium;
+	@include degular-font;
 	font-size: $clamp2440;
 	color: $ink-dark;
 }
@@ -332,6 +337,20 @@ hr {
 @media (min-width: 992px) {
 	html {
 		// font-size: 16px;
+	}
+	div {
+		&.height-600 {
+			height: 600px;
+		}
+	}
+	#accordion {
+		margin: 10em;
+	}
+	.card {
+		border: none;
+		button::before {
+			vertical-align: bottom;
+		}
 	}
 }
 
