@@ -8,7 +8,7 @@ get_header();
 <div class="container-fluid">
     <div class="row align-items-center">
         <div class="col-xl-6 p-xl-5">
-            <h1 class="">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
+            <h1 class="my-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
             <a href="/" class="a-showreal mr-3">Bekijk showreal</a>
             <a href="/" class="">
                 <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
@@ -17,7 +17,7 @@ get_header();
                 </svg>
             </a>
         </div>
-        <div class="col-xl-6 background-image">
+        <div class="col-xl-6 background-image my-5 my-xl-0">
         </div>
     </div>
 </div>
@@ -33,7 +33,7 @@ get_header();
 
 <div class="container-fluid">
     <div class="row align-items-center">
-        <div class="col-xl-4 p-xl-0 d-xl-block">
+        <div class="col-xl-4 p-xl-0 d-none d-xl-block">
             <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="" height="600">
         </div>       
         <div class="col-xl-7 py-5 p-xl-5">
