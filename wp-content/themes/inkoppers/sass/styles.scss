@@ -69,6 +69,16 @@ p {
 
 a {
 	color: $ink-dark;
+	&:hover,
+	&:visited,
+	&:focus {
+		color: $ink-dark;
+		text-decoration: none;
+	}
+	&:active {
+		color: $ink-dark;
+		background: transparent;
+	}
 	&.a-light-gray {
 		color: $ink-lightGray;
 		line-height: 1.75;
@@ -99,6 +109,10 @@ hr {
 
 .bg-ink-dark {
 	@include set-background($ink-dark);
+}
+
+.bg-ink-light {
+	@include set-background($ink-light);
 }
 
 .fs-1418 {

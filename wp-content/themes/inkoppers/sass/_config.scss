@@ -25,6 +25,14 @@ $clamp4080: clamp(2.5rem, 10vw, 5rem);
 	color: set-text-color($color);
 	a {
 		color: set-text-color($color);
+		&:hover,
+		&:visited,
+		&:focus {
+			color: set-text-color($color);
+		}
+		&:active {
+			color: set-text-color($color);
+		}
 	}
 	hr {
 		border: 0;

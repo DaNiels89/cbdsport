@@ -98,7 +98,7 @@ get_header();
 
 <div class="container-fluid bg-ink-dark p-0">
     <div class="row ink-container-1600p-xl-5">
-        <div class="col-xl-4 px-xl-0 d-flex align-items-center">
+        <div class="col-xl-4 px-xl-0 d-flex align-items-center bg-ink-light">
             <div id="project-div" class="vh40 d-flex flex-column justify-content-center p-3 p-xl-5">
                 <h2 class="mb-5">Meer weten over dit project?</h2>
                 <div class="mb-4"><a href="mailto:info@quarterback.nl" class="">info@quarterback.nl</a></div>
