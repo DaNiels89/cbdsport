@@ -34,6 +34,10 @@ $clamp4080: clamp(2.5rem, 10vw, 5rem);
 			color: set-text-color($color);
 		}
 	}
+	button {
+		background-color: Transparent;
+		color: set-text-color($color);
+	}
 	hr {
 		border: 0;
 		height: 1px;

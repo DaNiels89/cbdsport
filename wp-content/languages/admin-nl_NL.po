@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-19 12:28:31+0000\n"
+"PO-Revision-Date: 2021-05-22 14:41:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4587,7 +4587,7 @@ msgstr "Het is jouw verantwoordelijkheid om een uitgebreid privacybeleid te schr
 
 #: wp-admin/privacy-policy-guide.php:69
 msgid "Please edit your privacy policy content, making sure to delete the summaries, and adding any information from your theme and plugins. Once you publish your policy page, remember to add it to your navigation menu."
-msgstr "Bewerk de inhoud van je privacybeleid, verwijder de beschrijvingen en voeg informatie van je thema en plugins toe. Zodra je je privacybeleidspagina gepubliceerd hebt, vergeet dan niet om deze ook toe te voegen aan je navigatiemenu."
+msgstr "Het bewerken van de inhoud van het privacybeleid, zorg ervoor dat de samenvattingen worden verwijderd, en elke informatie van je thema en plugins wordt toegevoegd. Zodra je je beleidspagina hebt gepubliceerd, vergeet dan niet om deze toe te voegen aan het navigatiemenu."
 
 #: wp-admin/privacy-policy-guide.php:67
 msgid "This text template will help you to create your web site&#8217;s privacy policy."
@@ -10018,7 +10018,7 @@ msgstr "Als je voor meerdere bewerkingen tegelijk uitvoeren kiest, kun je de met
 
 #: wp-admin/edit.php:277
 msgid "You can also edit or move multiple posts to the Trash at once. Select the posts you want to act on using the checkboxes, then select the action you want to take from the Bulk actions menu and click Apply."
-msgstr "Je kunt ook meerdere berichten tegelijk verplaatsen naar de prullenmand. Selecteer de berichten door op de selectievakjes te klikken, selecteer dan de actie die je wil uitvoeren via het bulkacties menu en klik op toepassen."
+msgstr "Je kunt ook meerdere berichten tegelijk bewerken of verplaatsen naar de prullenbak. Selecteer de berichten door op de selectievakjes te klikken, selecteer vervolgens de actie die je wil uitvoeren in het bulkacties-menu en klik op toepassen."
 
 #: wp-admin/upload.php:236 wp-admin/users.php:66 wp-admin/edit.php:261
 msgid "Available Actions"

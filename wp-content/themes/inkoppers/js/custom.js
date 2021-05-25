@@ -1,11 +1,10 @@
 jQuery(document).ready(function ($) {
+	// Header onclick menu button
+	$("#header-menu-btn").on("click", function () {
+		$("#header-main-nav").toggleClass("d-none");
+	});
 	// Add class show to Bootstrap accordion on big sizes so it fully opens
-	if ($(window).width() < 768) {
-		// alert("Less than 960");
-	} else {
-		// $("#collapseTwo").addClass("show");
-		// $("#collapseThree").addClass("show");
+	if ($(window).width() > 767) {
 		$(".collapse").addClass("show");
-		// alert("More than 960");
 	}
 });

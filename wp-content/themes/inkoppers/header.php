@@ -22,30 +22,32 @@ defined( "ABSPATH" ) || exit;
             </a>
         </div>
         <div class="col-6 my-5 d-flex justify-content-end">
-            <div class="header-menu-btn">Menu O</div>
+            <div class=""><button id="header-menu-btn" class="">Menu O</button</div>
         </div>
     </div>
-    <div class="row ">
-        <div class="col offset-xl-1">
-            <div class=""><span class="degular-font fs-45120"><a href="http://localhost/quarterback/werk" class="">Werk</a></span></div>
-            <div class=""><span class="degular-font fs-45120"><a href="http://localhost/quarterback/over-ons" class="">Over ons</a></span></div>
-            <div class=""><span class="degular-font fs-45120"><a href="http://localhost/quarterback/contact" class="">Contact</a></span></div>
-        </div>
-    </div>
-
-    <div class="row my-5">
-        <div class="col-xl-3 offset-xl-1 d-flex flex-column">
-                <span class="fs-30 d-none d-xl-block">Contact</span>
-                <p class="mt-xl-5"><a href="mailto:info@quarterback.nl" class="" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
-                <p class="">Emmaustraat 1</p>
-                <p class="">5492BK Sint-Oedenrode</p>
+    <div id="header-main-nav" class="container-fluid p-0 d-none">
+        <div class="row ">
+            <div class="col offset-xl-1">
+                <div class=""><span class="degular-font fs-45120"><a href="http://localhost/quarterback/werk" class="header-a-page active">Werk</a></span></div>
+                <div class=""><span class="degular-font fs-45120"><a href="http://localhost/quarterback/over-ons" class="header-a-page">Over ons</a></span></div>
+                <div class=""><span class="degular-font fs-45120"><a href="http://localhost/quarterback/contact" class="header-a-page">Contact</a></span></div>
             </div>
-            
-            <div class="col-4 offset-8 col-xl-3 offset-xl-0 text-align-right">
-                <span class="fs-30 d-none d-xl-block">Socials</span>
-                <p class="mt-xl-5"><a href="https://www.instagram.com/quarterback.nl/" class="" target="_blank" title="Instagram Quarterback">Instagram</a></p>
-                <p><a href="https://nl.linkedin.com/in/danny-siebers" class="" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></p>
-                <p><a href="https://www.facebook.com/quarterback.nl/" class="" target="_blank" title="Facebook Quarterback">Facebook</a></p>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-xl-3 offset-xl-1 d-flex flex-column">
+                    <span class="fs-30 d-none d-xl-block">Contact</span>
+                    <p class="mt-xl-5"><a href="mailto:info@quarterback.nl" class="" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
+                    <p class="">Emmaustraat 1</p>
+                    <p class="">5492BK Sint-Oedenrode</p>
+                </div>
+                
+                <div class="col-4 offset-8 col-xl-3 offset-xl-0 text-align-right">
+                    <span class="fs-30 d-none d-xl-block">Socials</span>
+                    <p class="mt-xl-5"><a href="https://www.instagram.com/quarterback.nl/" class="" target="_blank" title="Instagram Quarterback">Instagram</a></p>
+                    <p><a href="https://nl.linkedin.com/in/danny-siebers" class="" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></p>
+                    <p><a href="https://www.facebook.com/quarterback.nl/" class="" target="_blank" title="Facebook Quarterback">Facebook</a></p>
+                </div>
             </div>
         </div>
     </div>

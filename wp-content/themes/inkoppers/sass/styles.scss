@@ -94,8 +94,9 @@ a {
 }
 
 button {
+	background: $ink-light;
+	color: $ink-dark;
 	&.btn-ink-yellow {
-		background: $ink-dark;
 		color: $ink-yellow;
 		border: none;
 	}
@@ -213,9 +214,10 @@ hr {
 
 // Header
 #header {
-	.header-menu-btn {
+	#header-menu-btn {
 		font-family: "Manrope", sans-serif;
 		font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+		border: none;
 	}
 }
 // End header
@@ -240,6 +242,20 @@ hr {
 @media (min-width: 992px) {
 	html {
 		// font-size: 16px;
+	}
+	.header-a-page {
+		&.active {
+			text-decoration: underline !important;
+			text-decoration-thickness: 0.05em !important;
+			text-underline-offset: 0.05em !important;
+			&::before {
+				position: absolute;
+				content: "\2794";
+				font-size: 0.75em;
+				top: 0.35em;
+				left: -1em;
+			}
+		}
 	}
 }
 
