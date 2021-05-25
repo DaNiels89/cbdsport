@@ -22,7 +22,7 @@ defined( "ABSPATH" ) || exit;
             </a>
         </div>
         <div class="col-6 my-5 d-flex justify-content-end">
-            <div class=""><button id="header-menu-btn" class="">Menu O</button</div>
+            <div class=""><button id="header-menu-btn" class="header-menu-btn">Menu</button</div>
         </div>
     </div>
     <div id="header-main-nav" class="container-fluid p-0 d-none">

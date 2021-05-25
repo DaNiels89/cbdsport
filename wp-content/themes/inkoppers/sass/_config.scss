@@ -9,6 +9,7 @@ $clamp1825: clamp(1.125rem, 2.5vw, 1.5625rem);
 $clamp1840: clamp(1.125rem, 2.5vw, 2.5rem);
 $clamp2440: clamp(1.5rem, 2.5vw, 2.5rem);
 $clamp4080: clamp(2.5rem, 10vw, 5rem);
+$clamp4580: clamp(2.8125rem, 10vw, 5rem);
 
 // Set text color based on bg
 @function set-text-color($color) {

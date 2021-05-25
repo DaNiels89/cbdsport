@@ -9,13 +9,32 @@ get_header();
     <div class="row align-items-center">
         <div class="col-xl-6 p-xl-5">
             <h1 class="my-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
-            <a href="/" class="a-showreal mr-3">Bekijk showreal</a>
-            <a href="/" class="">
+            <!-- Button trigger modal -->
+            <button type="button" class="" data-toggle="modal" data-target="#watchShowreal">
+                Bekijk showreal
                 <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
                     <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                 </svg>
-            </a>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="watchShowreal" tabindex="-1" role="dialog" aria-labelledby="watchShowrealLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content background-image">
+                        <div class="modal-header">
+                            <a href="/" class="">
+                                <img src="http://localhost/quarterback/wp-content/uploads/2021/05/logo-quarterback-white-svg.svg" alt="" class="header-logo-svg mt-5 ml-3" width="50" height="50">
+                            </a>
+                            <button type="button" class="close mt-5 mr-3 text-white header-menu-btn" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">Terug O</span>
+                            </button>
+                        </div>
+                        <div class="modal-body d-flex justify-content-center align-items-end align-items-md-center">
+                            <button class="btn-showreal mb-9 mb-md-0">Play Showreal</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="col-xl-6 background-image my-5 my-xl-0">
         </div>

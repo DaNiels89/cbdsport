@@ -100,6 +100,12 @@ button {
 		color: $ink-yellow;
 		border: none;
 	}
+	&.play-showreal {
+		font-size: $clamp4580;
+		color: $ink-light;
+		border: none;
+		background: Transparent;
+	}
 }
 
 hr {
@@ -218,6 +224,15 @@ hr {
 		font-family: "Manrope", sans-serif;
 		font-size: clamp(1.25rem, 2.5vw, 1.625rem);
 		border: none;
+		padding-right: 0.5em;
+		margin-right: 1em;
+		&::after {
+			position: absolute;
+			padding-left: 0.5em;
+			content: "\26AC";
+			font-size: 3rem;
+			transform: translate(-1rem, -1.25rem);
+		}
 	}
 }
 // End header
@@ -235,6 +250,33 @@ hr {
 	}
 }
 // End footer
+
+// Modal
+.modal {
+	padding: 0 !important; // override inline padding-right added from js
+}
+
+.modal .modal-dialog {
+	width: 100%;
+	max-width: none;
+	height: 100%;
+	margin: 0;
+}
+
+.modal .modal-content {
+	height: 100%;
+	border: 0;
+	border-radius: 0;
+}
+
+.modal .modal-body {
+	overflow-y: auto;
+}
+
+.modal-header {
+	border-bottom: 0;
+}
+// End modal
 
 @media (min-width: 768px) {
 }
