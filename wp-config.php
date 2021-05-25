@@ -20,7 +20,7 @@
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'cbds_db' );
+define( 'DB_NAME', 'quar_db' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );

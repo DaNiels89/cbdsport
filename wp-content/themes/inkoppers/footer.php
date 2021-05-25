@@ -26,13 +26,13 @@ defined("ABSPATH") || exit;
 
     <div class="row my-xl-4">
         <div class="col-xl-2 offset-xl-1">
-            <a href="http://localhost/cbdsport/projecten" class="" title="Projecten Quarterback">Projecten</a>
+            <a href="http://localhost/quarterback/projecten" class="" title="Projecten Quarterback">Projecten</a>
         </div>
         <div class="col-xl-2">
-            <a href="http://localhost/cbdsport/over-ons" class="" title="Over Quarterback">Over ons</a>
+            <a href="http://localhost/quarterback/over-ons" class="" title="Over Quarterback">Over ons</a>
         </div>
         <div class="col-xl-2">
-            <a href="http://localhost/cbdsport/contact" class="" title="Contact Quarterback">Contact</a>
+            <a href="http://localhost/quarterback/contact" class="" title="Contact Quarterback">Contact</a>
         </div>
     </div>
  
@@ -47,8 +47,8 @@ defined("ABSPATH") || exit;
             <p class="p-copyright"><a href="/" class="fs-1418">Copyright &copy; 2021 Quarterback</a></p>
         </div>
         <div class="col-xl-5 d-flex justify-content-xl-end">
-            <p class="mr-3"><a class="fs-1418" href="http://localhost/cbdsport/algemene-voorwaarden" title="Algemene voorwaarden">Algemene voorwaarden</a></p>
-            <p class=""><a class="fs-1418" href="http://localhost/cbdsport/algemene-voorwaarden" title="Privacy">Privacy</a></p>
+            <p class="mr-3"><a class="fs-1418" href="http://localhost/quarterback/algemene-voorwaarden" title="Algemene voorwaarden">Algemene voorwaarden</a></p>
+            <p class=""><a class="fs-1418" href="http://localhost/quarterback/algemene-voorwaarden" title="Privacy">Privacy</a></p>
         </div>
     </div>
 </div>

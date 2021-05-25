@@ -8,7 +8,7 @@ get_header();
 <div class="container-fluid bg-ink-dark">
     <div class="row align-items-center">
         <div class="col-xl-7 mb-5">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-2">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-2">
         </div>
         <div class="col-xl-5 p-xl-5">
             <p class="p-gray mt-4 mb-0">404</p>

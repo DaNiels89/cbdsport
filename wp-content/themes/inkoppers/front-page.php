@@ -34,7 +34,7 @@ get_header();
 <div class="container-fluid">
     <div class="row align-items-center">
         <div class="col-xl-4 p-xl-0 d-none d-xl-block">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="" height="600">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="" height="600">
         </div>       
         <div class="col-xl-7 py-5 p-xl-5">
             <p class="p-gray">Over ons</p>
@@ -54,7 +54,7 @@ get_header();
 <div class="container-fluid half-light-half-dark d-xl-none">
     <div class="row">
         <div class="col">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
         </div>       
     </div>
 </div>
@@ -68,22 +68,22 @@ get_header();
     </div>
     <div class="row">
         <div class="col-xl-5 offset-xl-1">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
         <div class="col-xl-5">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
         <div class="col-xl-5 offset-xl-1">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
         <div class="col-xl-5">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
@@ -144,7 +144,7 @@ get_header();
 <div class="container-fluid">
     <div class="row my-5">
         <div class="col mt-2 mb-5 d-flex justify-content-center">
-            <a href="http://localhost/cbdsport/klanten" class="a-showreal mr-3">Meer klanten</a>
+            <a href="http://localhost/quarterback/klanten" class="a-showreal mr-3">Meer klanten</a>
             <a href="/" class="">
                 <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
@@ -158,7 +158,7 @@ get_header();
 <div class="container-fluid">
     <div class="row align-items-center">
         <div class="col-xl-5 pl-xl-0">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="mb-5" height="600">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="mb-5" height="600">
         </div>
 
         <div class="col-xl-6 mb-5 p-xl-5">
