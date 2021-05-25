@@ -21,17 +21,17 @@ get_header();
 <div class="container-fluid bg-ink-dark">
     <div class="row">
         <div class="col-xl-10 offset-xl-1">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
         <div class="col-xl-10 offset-xl-1">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
         <div class="col-xl-10 offset-xl-1">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
@@ -41,7 +41,7 @@ get_header();
 <div class="container-fluid half-dark-half-light">
     <div class="row">
         <div class="col-xl-10 offset-xl-1">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
@@ -51,12 +51,12 @@ get_header();
 <div class="container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
         <div class="col-xl-10 offset-xl-1">
-            <img src="http://localhost/cbdsport/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
+            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray">The smart athletes choice</p>
         </div>
