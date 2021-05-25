@@ -97,8 +97,16 @@ button {
 	background: $ink-light;
 	color: $ink-dark;
 	&.btn-ink-yellow {
-		color: $ink-yellow;
+		color: $ink-yellow !important;
 		border: none;
+	}
+	&.watch-showreal-btn {
+		display: flex;
+		align-items: center;
+		border: 0;
+		svg {
+			margin-left: 1em;
+		}
 	}
 	&.play-showreal {
 		font-size: $clamp4580;

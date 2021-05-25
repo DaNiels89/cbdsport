@@ -10,7 +10,7 @@ get_header();
         <div class="col-xl-6 p-xl-5">
             <h1 class="my-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
             <!-- Button trigger modal -->
-            <button type="button" class="" data-toggle="modal" data-target="#watchShowreal">
+            <button type="button" class="watch-showreal-btn" data-toggle="modal" data-target="#watchShowreal">
                 Bekijk showreal
                 <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
@@ -30,7 +30,7 @@ get_header();
                             </button>
                         </div>
                         <div class="modal-body d-flex justify-content-center align-items-end align-items-md-center">
-                            <button class="btn-showreal mb-9 mb-md-0">Play Showreal</button>
+                            <button class="play-showreal mb-9 mb-md-0">Play Showreal</button>
                         </div>
                     </div>
                 </div>
@@ -116,6 +116,14 @@ get_header();
 </div>
 
 <div class="container-fluid bg-ink-dark">
+    <div class="row">
+        <div class="col col-xl-10 offset-xl-1">
+            <hr class="">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-ink-dark py-5">
     <div class="row">
         <div class="col-xl-7 offset-xl-1 mb-5">
             <p class="p-gray">Ons werk</p>
