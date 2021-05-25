@@ -147,24 +147,28 @@ get_header();
 </div>
 
 <div class="container-fluid">
-    <div class="row my-5 py-xl-5">
-        <?php
-            $query = new WP_Query(["post_status" => "publish", "posts_per_page" => 8, "post_type" => "customers", "orderby" => "ID", "order" => "ASC"]);
+    <div class="row my-5">
+        <div class="col-xl-10 offset-xl-1">
+            <div class="row">
+                <?php
+                    $query = new WP_Query(["post_status" => "publish", "posts_per_page" => 8, "post_type" => "customers", "orderby" => "ID", "order" => "ASC"]);
 
-            while ($query->have_posts()) : $query->the_post();
-                $title = get_the_title();
-                $klantenlogo = get_field('klantenlogo');
-                $website = get_field('website');
-        ?>
-            <div class="col-6 col-md-3 py-5 d-flex justify-content-center align-items-center">
-                <a href="<?php echo $website ?>" class="" target="_blank">
-                    <img src="<?php echo $klantenlogo['sizes']['large']; ?>" alt="<?php echo $klantenlogo['alt']; ?>" />
-                </a>
+                    while ($query->have_posts()) : $query->the_post();
+                        $title = get_the_title();
+                        $klantenlogo = get_field('klantenlogo');
+                        $website = get_field('website');
+                ?>
+                    <div class="col-6 col-md-3 py-5 d-flex justify-content-center align-items-center">
+                        <a href="<?php echo $website ?>" class="" target="_blank">
+                            <img src="<?php echo $klantenlogo['sizes']['large']; ?>" alt="<?php echo $klantenlogo['alt']; ?>" />
+                        </a>
+                    </div>
+                <?php
+                    endwhile;
+                    wp_reset_query();
+                ?>
             </div>
-        <?php
-            endwhile;
-            wp_reset_query();
-        ?>
+        </div>
     </div>
 </div>
 

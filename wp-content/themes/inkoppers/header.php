@@ -16,12 +16,23 @@ defined( "ABSPATH" ) || exit;
 
 <div id="header" class="container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
     <div class="row">
-        <div class="col-6 my-5 d-flex justify-content-start">
-            <a href="/" class="">
-                <img src="http://localhost/quarterback/wp-content/uploads/2021/05/menu-logo-svg.svg" alt="" class="header-logo-svg <?php if (get_field("header_dark")): echo "bg-ink-light"; endif; ?>" width="25" height="25">
+        <div class="col-6 my-5 d-flex align-items-center justify-content-start">
+            <a href="/" class="mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="header-logo" width="64.733" height="64.732" viewBox="0 0 64.733 64.732">
+                    <g id="Group_946" data-name="Group 946" transform="translate(-1104.226 -1110.603)">
+                        <g id="Group_944" data-name="Group 944" transform="translate(1104.226 1110.603)">
+                        <path id="Path_614" data-name="Path 614" d="M1104.226,1132.18a21.578,21.578,0,0,0,21.578,21.578V1110.6A21.576,21.576,0,0,0,1104.226,1132.18Z" transform="translate(-1104.226 -1110.603)"/>
+                        <path id="Path_615" data-name="Path 615" d="M1110.682,1110.6l21.577,21.577V1110.6Z" transform="translate(-1089.105 -1110.603)"/>
+                        </g>
+                        <g id="Group_945" data-name="Group 945" transform="translate(1125.803 1132.18)">
+                        <path id="Path_616" data-name="Path 616" d="M1110.682,1145.092h21.577l-21.577-21.577Z" transform="translate(-1110.682 -1101.938)"/>
+                        <path id="Path_617" data-name="Path 617" d="M1117.138,1117.059v43.155a21.578,21.578,0,1,0,0-43.155Z" transform="translate(-1095.56 -1117.059)"/>
+                        </g>
+                    </g>
+                </svg>
             </a>
         </div>
-        <div class="col-6 my-5 d-flex justify-content-end">
+        <div class="col-6 my-5 d-flex align-items-center justify-content-end">
             <div class=""><button id="header-menu-btn" class="header-menu-btn">Menu</button</div>
         </div>
     </div>

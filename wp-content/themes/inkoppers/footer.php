@@ -25,14 +25,10 @@ defined("ABSPATH") || exit;
     </div>
 
     <div class="row my-xl-4">
-        <div class="col-xl-2 offset-xl-1">
-            <a href="http://localhost/quarterback/projecten" class="" title="Projecten Quarterback">Projecten</a>
-        </div>
-        <div class="col-xl-2">
-            <a href="http://localhost/quarterback/over-ons" class="" title="Over Quarterback">Over ons</a>
-        </div>
-        <div class="col-xl-2">
-            <a href="http://localhost/quarterback/contact" class="" title="Contact Quarterback">Contact</a>
+        <div class="col col-xl-10 offset-xl-1 d-flex flex-column flex-xl-row">
+            <a href="http://localhost/quarterback/projecten" class="mr-xl-4" title="Projecten Quarterback">Projecten</a>
+            <a href="http://localhost/quarterback/over-ons" class="mx-xl-5" title="Over Quarterback">Over ons</a>
+            <a href="http://localhost/quarterback/contact" class="ml-xl-4" title="Contact Quarterback">Contact</a>
         </div>
     </div>
  

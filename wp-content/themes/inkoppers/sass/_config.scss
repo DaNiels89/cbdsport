@@ -24,6 +24,9 @@ $clamp4580: clamp(2.8125rem, 10vw, 5rem);
 @mixin set-background($color) {
 	background-color: $color;
 	color: set-text-color($color);
+	svg {
+		fill: set-text-color($color);
+	}
 	a {
 		color: set-text-color($color);
 		&:hover,

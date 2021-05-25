@@ -122,6 +122,13 @@ hr {
 	background: $ink-dark;
 }
 
+svg {
+	fill: $ink-dark;
+	&.header-logo {
+		width: clamp(35px, 5vw, 65px);
+	}
+}
+
 .bg-ink-dark {
 	@include set-background($ink-dark);
 }
