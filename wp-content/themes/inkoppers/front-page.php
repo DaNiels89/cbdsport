@@ -111,12 +111,6 @@ get_header();
 
 <div class="container-fluid bg-ink-dark">
     <div class="row">
-        <hr class="bg-ink-light offset-xl-1" />
-    </div>
-</div>
-
-<div class="container-fluid bg-ink-dark">
-    <div class="row">
         <div class="col col-xl-10 offset-xl-1">
             <hr class="">
         </div>
