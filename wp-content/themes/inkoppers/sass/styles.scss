@@ -9,6 +9,7 @@ body {
 	@include jakarta-light;
 	background-color: $ink-light;
 	color: $ink-dark;
+	min-height: 100vh;
 	font-size: $clamp1825;
 	counter-reset: card;
 }
@@ -148,6 +149,7 @@ svg {
 .fs-45120 {
 	font-size: clamp(2.8125rem, 10vw, 8rem);
 }
+
 .degular-font {
 	@include degular-font;
 	&.fs-2440 {

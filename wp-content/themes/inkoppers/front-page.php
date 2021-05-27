@@ -5,7 +5,7 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div class="container-fluid">
+<div class="container-fluid min-vh-100">
     <div class="row align-items-center">
         <div class="col-xl-6 p-xl-5">
             <h1 class="my-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
