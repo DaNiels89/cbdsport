@@ -15,10 +15,9 @@ defined( "ABSPATH" ) || exit;
 <?php do_action("wp_body_open"); ?>
 
 
-
-<!-- <div id="header" class="container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
+<nav id="header" class="container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
     <div class="row">
-        <div class="col-6 my-5 d-flex align-items-center justify-content-start">
+        <div class="col-6 d-flex align-items-center justify-content-start px-0">
             <a href="/" class="mb-0">
                 <svg xmlns="http://www.w3.org/2000/svg" class="header-logo" width="64.733" height="64.732" viewBox="0 0 64.733 64.732">
                     <g id="Group_946" data-name="Group 946" transform="translate(-1104.226 -1110.603)">
@@ -34,8 +33,15 @@ defined( "ABSPATH" ) || exit;
                 </svg>
             </a>
         </div>
-        <div class="col-6 my-5 d-flex align-items-center justify-content-end">
-            <div class=""><button id="header-menu-btn" class="header-menu-btn">Menu</button</div>
+        <div class="col-6 d-flex align-items-center justify-content-end px-0">
+            <div class="">
+                <button id="header-menu-btn" class="header-menu-btn">
+                    Menu
+                    <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" width="25" height="25" viewBox="0 0 25 25">
+                        <circle id="Ellipse_1" data-name="Ellipse 1" cx="12.5" cy="12.5" r="12.5" fill="#fff"/>
+                    </svg>
+                </button>
+            </div>
         </div>
     </div>
     <div id="header-main-nav" class="container-fluid p-0 d-none">
@@ -64,4 +70,4 @@ defined( "ABSPATH" ) || exit;
             </div>
         </div>
     </div>
-</div> -->
+</nav>

@@ -7,4 +7,8 @@ jQuery(document).ready(function ($) {
 	if ($(window).width() > 767) {
 		$(".collapse").addClass("show");
 	}
+	// Cookie bar
+	$("#cookie-btn").on("click", function () {
+		$("#cookie-div").addClass("d-none");
+	});
 });

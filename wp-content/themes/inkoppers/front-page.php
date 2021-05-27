@@ -5,19 +5,19 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<!-- <div id="cookie-div" class="container-fluid bg-ink-dark">
+<div id="cookie-div" class="container-fluid bg-ink-dark">
     <div class="row py-xl-4">
         <div class="col col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
             <p class="font-manrope p-yellow">Deze site maakt gebruik van cookies, je blijft wel anoniem. Voor meer informatie <a href="#" class="font-manrope a-yellow">Cookie en Privacy Voorwaarden</a></p>
-            <button class="font-manrope btn-ink-yellow">OK</button>
+            <button id="cookie-btn" class="font-manrope btn-ink-yellow">OK</button>
         </div>
     </div>
-</div> -->
+</div>
 
 <div class="container-fluid min-vh-100">
     <div class="row align-items-center">
         <div class="col col-xl-4 offset-xl-1">
-            <h1 class="ink-my-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
+            <h1 class="ink-mb-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
             <div class="d-flex align-items-center px-1 mt-1">
                 <a href="http://localhost/quarterback/klanten" class="a-showreal mr-4">Bekijk showreal</a>
                 <a href="/quarterback/klanten" class="">
@@ -86,7 +86,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark ink-py-11">
+<div class="container-fluid bg-ink-dark ink-pt-11 ink-pb-11">
     <div class="row">
         <div class="col col-xl-7 offset-xl-1">
             <p class="p-gray jakarta-light-font">Ons werk</p>

@@ -255,24 +255,37 @@ svg {
 
 // Cookie melding
 #cookie-div {
-	position: absolute;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	z-index: 1;
 }
 // End cookie melding
 
 // Header
 #header {
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	z-index: 1;
+	margin-top: 70px;
+	svg {
+		&.header-logo {
+			padding-left: 0;
+			margin-left: 50px;
+		}
+	}
 	#header-menu-btn {
 		font-family: "Manrope", sans-serif;
 		font-size: clamp(1.25rem, 2.5vw, 1.625rem);
 		border: none;
-		padding-right: 0.5em;
-		margin-right: 1em;
-		&::after {
-			position: absolute;
-			padding-left: 0.5em;
-			content: "\26AC";
-			font-size: 3rem;
-			transform: translate(-1rem, -1.25rem);
+		background: Transparent;
+		margin-right: 50px;
+		display: flex;
+		align-items: center;
+		color: $ink-light;
+		.menu-icon {
+			margin-left: 1em;
 		}
 	}
 }
