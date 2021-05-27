@@ -79,6 +79,32 @@ $clamp4580: clamp(2.8125rem, 10vw, 5rem);
 	font-display: swap;
 }
 
+@font-face {
+	font-family: "PlusJakartaSansMedium";
+	src: url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Medium.woff2)
+			format("woff2"),
+		url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Medium.woff)
+			format("woff"),
+		url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Medium.ttf)
+			format("truetype");
+	font-stretch: normal;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.jakarta-light-font {
+	font-family: PlusJakartaSansLight, sans-serif;
+}
+
+.jakarta-regular-font {
+	font-family: PlusJakartaSansRegular, sans-serif;
+}
+
+.jakarta-medium-font {
+	font-family: PlusJakartaSansMedium, sans-serif;
+}
+
 @mixin degular-font {
 	font-family: degular, sans-serif;
 	font-style: normal;
@@ -98,32 +124,6 @@ $clamp4580: clamp(2.8125rem, 10vw, 5rem);
 	font-family: "Manrope", sans-serif;
 	font-size: 1.25rem;
 }
-
-// @font-face {
-// 	font-family: "PlusJakartaSansMedium";
-// 	src: url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Medium.woff2)
-// 			format("woff2"),
-// 		url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Medium.woff)
-// 			format("woff"),
-// 		url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Medium.ttf)
-// 			format("truetype");
-// 	font-stretch: normal;
-// 	font-weight: normal;
-// 	font-style: normal;
-// 	font-display: swap;
-// }
-
-// .font-jakarta-light {
-// 	font-family: PlusJakartaSansLight, sans-serif;
-// }
-
-// .font-jakarta-regular {
-// 	font-family: PlusJakartaSansRegular, sans-serif;
-// }
-
-// .font-jakarta-medium {
-// 	font-family: PlusJakartaSansMedium, sans-serif;
-// }
 
 // Degular (Adobe Font) is also used and configured in functions.php
 // <link rel="stylesheet" href="https://use.typekit.net/xbj7lle.css">

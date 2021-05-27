@@ -166,10 +166,6 @@ svg {
 	}
 }
 
-.jakarta-light-font {
-	@include jakarta-light;
-}
-
 .lh-15 {
 	line-height: 1.5;
 }
@@ -379,7 +375,7 @@ svg {
 		a,
 		p {
 			text-decoration: none;
-			margin-bottom: 1em;
+			margin-bottom: 0.5em;
 		}
 	}
 	// End footer
