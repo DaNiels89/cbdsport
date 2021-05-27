@@ -14,7 +14,9 @@ defined( "ABSPATH" ) || exit;
 <body <?php body_class(); ?>>
 <?php do_action("wp_body_open"); ?>
 
-<div id="header" class="container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
+
+
+<!-- <div id="header" class="container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
     <div class="row">
         <div class="col-6 my-5 d-flex align-items-center justify-content-start">
             <a href="/" class="mb-0">
@@ -62,4 +64,4 @@ defined( "ABSPATH" ) || exit;
             </div>
         </div>
     </div>
-</div>
+</div> -->

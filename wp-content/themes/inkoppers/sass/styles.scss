@@ -37,6 +37,7 @@ img {
 }
 
 p {
+	line-height: 1.75em;
 	@include jakarta-regular;
 	&.lh175 {
 		line-height: 1.75em;
@@ -50,13 +51,10 @@ p {
 
 	&.p-gray {
 		color: $ink-gray;
-		margin-bottom: 1em;
-		&.fs-1825 {
-			font-size: $clamp1825;
-		}
 	}
-	&.p-color-light {
-		color: $ink-lightGray;
+	&.p-color-medium-gray {
+		@include jakarta-light;
+		color: $ink-mediumGray;
 	}
 	&.p-yellow {
 		color: $ink-yellow;
@@ -146,6 +144,14 @@ svg {
 	font-size: 1.875rem;
 }
 
+.fs-1825 {
+	font-size: $clamp1825;
+}
+
+.fs-2040 {
+	font-size: $clamp2040;
+}
+
 .fs-45120 {
 	font-size: clamp(2.8125rem, 10vw, 8rem);
 }
@@ -158,6 +164,10 @@ svg {
 	&.fs-4080 {
 		font-size: $clamp4080;
 	}
+}
+
+.jakarta-light-font {
+	@include jakarta-light;
 }
 
 .lh-15 {
@@ -179,6 +189,18 @@ svg {
 
 .vh40 {
 	min-height: 40vh;
+}
+
+.h-600 {
+	min-height: 600px;
+}
+
+.h-750 {
+	min-height: 750;
+}
+
+.h-900 {
+	min-height: 900px;
 }
 
 .header-project-image {
@@ -234,6 +256,12 @@ svg {
 	border-bottom: none;
 }
 // End accordion about us
+
+// Cookie melding
+#cookie-div {
+	position: absolute;
+}
+// End cookie melding
 
 // Header
 #header {

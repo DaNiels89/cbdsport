@@ -5,9 +5,18 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
+<!-- <div id="cookie-div" class="container-fluid bg-ink-dark">
+    <div class="row py-xl-4">
+        <div class="col col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
+            <p class="font-manrope p-yellow">Deze site maakt gebruik van cookies, je blijft wel anoniem. Voor meer informatie <a href="#" class="font-manrope a-yellow">Cookie en Privacy Voorwaarden</a></p>
+            <button class="font-manrope btn-ink-yellow">OK</button>
+        </div>
+    </div>
+</div> -->
+
 <div class="container-fluid min-vh-100">
     <div class="row align-items-center">
-        <div class="col-xl-6 p-xl-5">
+        <div class="col col-xl-4 offset-xl-1">
             <h1 class="my-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
             <!-- Button trigger modal -->
             <button type="button" class="watch-showreal-btn" data-toggle="modal" data-target="#watchShowreal">
@@ -36,28 +45,26 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="col-xl-6 background-image my-5 my-xl-0">
+        <div class="col col-xl-6 offset-xl-1 background-image min-vh-100">
         </div>
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark d-none d-xl-block">
-    <div class="row py-xl-4">
-        <div class="col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
-            <p class="font-manrope p-yellow">Deze site maakt gebruik van cookies, je blijft wel anoniem. Voor meer informatie <a href="#" class="font-manrope a-yellow">Cookie en Privacy Voorwaarden</a></p>
-            <button class="font-manrope btn-ink-yellow">OK</button>
-        </div>
+<!-- This div is for mobile only -->
+<div class="container-fluid half-light-half-dark d-xl-none">
+    <div class="row">
+        <div class="col background-image">
+        </div>       
     </div>
 </div>
 
 <div class="container-fluid">
     <div class="row align-items-center">
-        <div class="col-xl-4 p-xl-0 d-none d-xl-block">
-            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="" height="600">
+        <div class="col col-xl-4 p-xl-0 d-none d-xl-block background-image h-900">
         </div>       
-        <div class="col-xl-7 py-5 p-xl-5">
-            <p class="p-gray">Over ons</p>
-            <p class="">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
+        <div class="col col-xl-6 offset-xl-1 py-5 p-xl-5">
+            <p class="p-gray jakarta-light-font">Over ons</p>
+            <p class="fs-2040 ink-my-4">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
 
             <a href="/" class="a-showreal mr-3">Meer over ons</a>
             <a href="/" class="">
@@ -70,79 +77,71 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid half-light-half-dark d-xl-none">
+<div class="container-fluid bg-ink-dark ink-py-11">
     <div class="row">
-        <div class="col">
-            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
-        </div>       
-    </div>
-</div>
-
-<div class="container-fluid bg-ink-dark pt-5">
-    <div class="row">
-        <div class="col-xl-7 offset-xl-1 mb-6">
-            <p class="p-gray mt-5">Ons werk</p>
-            <span class="degular-font fs-4080 mb-5">Design and development for every stage of your journey.</span>
+        <div class="col col-xl-7 offset-xl-1">
+            <p class="p-gray jakarta-light-font">Ons werk</p>
+            <h2 class="degular-font fs-4080 ink-mt-2 ink-mb-11">Design and development for every stage of your journey.</h2>
         </div>
     </div>
     <div class="row">
-        <div class="col-xl-5 offset-xl-1">
-            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
+        <div class="col col-xl-5 offset-xl-1">
+            <div class="background-image h-600 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <p class="p-gray jakarta-light-font">The smart athletes choice</p>
         </div>
-        <div class="col-xl-5">
-            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
+        <div class="col col-xl-4 offset-xl-1">
+            <div class="background-image h-750 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <p class="p-gray jakarta-light-font">The smart athletes choice</p>
         </div>
-        <div class="col-xl-5 offset-xl-1">
-            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
+        <div class="col col-xl-4 offset-xl-1">
+            <div class="background-image h-750 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <p class="p-gray jakarta-light-font">The smart athletes choice</p>
         </div>
-        <div class="col-xl-5">
-            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-4">
+        <div class="col col-xl-5 offset-xl-1 d-flex flex-column align-self-xl-end">
+            <div class="background-image h-600 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <p class="p-gray jakarta-light-font">The smart athletes choice</p>
         </div>
     </div>
 </div>
 
 <div class="container-fluid bg-ink-dark">
     <div class="row">
-        <div class="col col-xl-10 offset-xl-1">
+        <div class="col col-xl-10 offset-xl-1 px-0">
             <hr class="">
         </div>
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark py-5">
+<div class="container-fluid bg-ink-dark ink-py-11">
     <div class="row">
-        <div class="col-xl-7 offset-xl-1 mb-5">
-            <p class="p-gray">Ons werk</p>
-            <span class="degular-font fs-4080">Design and development for every stage of your journey.</span>
+        <div class="col col-xl-7 offset-xl-1">
+            <p class="p-gray jakarta-light-font">Wat we doen</p>
+            <h2 class="degular-font fs-4080 ink-mt-2 ink-mb-5">Design and development for every stage of your journey.</h2>
         </div> 
     </div>
     <div class="row">
-        <div class="col-xl-3 offset-xl-1">
+        <div class="col col-xl-3 offset-xl-1">
             <span class="degular-font fs-2440">Concept</span>
-            <p class="p-color-light my-5">Er zit iets unieks in het DNA van uw bedrijf. Wij helpen u om het te  lokaliseren, te verfijnen en over te brengen naar uw klanten met verfrissende eenvoud.</p>
+            <p class="p-color-medium-gray my-5">Er zit iets unieks in het DNA van uw bedrijf. Wij helpen u om het te  lokaliseren, te verfijnen en over te brengen naar uw klanten met verfrissende eenvoud.</p>
         </div>
-        <div class="col-xl-3">
+        <div class="col col-xl-3">
             <span class="degular-font fs-2440">Branding</span>
-            <p class="p-color-light my-5">De conclusie van het onderzoek vormt de basis van een concept. We bundelen informatie/ ideeën en leggen we de basis voor merk-DNA.</p>
+            <p class="p-color-medium-gray my-5">De conclusie van het onderzoek vormt de basis van een concept. We bundelen informatie/ ideeën en leggen we de basis voor merk-DNA.</p>
         </div>
-        <div class="col-xl-3">
+        <div class="col col-xl-3">
             <span class="degular-font fs-2440 mb-4">Design</span>
-            <p class="p-color-light my-5">Alles blijft mooi als je het goed onderhoudt, zo ook je merk. Je merk is dan ook op zijn best als je het regelmatig een beetje oppoetst.</p>
+            <p class="p-color-medium-gray my-5">Alles blijft mooi als je het goed onderhoudt, zo ook je merk. Je merk is dan ook op zijn best als je het regelmatig een beetje oppoetst.</p>
         </div>
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid ink-pt-12 ink-pb-4">
     <div class="row my-5">
-        <div class="col-xl-10 offset-xl-1">
+        <div class="col col-xl-10 offset-xl-1">
             <div class="row">
                 <?php
                     $query = new WP_Query(["post_status" => "publish", "posts_per_page" => 8, "post_type" => "customers", "orderby" => "ID", "order" => "ASC"]);
@@ -152,7 +151,7 @@ get_header();
                         $klantenlogo = get_field('klantenlogo');
                         $website = get_field('website');
                 ?>
-                    <div class="col-6 col-md-3 py-5 d-flex justify-content-center align-items-center">
+                    <div class="col col-6 col col-md-3 py-5 d-flex justify-content-center align-items-center">
                         <a href="<?php echo $website ?>" class="" target="_blank">
                             <img src="<?php echo $klantenlogo['sizes']['large']; ?>" alt="<?php echo $klantenlogo['alt']; ?>" />
                         </a>
@@ -164,36 +163,40 @@ get_header();
             </div>
         </div>
     </div>
-</div>
-
-<div class="container-fluid">
     <div class="row my-5">
-        <div class="col mt-2 mb-5 d-flex justify-content-center">
-            <a href="http://localhost/quarterback/klanten" class="a-showreal mr-3">Meer klanten</a>
-            <a href="/" class="">
-                <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
-                    <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+        <div class="col my-5 d-flex align-items-center justify-content-center">
+            <a href="http://localhost/quarterback/klanten" class="a-showreal mr-4">Meer klanten</a>
+            <a href="/quarterback/klanten" class="">
+                <svg id="Group_812" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
+                    <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                 </svg>
             </a>
         </div>
     </div>
 </div>
 
+<!-- This div is for mobile only -->
+<div class="container-fluid half-light-half-dark d-xl-none">
+    <div class="row">
+        <div class="col background-image">
+        </div>       
+    </div>
+</div>
+
 <div class="container-fluid">
     <div class="row align-items-center">
-        <div class="col-xl-5 pl-xl-0">
-            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="mb-5" height="600">
-        </div>
+        <div class="col col-xl-4 p-xl-0 d-none d-xl-block background-image h-900">
+        </div>       
+        <div class="col col-xl-6 offset-xl-1 py-5 p-xl-5">
 
-        <div class="col-xl-6 mb-5 p-xl-5">
             <span class="degular-font fs-4080 my-5">Helping companies prototype & Launch their ideas faster.</span>
-            <div class="mt-4">
-                <a href="/" class="a-showreal mr-3">Meer over ons</a>
-                <a href="/" class="">
-                    <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
-                        <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+            <div class="col my-5 d-flex align-items-center px-0">
+                <a href="http://localhost/quarterback/contact" class="a-showreal mr-4">Neem contact op</a>
+                <a href="/quarterback/contact" class="">
+                    <svg id="Group_812" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
+                        <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                     </svg>
                 </a>
             </div>
