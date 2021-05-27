@@ -17,17 +17,26 @@ get_header();
 <div class="container-fluid min-vh-100">
     <div class="row align-items-center">
         <div class="col col-xl-4 offset-xl-1">
-            <h1 class="my-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
+            <h1 class="ink-my-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
+            <div class="d-flex align-items-center px-1 mt-1">
+                <a href="http://localhost/quarterback/klanten" class="a-showreal mr-4">Bekijk showreal</a>
+                <a href="/quarterback/klanten" class="">
+                    <svg id="Group_812" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
+                        <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    </svg>
+                </a>
+            </div>
             <!-- Button trigger modal -->
-            <button type="button" class="watch-showreal-btn" data-toggle="modal" data-target="#watchShowreal">
+            <!-- <button type="button" class="watch-showreal-btn" data-toggle="modal" data-target="#watchShowreal">
                 Bekijk showreal
                 <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
                     <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                 </svg>
-            </button>
+            </button> -->
             <!-- Modal -->
-            <div class="modal fade" id="watchShowreal" tabindex="-1" role="dialog" aria-labelledby="watchShowrealLabel" aria-hidden="true">
+            <!-- <div class="modal fade" id="watchShowreal" tabindex="-1" role="dialog" aria-labelledby="watchShowrealLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content background-image">
                         <div class="modal-header">
@@ -43,7 +52,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="col col-xl-6 offset-xl-1 background-image min-vh-100">
         </div>
@@ -66,13 +75,13 @@ get_header();
             <p class="p-gray jakarta-light-font">Over ons</p>
             <p class="fs-2040 ink-my-4">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
 
-            <a href="/" class="a-showreal mr-3">Meer over ons</a>
-            <a href="/" class="">
-                <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
-                    <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                </svg>
-            </a>
+            <a href="/quarterback/over-ons" class="a-showreal mr-3">Meer over ons</a>
+            <a href="/quarterback/over-ons" class="">
+                    <svg id="Group_812" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
+                        <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    </svg>
+                </a>
         </div>
     </div>
 </div>
@@ -116,25 +125,29 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark ink-py-11">
+<div class="container-fluid bg-ink-dark ink-pt-11 ink-pb-14">
     <div class="row">
-        <div class="col col-xl-7 offset-xl-1">
+        <div class="col col-xl-7 offset-xl-1 px-xl-0">
             <p class="p-gray jakarta-light-font">Wat we doen</p>
             <h2 class="degular-font fs-4080 ink-mt-2 ink-mb-5">Design and development for every stage of your journey.</h2>
         </div> 
     </div>
     <div class="row">
-        <div class="col col-xl-3 offset-xl-1">
-            <span class="degular-font fs-2440">Concept</span>
-            <p class="p-color-medium-gray my-5">Er zit iets unieks in het DNA van uw bedrijf. Wij helpen u om het te  lokaliseren, te verfijnen en over te brengen naar uw klanten met verfrissende eenvoud.</p>
-        </div>
-        <div class="col col-xl-3">
-            <span class="degular-font fs-2440">Branding</span>
-            <p class="p-color-medium-gray my-5">De conclusie van het onderzoek vormt de basis van een concept. We bundelen informatie/ ideeën en leggen we de basis voor merk-DNA.</p>
-        </div>
-        <div class="col col-xl-3">
-            <span class="degular-font fs-2440 mb-4">Design</span>
-            <p class="p-color-medium-gray my-5">Alles blijft mooi als je het goed onderhoudt, zo ook je merk. Je merk is dan ook op zijn best als je het regelmatig een beetje oppoetst.</p>
+        <div class="col col-xl-10 offset-xl-1">
+            <div class="row">
+                <div class="col-4 pl-0 pr-2">
+                    <span class="degular-font fs-2440">Concept</span>
+                    <p class="p-color-medium-gray my-5 mr-3 lh-175">Er zit iets unieks in het DNA van uw bedrijf. Wij helpen u om het te  lokaliseren, te verfijnen en over te brengen naar uw klanten met verfrissende eenvoud.</p>
+                </div>
+                <div class="col-4 pl-0 pr-2">
+                    <span class="degular-font fs-2440">Branding</span>
+                    <p class="p-color-medium-gray my-5 mr-3 lh-175">De conclusie van het onderzoek vormt de basis van een concept. We bundelen informatie/ ideeën en leggen we de basis voor merk-DNA.</p>
+                </div>
+                <div class="col-4 pl-0 pr-2">
+                    <span class="degular-font fs-2440 mb-4">Design</span>
+                    <p class="p-color-medium-gray my-5 mr-3 lh-175">Alles blijft mooi als je het goed onderhoudt, zo ook je merk. Je merk is dan ook op zijn best als je het regelmatig een beetje oppoetst.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
