@@ -58,7 +58,7 @@ p {
 	}
 	&.p-yellow {
 		color: $ink-yellow;
-		margin-bottom: 0;
+		margin: 12px 0;
 	}
 	&.fs-18-40 {
 		font-size: $clamp1840;
@@ -98,6 +98,7 @@ button {
 	&.btn-ink-yellow {
 		color: $ink-yellow !important;
 		border: none;
+		font-weight: bold;
 	}
 	&.watch-showreal-btn {
 		display: flex;
