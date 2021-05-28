@@ -180,7 +180,7 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 50vh;
+	min-height: 40vh;
 	position: relative;
 }
 
@@ -189,7 +189,7 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 50vh;
+	min-height: 40vh;
 	position: relative;
 }
 
@@ -198,8 +198,9 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 50vh;
+	min-height: 40vh;
 	position: relative;
+	margin: 0 px;
 }
 
 .background-image-3 {
@@ -207,7 +208,7 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 50vh;
+	min-height: 40vh;
 	position: relative;
 }
 
@@ -216,7 +217,7 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 50vh;
+	min-height: 40vh;
 	position: relative;
 }
 
@@ -234,6 +235,10 @@ svg {
 
 .h-900 {
 	min-height: 900px;
+}
+
+#first-container {
+	margin-top: 11em;
 }
 
 .header-project-image {
@@ -305,11 +310,11 @@ svg {
 	top: 0%;
 	width: 100%;
 	z-index: 1;
-	margin-top: 70px;
+	margin-top: 50px;
 	svg {
 		&.header-logo {
 			padding-left: 0;
-			margin-left: 50px;
+			margin-left: 15px;
 		}
 	}
 	#header-menu-btn {
@@ -317,12 +322,13 @@ svg {
 		font-size: clamp(1.25rem, 2.5vw, 1.625rem);
 		border: none;
 		background: Transparent;
-		margin-right: 50px;
+		margin-right: 15px;
 		display: flex;
 		align-items: center;
-		color: $ink-light;
+		color: $ink-dark;
 		.menu-icon {
 			margin-left: 1em;
+			fill: $ink-dark;
 		}
 	}
 }
@@ -387,6 +393,19 @@ svg {
 	html {
 		// font-size: 16px;
 	}
+	#header {
+		margin-top: 70px;
+		svg {
+			&.header-logo {
+				padding-left: 0;
+				margin-left: 50px;
+			}
+		}
+		#header-menu-btn {
+			margin-right: 50px;
+			color: $ink-light;
+		}
+	}
 	.header-a-page {
 		&.active {
 			text-decoration: underline !important;
@@ -400,6 +419,9 @@ svg {
 				left: -1em;
 			}
 		}
+	}
+	#first-container {
+		margin-top: unset;
 	}
 }
 

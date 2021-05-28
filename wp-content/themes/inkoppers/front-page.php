@@ -5,23 +5,20 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div id="cookie-div" class="container-fluid bg-ink-dark">
-    <div class="row py-xl-4">
-        <div class="column col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
-            <p class="font-manrope p-yellow">Deze site maakt gebruik van cookies, je blijft wel anoniem. Voor meer informatie <a href="#" class="font-manrope a-yellow">Cookie en Privacy Voorwaarden</a></p>
-            <button id="cookie-btn" class="font-manrope btn-ink-yellow">OK</button>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid min-vh-100">
+<div id="first-container" class="container-fluid min-vh-100">
     <div class="row align-items-center">
         <div class="col-12 col-xl-4 offset-xl-1">
-            <h1 class="ink-mb-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
-            <div class="d-flex align-items-center px-1 mt-1">
+            <h1 class="mb-xl-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
+            <div class="d-flex align-items-center my-5">
                 <a href="http://localhost/quarterback/klanten" class="a-showreal mr-4">Bekijk showreal</a>
                 <a href="/quarterback/klanten" class="">
-                    <svg id="Group_812" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                    <!-- mobile -->
+                    <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
+                        <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    </svg>
+                    <!-- Desktop -->
+                    <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
                         <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
                         <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                     </svg>
@@ -54,16 +51,8 @@ get_header();
                 </div>
             </div> -->
         </div>
-        <div class="column col-xl-6 offset-xl-1 background-image-1 min-vh-100">
+        <div class="column col-xl-6 offset-xl-1 my-5 my-xl-0 background-image-1 min-vh-100">
         </div>
-    </div>
-</div>
-
-<!-- This div is for mobile only -->
-<div class="container-fluid half-light-half-dark d-xl-none">
-    <div class="row">
-        <div class="column background-image-2">
-        </div>       
     </div>
 </div>
 
@@ -73,16 +62,30 @@ get_header();
         </div>       
         <div class="column col-xl-6 offset-xl-1 py-5 p-xl-5">
             <p class="p-gray jakarta-light-font">Over ons</p>
-            <p class="fs-2040 ink-my-4">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
+            <p class="fs-2040 my-4">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
 
             <a href="/quarterback/over-ons" class="a-showreal mr-3">Meer over ons</a>
             <a href="/quarterback/over-ons" class="">
-                    <svg id="Group_812" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
-                        <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                    </svg>
-                </a>
+                <!-- mobile -->
+                <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
+                    <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                </svg>
+                <!-- Desktop -->
+                <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
+                    <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                </svg>
+            </a>
         </div>
+    </div>
+</div>
+
+<!-- This div is for mobile only -->
+<div class="container-fluid half-light-half-dark d-xl-none py-5">
+    <div class="row">
+        <div class="column col background-image-2">
+        </div>       
     </div>
 </div>
 
@@ -119,7 +122,7 @@ get_header();
 
 <div class="container-fluid bg-ink-dark">
     <div class="row">
-        <div class="column col-xl-10 offset-xl-1 px-0">
+        <div class="column col-xl-10 offset-xl-1 px-xl-0">
             <hr class="">
         </div>
     </div>
@@ -135,15 +138,15 @@ get_header();
     <div class="row">
         <div class="column col-xl-10 offset-xl-1">
             <div class="row">
-                <div class="col-4 pl-0 pr-2">
+                <div class="col-xl-4 pl-xl-0 pr-xl-2">
                     <span class="degular-font fs-2440">Concept</span>
                     <p class="p-color-medium-gray my-5 mr-3 lh-175">Er zit iets unieks in het DNA van uw bedrijf. Wij helpen u om het te  lokaliseren, te verfijnen en over te brengen naar uw klanten met verfrissende eenvoud.</p>
                 </div>
-                <div class="col-4 pl-0 pr-2">
+                <div class="col-xl-4 pl-xl-0 pr-xl-2">
                     <span class="degular-font fs-2440">Branding</span>
                     <p class="p-color-medium-gray my-5 mr-3 lh-175">De conclusie van het onderzoek vormt de basis van een concept. We bundelen informatie/ ideeën en leggen we de basis voor merk-DNA.</p>
                 </div>
-                <div class="col-4 pl-0 pr-2">
+                <div class="col-xl-4 pl-xl-0 pr-xl-2">
                     <span class="degular-font fs-2440 mb-4">Design</span>
                     <p class="p-color-medium-gray my-5 mr-3 lh-175">Alles blijft mooi als je het goed onderhoudt, zo ook je merk. Je merk is dan ook op zijn best als je het regelmatig een beetje oppoetst.</p>
                 </div>
@@ -152,7 +155,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid ink-pt-12 ink-pb-4">
+<div class="container-fluid py-4">
     <div class="row my-5">
         <div class="column col-xl-10 offset-xl-1">
             <div class="row">
@@ -166,7 +169,7 @@ get_header();
                 ?>
                     <div class="column col-6 col col-md-3 py-5 d-flex justify-content-center align-items-center">
                         <a href="<?php echo $website ?>" class="" target="_blank">
-                            <img src="<?php echo $klantenlogo['sizes']['large']; ?>" alt="<?php echo $klantenlogo['alt']; ?>" />
+                            <img src="<?php echo $klantenlogo['sizes']['large']; ?>" class="px-4" alt="<?php echo $klantenlogo['alt']; ?>" />
                         </a>
                     </div>
                 <?php
@@ -180,7 +183,13 @@ get_header();
         <div class="column col-12 my-5 d-flex align-items-center justify-content-center">
             <a href="http://localhost/quarterback/klanten" class="a-showreal mr-4">Meer klanten</a>
             <a href="/quarterback/klanten" class="">
-                <svg id="Group_812" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                <!-- mobile -->
+                <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
+                    <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                </svg>
+                <!-- Desktop -->
+                <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
                     <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                 </svg>
@@ -190,9 +199,9 @@ get_header();
 </div>
 
 <!-- This div is for mobile only -->
-<div class="container-fluid half-light-half-dark d-xl-none">
+<div class="container-fluid mb-5 mb-xl-0 d-xl-none">
     <div class="row">
-        <div class="column background-image">
+        <div class="column col background-image-2">
         </div>       
     </div>
 </div>
@@ -207,12 +216,35 @@ get_header();
             <div class="column my-5 d-flex align-items-center px-0">
                 <a href="http://localhost/quarterback/contact" class="a-showreal mr-4">Neem contact op</a>
                 <a href="/quarterback/contact" class="">
-                    <svg id="Group_812" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                    <!-- mobile -->
+                    <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
+                        <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    </svg>
+                    <!-- Desktop -->
+                    <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
                         <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
                         <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                     </svg>
                 </a>
             </div>
+        </div>
+    </div>
+</div>
+
+<div id="cookie-div" class="container-fluid bg-ink-dark">
+    <div class="row py-xl-4">
+        <div class="column col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
+            <p class="font-manrope p-yellow">Deze site maakt gebruik van cookies, je blijft wel anoniem. Voor meer informatie <a href="#" class="font-manrope a-yellow">Cookie en Privacy Voorwaarden</a></p>
+            <button id="cookie-btn" class="font-manrope btn-ink-yellow">OK</button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="column col-xl-10 offset-xl-1 px-xl-0 d-xl-none">
+            <hr class="">
         </div>
     </div>
 </div>

@@ -38,7 +38,7 @@ defined( "ABSPATH" ) || exit;
                 <button id="header-menu-btn" class="header-menu-btn">
                     Menu
                     <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" width="25" height="25" viewBox="0 0 25 25">
-                        <circle id="Ellipse_1" data-name="Ellipse 1" cx="12.5" cy="12.5" r="12.5" fill="#fff"/>
+                        <circle id="Ellipse_1" data-name="Ellipse 1" cx="12.5" cy="12.5" r="12.5" fill="#000"/>
                     </svg>
                 </button>
             </div>
