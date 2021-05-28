@@ -16,7 +16,7 @@ get_header();
 
 <div class="container-fluid min-vh-100">
     <div class="row align-items-center">
-        <div class="col col-xl-4 offset-xl-1">
+        <div class="col-12 col-xl-4 offset-xl-1">
             <h1 class="ink-mb-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
             <div class="d-flex align-items-center px-1 mt-1">
                 <a href="http://localhost/quarterback/klanten" class="a-showreal mr-4">Bekijk showreal</a>
@@ -54,7 +54,7 @@ get_header();
                 </div>
             </div> -->
         </div>
-        <div class="col col-xl-6 offset-xl-1 background-image min-vh-100">
+        <div class="col col-xl-6 offset-xl-1 background-image-1 min-vh-100">
         </div>
     </div>
 </div>
@@ -62,14 +62,14 @@ get_header();
 <!-- This div is for mobile only -->
 <div class="container-fluid half-light-half-dark d-xl-none">
     <div class="row">
-        <div class="col background-image">
+        <div class="col background-image-2">
         </div>       
     </div>
 </div>
 
 <div class="container-fluid">
     <div class="row align-items-center">
-        <div class="col col-xl-4 p-xl-0 d-none d-xl-block background-image h-900">
+        <div class="col col-xl-4 p-xl-0 d-none d-xl-block background-image-2 h-900">
         </div>       
         <div class="col col-xl-6 offset-xl-1 py-5 p-xl-5">
             <p class="p-gray jakarta-light-font">Over ons</p>
@@ -95,22 +95,22 @@ get_header();
     </div>
     <div class="row">
         <div class="col col-xl-5 offset-xl-1">
-            <div class="background-image h-600 ink-mb-2"></div>
+            <div class="background-image-3 h-600 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray jakarta-light-font">The smart athletes choice</p>
         </div>
         <div class="col col-xl-4 offset-xl-1">
-            <div class="background-image h-750 ink-mb-2"></div>
+            <div class="background-image-4 h-750 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray jakarta-light-font">The smart athletes choice</p>
         </div>
         <div class="col col-xl-4 offset-xl-1">
-            <div class="background-image h-750 ink-mb-2"></div>
+            <div class="background-image-4 h-750 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray jakarta-light-font">The smart athletes choice</p>
         </div>
         <div class="col col-xl-5 offset-xl-1 d-flex flex-column align-self-xl-end">
-            <div class="background-image h-600 ink-mb-2"></div>
+            <div class="background-image-3 h-600 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray jakarta-light-font">The smart athletes choice</p>
         </div>
@@ -199,7 +199,7 @@ get_header();
 
 <div class="container-fluid">
     <div class="row align-items-center">
-        <div class="col col-xl-4 p-xl-0 d-none d-xl-block background-image h-900">
+        <div class="col col-xl-4 p-xl-0 d-none d-xl-block background-image-2 h-900">
         </div>       
         <div class="col col-xl-6 offset-xl-1 py-5 p-xl-5">
 
