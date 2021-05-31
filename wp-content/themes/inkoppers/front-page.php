@@ -5,12 +5,12 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div id="first-container" class="container-fluid min-vh-100">
+<div id="first-container" class="container-fluid">
     <div class="row align-items-center">
         <div class="col-12 col-xl-4 offset-xl-1">
             <h1 class="mb-xl-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
             <div class="d-flex align-items-center my-5">
-                <a href="http://localhost/quarterback/klanten" class="a-showreal mr-4">Bekijk showreal</a>
+                <a href="http://localhost/quarterback/klanten" class="a-showreal mr-3">Bekijk showreal</a>
                 <a href="/quarterback/klanten" class="">
                     <!-- mobile -->
                     <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
@@ -51,7 +51,7 @@ get_header();
                 </div>
             </div> -->
         </div>
-        <div class="column col-xl-6 offset-xl-1 my-5 my-xl-0 background-image-1 min-vh-100">
+        <div id="main-image" class="column col-xl-6 offset-xl-1 my-5 my-xl-0 background-image-1">
         </div>
     </div>
 </div>
@@ -63,20 +63,21 @@ get_header();
         <div class="column col-xl-6 offset-xl-1 py-5 p-xl-5">
             <p class="p-gray jakarta-light-font">Over ons</p>
             <p class="fs-2040 my-4">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
-
-            <a href="/quarterback/over-ons" class="a-showreal mr-3">Meer over ons</a>
-            <a href="/quarterback/over-ons" class="">
-                <!-- mobile -->
-                <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
-                    <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                </svg>
-                <!-- Desktop -->
-                <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
-                    <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                </svg>
-            </a>
+            <div class="d-flex align-items-center my-5">
+                <a href="/quarterback/over-ons" class="a-showreal mr-3">Meer over ons</a>
+                <a href="/quarterback/over-ons" class="">
+                    <!-- mobile -->
+                    <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
+                        <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    </svg>
+                    <!-- Desktop -->
+                    <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
+                        <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
 </div>
@@ -89,49 +90,49 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark ink-pt-11 ink-pb-11">
+<div class="container-fluid bg-ink-dark ink-pt-5 ink-pt-xl-11 ink-pb-xl-11">
     <div class="row">
         <div class="column col-xl-7 offset-xl-1">
             <p class="p-gray jakarta-light-font">Ons werk</p>
-            <h2 class="degular-font fs-4080 ink-mt-2 ink-mb-11">Design and development for every stage of your journey.</h2>
+            <h2 class="degular-font fs-4080 ink-mb-5 ink-mt-2 ink-mb-xl-11">Design and development for every stage of your journey.</h2>
         </div>
     </div>
     <div class="row">
-        <div class="column col-xl-5 offset-xl-1">
+        <div class="column pt-5 pt-xl-0 col-xl-5 offset-xl-1">
             <div class="background-image-3 h-600 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray jakarta-light-font">The smart athletes choice</p>
+            <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
         </div>
         <div class="column col-xl-4 offset-xl-1">
             <div class="background-image-4 h-750 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray jakarta-light-font">The smart athletes choice</p>
+            <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
         </div>
         <div class="column col-xl-4 offset-xl-1">
             <div class="background-image-4 h-750 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray jakarta-light-font">The smart athletes choice</p>
+            <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
         </div>
         <div class="column col-xl-5 offset-xl-1 d-flex flex-column align-self-xl-end">
             <div class="background-image-3 h-600 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray jakarta-light-font">The smart athletes choice</p>
+            <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
         </div>
     </div>
 </div>
 
 <div class="container-fluid bg-ink-dark">
     <div class="row">
-        <div class="column col-xl-10 offset-xl-1 px-xl-0">
+        <div class="column col-xl-10 offset-xl-1 py-5 px-xl-0">
             <hr class="">
         </div>
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark ink-pt-11 ink-pb-14">
+<div class="container-fluid bg-ink-dark pb-5 ink-pt-xl-11 ink-pb-xl-14">
     <div class="row">
         <div class="column col-xl-7 offset-xl-1 px-xl-0">
-            <p class="p-gray jakarta-light-font">Wat we doen</p>
+            <p class="p-gray jakarta-light-font pt-5">Wat we doen</p>
             <h2 class="degular-font fs-4080 ink-mt-2 ink-mb-5">Design and development for every stage of your journey.</h2>
         </div> 
     </div>
@@ -140,15 +141,15 @@ get_header();
             <div class="row">
                 <div class="col-xl-4 pl-xl-0 pr-xl-2">
                     <span class="degular-font fs-2440">Concept</span>
-                    <p class="p-color-medium-gray my-5 mr-3 lh-175">Er zit iets unieks in het DNA van uw bedrijf. Wij helpen u om het te  lokaliseren, te verfijnen en over te brengen naar uw klanten met verfrissende eenvoud.</p>
+                    <p class="p-color-medium-gray mt-3 mb-5 my-xl-5 mr-3 lh-175">Er zit iets unieks in het DNA van uw bedrijf. Wij helpen u om het te  lokaliseren, te verfijnen en over te brengen naar uw klanten met verfrissende eenvoud.</p>
                 </div>
                 <div class="col-xl-4 pl-xl-0 pr-xl-2">
                     <span class="degular-font fs-2440">Branding</span>
-                    <p class="p-color-medium-gray my-5 mr-3 lh-175">De conclusie van het onderzoek vormt de basis van een concept. We bundelen informatie/ ideeën en leggen we de basis voor merk-DNA.</p>
+                    <p class="p-color-medium-gray mt-3 mb-5 my-xl-5 mr-3 lh-175">De conclusie van het onderzoek vormt de basis van een concept. We bundelen informatie/ ideeën en leggen we de basis voor merk-DNA.</p>
                 </div>
                 <div class="col-xl-4 pl-xl-0 pr-xl-2">
                     <span class="degular-font fs-2440 mb-4">Design</span>
-                    <p class="p-color-medium-gray my-5 mr-3 lh-175">Alles blijft mooi als je het goed onderhoudt, zo ook je merk. Je merk is dan ook op zijn best als je het regelmatig een beetje oppoetst.</p>
+                    <p class="p-color-medium-gray mt-3 mb-5 my-xl-5 mr-3 lh-175">Alles blijft mooi als je het goed onderhoudt, zo ook je merk. Je merk is dan ook op zijn best als je het regelmatig een beetje oppoetst.</p>
                 </div>
             </div>
         </div>
@@ -169,7 +170,7 @@ get_header();
                 ?>
                     <div class="column col-6 col col-md-3 py-5 d-flex justify-content-center align-items-center">
                         <a href="<?php echo $website ?>" class="" target="_blank">
-                            <img src="<?php echo $klantenlogo['sizes']['large']; ?>" class="px-4" alt="<?php echo $klantenlogo['alt']; ?>" />
+                            <img src="<?php echo $klantenlogo['sizes']['large']; ?>" class="ink-px-2" alt="<?php echo $klantenlogo['alt']; ?>" />
                         </a>
                     </div>
                 <?php
@@ -181,7 +182,7 @@ get_header();
     </div>
     <div class="row my-5">
         <div class="column col-12 my-5 d-flex align-items-center justify-content-center">
-            <a href="http://localhost/quarterback/klanten" class="a-showreal mr-4">Meer klanten</a>
+            <a href="http://localhost/quarterback/klanten" class="a-showreal mr-3">Meer klanten</a>
             <a href="/quarterback/klanten" class="">
                 <!-- mobile -->
                 <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
@@ -214,7 +215,7 @@ get_header();
 
             <span class="degular-font fs-4080 my-5">Helping companies prototype & Launch their ideas faster.</span>
             <div class="column my-5 d-flex align-items-center px-0">
-                <a href="http://localhost/quarterback/contact" class="a-showreal mr-4">Neem contact op</a>
+                <a href="http://localhost/quarterback/contact" class="a-showreal mr-3">Neem contact op</a>
                 <a href="/quarterback/contact" class="">
                     <!-- mobile -->
                     <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">

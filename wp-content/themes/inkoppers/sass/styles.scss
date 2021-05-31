@@ -200,7 +200,7 @@ svg {
 	background-position: center;
 	min-height: 40vh;
 	position: relative;
-	margin: 0 px;
+	margin: 0 15px;
 }
 
 .background-image-3 {
@@ -208,37 +208,21 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 40vh;
+	min-height: 30vh;
 	position: relative;
 }
 
 .background-image-4 {
-	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/cbdsport2.png");
+	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/cbdsport1.png");
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 40vh;
+	min-height: 30vh;
 	position: relative;
 }
 
 .vh40 {
 	min-height: 40vh;
-}
-
-.h-600 {
-	min-height: 600px;
-}
-
-.h-750 {
-	min-height: 750px;
-}
-
-.h-900 {
-	min-height: 900px;
-}
-
-#first-container {
-	margin-top: 11em;
 }
 
 .header-project-image {
@@ -263,6 +247,10 @@ svg {
 
 .half-dark-half-light {
 	background: linear-gradient(180deg, $ink-dark 50%, $ink-light 50%);
+}
+
+#first-container {
+	margin-top: 15rem;
 }
 
 // Project page
@@ -420,12 +408,13 @@ svg {
 			}
 		}
 	}
-	#first-container {
-		margin-top: unset;
-	}
 }
 
 @media (min-width: 1200px) {
+	// Header
+
+	// End header
+
 	div {
 		&.height-600 {
 			height: 600px;
@@ -440,9 +429,38 @@ svg {
 			vertical-align: bottom;
 		}
 	}
-	// Header
 
-	// End header
+	#main-image {
+		height: 100vh;
+	}
+
+	.background-image-1 {
+		min-height: 100vh;
+	}
+
+	.background-image-2 {
+		margin: 0;
+	}
+
+	.background-image-4 {
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/cbdsport2.png");
+	}
+
+	.h-600 {
+		min-height: 600px;
+	}
+
+	.h-750 {
+		min-height: 750px;
+	}
+
+	.h-900 {
+		min-height: 900px;
+	}
+
+	#first-container {
+		margin-top: unset;
+	}
 
 	// Single project page
 	.project-image-text {

@@ -3,8 +3,8 @@
 defined("ABSPATH") || exit;
 ?>
 
-<div id="footer" class="container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> py-5">
-    <div class="row mt-5 py-5 my-xl-5">
+<div id="footer" class="container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> pb-5 py-xl-5">
+    <div class="row mt-xl-5 pb-5 py-xl-5 my-xl-5">
         <div class="col-xl-5 offset-xl-1 my-5">
             <span class="degular-font fs-4080">Laten we<br />samen werken.</span>
         </div>
