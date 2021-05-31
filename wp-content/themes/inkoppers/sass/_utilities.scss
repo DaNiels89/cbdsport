@@ -22,10 +22,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 		margin: #{$space}em;
 	}
 	.ink-mx-#{$space} {
-		margin: 0 #{$space}em;
+		margin: 15px #{$space}em;
 	}
 	.ink-my-#{$space} {
-		margin: #{$space}em 0;
+		margin: #{$space}em 15px;
 	}
 	.ink-mt-#{$space} {
 		margin-top: #{$space}em;
@@ -44,10 +44,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 		padding: #{$space}em;
 	}
 	.ink-px-#{$space} {
-		padding: 0 #{$space}em;
+		padding: 15px #{$space}em;
 	}
 	.ink-py-#{$space} {
-		padding: #{$space}em 0;
+		padding: #{$space}em 15px;
 	}
 	.ink-pt-#{$space} {
 		padding-top: #{$space}em;

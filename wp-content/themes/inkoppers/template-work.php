@@ -9,11 +9,11 @@ get_header();
 
 <div class="container-fluid upper-container bg-ink-dark">
     <div class="row">
-        <div class="col-xl-7 offset-xl-1 px-0">
+        <div class="col-xl-7 offset-xl-1">
             <h1 class="">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
          </div>
-         <div class="col-xl-5 offset-xl-1 px-0">
-            <p class="p-gray ink-pb-2 ink-my-2 mr-xl-5 lh-2">We create brands that stand out. We are here to tell a story through visual language & brand identity</p>
+         <div class="col-xl-5 offset-xl-1">
+            <p class="p-gray ink-pb-2 ink-my-2 mr-xl-5 lh-2 mx-0">We create brands that stand out. We are here to tell a story through visual language & brand identity</p>
          </div>
     </div>
 </div>
@@ -28,8 +28,8 @@ get_header();
                     </div>
                 </a>
             </div>
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
+            <p class="p-gray"><a href="#" class="">The smart athletes choice</a></p>
         </div>
         <div class="col-xl-10 offset-xl-1 ink-py-2">
             <div class="background-image-werk ink-mb-2">
@@ -39,8 +39,8 @@ get_header();
                     </div>
                 </a>
             </div> 
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
+            <p class="p-gray"><a href="#" class="">The smart athletes choice</a></p>
         </div>
         <div class="col-xl-10 offset-xl-1 ink-py-2">
             <div class="background-image-werk ink-mb-2">
@@ -50,8 +50,8 @@ get_header();
                     </div>
                 </a>
             </div>
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
+            <p class="p-gray"><a href="#" class="">The smart athletes choice</a></p>
         </div>
     </div>
 </div>
@@ -66,8 +66,8 @@ get_header();
                     </div>
                 </a>
             </div>
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
+            <p class="p-gray"><a href="#" class="">The smart athletes choice</a></p>
         </div>
     </div>
 </div>
@@ -82,8 +82,8 @@ get_header();
                     </div>
                 </a>
             </div>
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
+            <p class="p-gray"><a href="#" class="">The smart athletes choice</a></p>
         </div>
         <div class="col-xl-10 offset-xl-1 ink-py-2">
             <div class="background-image-werk ink-mb-2">
@@ -93,10 +93,18 @@ get_header();
                     </div>
                 </a>    
             </div>
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray">The smart athletes choice</p>
+            <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
+            <p class="p-gray"><a href="#" class="">The smart athletes choice</a></p>
         </div>
     </div>
-</div>  
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="column col-xl-10 offset-xl-1">
+            <hr class="">
+        </div>
+    </div>
+</div>
 
 <?php get_footer();
