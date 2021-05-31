@@ -10,17 +10,20 @@ body {
 	background-color: $ink-light;
 	color: $ink-dark;
 	min-height: 100vh;
+	font-size: 1.125rem;
 	font-size: $clamp1825;
 	counter-reset: card;
 }
 
 h1 {
 	@include degular-font;
+	font-size: 2.5rem;
 	font-size: $clamp4080;
 }
 
 h2 {
 	@include degular-font;
+	font-size: 1.5rem;
 	font-size: $clamp2440;
 }
 
@@ -43,6 +46,7 @@ p {
 		line-height: 1.75em;
 	}
 	&.fs-1840 {
+		font-size: 1.125rem;
 		font-size: $clamp1840;
 	}
 	&.p-dark {
@@ -61,6 +65,7 @@ p {
 		margin: 12px 0;
 	}
 	&.fs-18-40 {
+		font-size: 1.125rem;
 		font-size: $clamp1840;
 		margin-bottom: 2em;
 	}
@@ -84,6 +89,7 @@ a {
 	}
 	&.a-showreal {
 		color: $ink-dark;
+		font-size: 1.125rem;
 		font-size: $clamp1825;
 	}
 	&.a-yellow {
@@ -109,6 +115,7 @@ button {
 		}
 	}
 	&.play-showreal {
+		font-size: 2.8125rem;
 		font-size: $clamp4580;
 		color: $ink-light;
 		border: none;
@@ -138,6 +145,7 @@ svg {
 }
 
 .fs-1418 {
+	font-size: 0.875rem;
 	font-size: $clamp1418;
 }
 
@@ -146,23 +154,28 @@ svg {
 }
 
 .fs-1825 {
+	font-size: 1.125rem;
 	font-size: $clamp1825;
 }
 
 .fs-2040 {
+	font-size: 1.25rem;
 	font-size: $clamp2040;
 }
 
 .fs-45120 {
+	font-size: 2.8125rem;
 	font-size: clamp(2.8125rem, 10vw, 8rem);
 }
 
 .degular-font {
 	@include degular-font;
 	&.fs-2440 {
+		font-size: 1.5rem;
 		font-size: $clamp2440;
 	}
 	&.fs-4080 {
+		font-size: 2.5rem;
 		font-size: $clamp4080;
 	}
 }
@@ -274,6 +287,7 @@ svg {
 
 .ink-btn {
 	@include degular-font;
+	font-size: 1.5rem;
 	font-size: $clamp2440;
 	color: $ink-dark;
 }
@@ -307,6 +321,7 @@ svg {
 	}
 	#header-menu-btn {
 		font-family: "Manrope", sans-serif;
+		font-size: 1.25rem;
 		font-size: clamp(1.25rem, 2.5vw, 1.625rem);
 		border: none;
 		background: Transparent;
@@ -407,6 +422,14 @@ svg {
 				left: -1em;
 			}
 		}
+	}
+	.background-image,
+	.background-image-1,
+	.background-image-2,
+	.background-image-3,
+	.background-image-4 {
+		min-height: 50vh;
+		background-position: center top;
 	}
 }
 

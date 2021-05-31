@@ -9,14 +9,14 @@ defined("ABSPATH") || exit;
             <span class="degular-font fs-4080">Laten we<br />samen werken.</span>
         </div>
 
-        <div class="col-6 col-xl-3 d-flex flex-column">
+        <div class="col-7 col-xl-3 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
             <p class="jakarta-light-font mt-xl-5"><a href="mailto:info@quarterback.nl" class="" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
             <p class="jakarta-light-font ">Emmaustraat 1</p>
             <p class="jakarta-light-font ">5492BK Sint-Oedenrode</p>
         </div>
         
-        <div class="col-6 col-xl-3 d-flex flex-column">
+        <div class="col-5 col-xl-3 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Socials</span>
             <p class="jakarta-light-font mt-xl-5"><a href="https://www.instagram.com/quarterback.nl/" class="" target="_blank" title="Instagram Quarterback">Instagram</a></p>
             <p class="jakarta-light-font "><a href="https://nl.linkedin.com/in/danny-siebers" class="" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></p>

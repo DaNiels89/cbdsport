@@ -90,30 +90,30 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark ink-pt-5 ink-pt-xl-11 ink-pb-xl-11">
+<div class="container-fluid bg-ink-dark ink-pt-lg-5 ink-pb-lg-2">
     <div class="row">
-        <div class="column col-xl-7 offset-xl-1">
+        <div class="column col-xl-7 offset-xl-1 px-xl-0">
             <p class="p-gray jakarta-light-font">Ons werk</p>
-            <h2 class="degular-font fs-4080 ink-mb-5 ink-mt-2 ink-mb-xl-11">Design and development for every stage of your journey.</h2>
+            <h2 class="degular-font fs-4080 ink-mb-xl-1">Design and development for every stage of your journey.</h2>
         </div>
     </div>
     <div class="row">
-        <div class="column pt-5 pt-xl-0 col-xl-5 offset-xl-1">
+        <div class="column pt-5 pt-xl-0 col-xl-5 offset-xl-1 px-xl-0">
             <div class="background-image-3 h-600 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
         </div>
-        <div class="column col-xl-4 offset-xl-1">
+        <div class="column col-xl-4 offset-xl-1 px-xl-0">
             <div class="background-image-4 h-750 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
         </div>
-        <div class="column col-xl-4 offset-xl-1">
+        <div class="column col-xl-4 offset-xl-1 px-xl-0">
             <div class="background-image-4 h-750 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
         </div>
-        <div class="column col-xl-5 offset-xl-1 d-flex flex-column align-self-xl-end">
+        <div class="column col-xl-5 offset-xl-1 px-xl-0 d-flex flex-column align-self-xl-end">
             <div class="background-image-3 h-600 ink-mb-2"></div>
             <span class="degular-font fs-2440">CBD+Sport</span>
             <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
@@ -129,11 +129,11 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark pb-5 ink-pt-xl-11 ink-pb-xl-14">
+<div class="container-fluid bg-ink-dark ink-pt-lg-2 ink-pb-6">
     <div class="row">
         <div class="column col-xl-7 offset-xl-1 px-xl-0">
             <p class="p-gray jakarta-light-font pt-5">Wat we doen</p>
-            <h2 class="degular-font fs-4080 ink-mt-2 ink-mb-5">Design and development for every stage of your journey.</h2>
+            <h2 class="degular-font fs-4080 ink-mb-1">Design and development for every stage of your journey.</h2>
         </div> 
     </div>
     <div class="row">
@@ -156,8 +156,8 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid py-4">
-    <div class="row my-5">
+<div class="container-fluid ink-my-5">
+    <div class="row ink-mt-5">
         <div class="column col-xl-10 offset-xl-1">
             <div class="row">
                 <?php
@@ -170,7 +170,7 @@ get_header();
                 ?>
                     <div class="column col-6 col col-md-3 py-5 d-flex justify-content-center align-items-center">
                         <a href="<?php echo $website ?>" class="" target="_blank">
-                            <img src="<?php echo $klantenlogo['sizes']['large']; ?>" class="ink-px-2" alt="<?php echo $klantenlogo['alt']; ?>" />
+                            <img src="<?php echo $klantenlogo['sizes']['large']; ?>" class="ink-px-1" alt="<?php echo $klantenlogo['alt']; ?>" />
                         </a>
                     </div>
                 <?php

@@ -13,6 +13,10 @@ $clamp2440: clamp(1.5rem, 2.5vw, 2.5rem);
 $clamp4080: clamp(2.5rem, 10vw, 5rem);
 $clamp4580: clamp(2.8125rem, 10vw, 5rem);
 
+// Refactor titles
+// Refactor paragraphs
+// Refactor font-sizes to mixins with fallback font-size and clamp
+
 // Set text color based on bg
 @function set-text-color($color) {
 	@if (lightness($color) > 70) {
