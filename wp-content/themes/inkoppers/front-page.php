@@ -61,21 +61,23 @@ get_header();
         <div class="column col-xl-4 p-xl-0 d-none d-xl-block background-image-2 h-900">
         </div>       
         <div class="column col-xl-6 offset-xl-1 py-5 p-xl-5">
-            <p class="p-gray jakarta-light-font">Over ons</p>
-            <p class="fs-2040 my-4">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
-            <div class="div-a-showreal d-flex align-items-center my-5">
+            <p class="p-gray jakarta-light-font my-5">Over ons</p>
+            <p class="fs-2040 my-5">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
+            <div class="div-a-showreal d-flex align-items-center">
                 <a href="/quarterback/over-ons" class="a-showreal mr-3">Meer over ons</a>
                 <a href="/quarterback/over-ons" class="">
-                    <!-- mobile -->
-                    <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
-                        <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                    </svg>
-                    <!-- Desktop -->
-                    <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
-                        <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                    </svg>
+                    <div class="safari-div">
+                        <!-- mobile -->
+                        <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                            <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
+                            <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                        </svg>
+                        <!-- Desktop -->
+                        <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                            <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
+                            <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                        </svg>
+                    </div>
                 </a>
             </div>
         </div>

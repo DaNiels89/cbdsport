@@ -326,15 +326,18 @@ svg {
 		display: flex;
 		align-items: center;
 		color: $ink-dark;
-		transition: all 1s ease-in-out;
 		.menu-icon {
 			margin-left: 1em;
 			fill: $ink-dark;
 		}
-		&:hover {
-			& svg {
-				transform: scale(1.2);
-			}
+	}
+}
+
+.header-menu-btn-div {
+	transition: all 1s ease-in-out;
+	&:hover {
+		& svg {
+			transform: scale(1.2);
 		}
 	}
 }
@@ -516,14 +519,15 @@ svg {
 			a {
 				text-decoration: underline;
 				svg {
+					text-decoration: none;
 					transform: scale(1.25);
 				}
 			}
 		}
 	}
 
-	svg a:hover {
-		text-decoration: none;
+	.safari-div:hover {
+		text-decoration: none !important;
 	}
 
 	// Single project page

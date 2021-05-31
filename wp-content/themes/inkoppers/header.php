@@ -34,7 +34,7 @@ defined( "ABSPATH" ) || exit;
             </a>
         </div>
         <div class="col-6 d-flex align-items-center justify-content-end px-0">
-            <div class="">
+            <div class="header-menu-btn-div">
                 <button id="header-menu-btn" class="qb-header-menu-btn header-menu-btn open-overlay">
                     Menu
                     <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" width="25" height="25" viewBox="0 0 25 25">
