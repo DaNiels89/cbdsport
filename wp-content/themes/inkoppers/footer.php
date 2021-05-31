@@ -26,9 +26,9 @@ defined("ABSPATH") || exit;
 
     <div class="row">
         <div class="col col-xl-10 offset-xl-1 d-flex flex-column flex-xl-row">
-            <a href="http://localhost/quarterback/projecten" class="a-hover-underline-arrow mr-xl-4 mb-xl-2" title="Projecten Quarterback">Projecten</a>
-            <a href="http://localhost/quarterback/over-ons" class="a-hover-underline-arrow mx-xl-5 mb-xl-2" title="Over Quarterback">Over ons</a>
-            <a href="http://localhost/quarterback/contact" class="a-hover-underline-arrow ml-xl-4 mb-xl-2" title="Contact Quarterback">Contact</a>
+            <a href="<?php echo get_site_url(); ?>/projecten" class="a-hover-underline-arrow mr-xl-4 mb-xl-2" title="Projecten Quarterback">Projecten</a>
+            <a href="<?php echo get_site_url(); ?>/over-ons" class="a-hover-underline-arrow mx-xl-5 mb-xl-2" title="Over Quarterback">Over ons</a>
+            <a href="<?php echo get_site_url(); ?>/contact" class="a-hover-underline-arrow ml-xl-4 mb-xl-2" title="Contact Quarterback">Contact</a>
         </div>
     </div>
  
@@ -40,11 +40,11 @@ defined("ABSPATH") || exit;
  
      <div class="row">
         <div class="col-xl-5 offset-xl-1">
-            <p class="p-copyright jakarta-light-font"><a href="/" class="fs-1418">Copyright &copy; 2021 Quarterback</a></p>
+            <p class="p-copyright jakarta-light-font"><a href="<?php echo get_site_url(); ?>" class="fs-1418">Copyright &copy; 2021 Quarterback</a></p>
         </div>
         <div class="col-xl-5 d-flex justify-content-xl-end">
-            <p class="jakarta-light-font mr-3"><a class="fs-1418" href="http://localhost/quarterback/algemene-voorwaarden" title="Algemene voorwaarden">Algemene voorwaarden</a></p>
-            <p class="jakarta-light-font"><a class="fs-1418" href="http://localhost/quarterback/algemene-voorwaarden" title="Privacy">Privacy</a></p>
+            <p class="jakarta-light-font mr-3"><a class="fs-1418" href="<?php echo get_site_url(); ?>/algemene-voorwaarden" title="Algemene voorwaarden">Algemene voorwaarden</a></p>
+            <p class="jakarta-light-font"><a class="fs-1418" href="<?php echo get_site_url(); ?>/algemene-voorwaarden" title="Privacy">Privacy</a></p>
         </div>
     </div>
 </div>

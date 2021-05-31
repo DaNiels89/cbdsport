@@ -185,8 +185,12 @@ svg {
 	line-height: 1.75;
 }
 
+.lh-2 {
+	line-height: 2;
+}
+
 .background-image {
-	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png");
+	background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/light-gray.png");
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
@@ -195,7 +199,7 @@ svg {
 }
 
 .background-image-1 {
-	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/image-1.png");
+	background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/image-1.png");
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
@@ -204,7 +208,7 @@ svg {
 }
 
 .background-image-2 {
-	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/image-2.png");
+	background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/image-2.png");
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
@@ -214,7 +218,7 @@ svg {
 }
 
 .background-image-3 {
-	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/cbdsport1.png");
+	background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/cbdsport1.png");
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
@@ -223,7 +227,16 @@ svg {
 }
 
 .background-image-4 {
-	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/cbdsport1.png");
+	background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/cbdsport2.png");
+	background-color: $ink-light;
+	background-size: cover;
+	background-position: center;
+	min-height: 30vh;
+	position: relative;
+}
+
+.background-image-werk {
+	background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/cbdsport1.png");
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
@@ -261,6 +274,10 @@ svg {
 
 #first-container {
 	margin-top: 15rem;
+}
+
+.upper-container {
+	padding-top: 12em;
 }
 
 // Project page
@@ -450,6 +467,10 @@ svg {
 		min-height: 50vh;
 		background-position: center top;
 	}
+	.background-image-werk {
+		min-height: 80vh;
+		background-position: center center;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -488,12 +509,37 @@ svg {
 	.background-image-4 {
 		transition: all 0.2s ease-in-out;
 		&:hover {
-			transform: scale(0.95);
+			transform: scale(0.98);
+		}
+	}
+
+	.watch-project {
+		display: none;
+	}
+
+	.background-image-werk {
+		transition: all 0.2s ease-in-out;
+		position: relative;
+		&:hover {
+			transform: scale(0.98);
+			opacity: 0.75;
+			.watch-project {
+				@include degular-font;
+				font-size: 1.5rem;
+				font-size: $clamp2440;
+				color: $ink-light;
+				position: absolute;
+				display: flex;
+				height: 100%;
+				width: 100%;
+				justify-content: center;
+				align-items: center;
+			}
 		}
 	}
 
 	.background-image-4 {
-		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/cbdsport2.png");
+		background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/cbdsport2.png");
 	}
 
 	.h-600 {
@@ -524,10 +570,6 @@ svg {
 				}
 			}
 		}
-	}
-
-	.safari-div:hover {
-		text-decoration: none !important;
 	}
 
 	// Single project page

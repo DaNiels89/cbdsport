@@ -10,8 +10,8 @@ get_header();
         <div class="col-12 col-xl-4 offset-xl-1">
             <h1 class="mb-xl-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
             <div class="div-a-showreal d-flex align-items-center my-5">
-                <a href="http://localhost/quarterback/klanten" class="a-showreal mr-3">Bekijk showreal</a>
-                <a href="/quarterback/klanten" class="">
+                <a href="<?php echo get_site_url(); ?>/klanten" class="a-showreal mr-3">Bekijk showreal</a>
+                <a href="<?php echo get_site_url(); ?>/klanten" class="">
                     <!-- mobile -->
                     <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                         <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
@@ -64,20 +64,18 @@ get_header();
             <p class="p-gray jakarta-light-font my-5">Over ons</p>
             <p class="fs-2040 my-5">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
             <div class="div-a-showreal d-flex align-items-center">
-                <a href="/quarterback/over-ons" class="a-showreal mr-3">Meer over ons</a>
-                <a href="/quarterback/over-ons" class="">
-                    <div class="safari-div">
-                        <!-- mobile -->
-                        <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-                            <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
-                            <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                        </svg>
-                        <!-- Desktop -->
-                        <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                            <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
-                            <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                        </svg>
-                    </div>
+                <a href="<?php echo get_site_url(); ?>/over-ons" class="a-showreal mr-3">Meer over ons</a>
+                <a href="<?php echo get_site_url(); ?>/over-ons" class="">
+                    <!-- mobile -->
+                    <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
+                        <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    </svg>
+                    <!-- Desktop -->
+                    <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
+                        <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    </svg>
                 </a>
             </div>
         </div>
@@ -184,8 +182,8 @@ get_header();
     </div>
     <div class="row my-5">
         <div class="div-a-showreal column col-12 my-5 d-flex align-items-center justify-content-center">
-            <a href="http://localhost/quarterback/klanten" class="a-showreal mr-3">Meer klanten</a>
-            <a href="/quarterback/klanten" class="">
+            <a href="<?php echo get_site_url(); ?>/klanten" class="a-showreal mr-3">Meer klanten</a>
+            <a href="<?php echo get_site_url(); ?>/klanten" class="">
                 <!-- mobile -->
                 <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
@@ -217,8 +215,8 @@ get_header();
 
             <span class="degular-font fs-4080 my-5">Helping companies prototype & Launch their ideas faster.</span>
             <div class="div-a-showreal column my-5 d-flex align-items-center px-0">
-                <a href="http://localhost/quarterback/contact" class="a-showreal mr-3">Neem contact op</a>
-                <a href="/quarterback/contact" class="">
+                <a href="<?php echo get_site_url(); ?>/contact" class="a-showreal mr-3">Neem contact op</a>
+                <a href="<?php echo get_site_url(); ?>/contact" class="">
                     <!-- mobile -->
                     <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                         <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>

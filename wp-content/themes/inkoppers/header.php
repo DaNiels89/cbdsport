@@ -15,10 +15,10 @@ defined( "ABSPATH" ) || exit;
 <?php do_action("wp_body_open"); ?>
 
 
-<nav id="header" class="qb-header container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
+<nav id="header" class="qb-header container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?> bg-transparent">
     <div class="row">
         <div class="col-6 d-flex align-items-center justify-content-start px-0">
-            <a href="/" class="mb-0">
+            <a href="<?php echo get_site_url(); ?>" class="mb-0">
                 <svg xmlns="http://www.w3.org/2000/svg" class="header-logo" width="64.733" height="64.732" viewBox="0 0 64.733 64.732">
                     <g id="Group_946" data-name="Group 946" transform="translate(-1104.226 -1110.603)">
                         <g id="Group_944" data-name="Group 944" transform="translate(1104.226 1110.603)">
@@ -49,9 +49,9 @@ defined( "ABSPATH" ) || exit;
 <div id="header-main-nav" class="container-fluid d-none">
     <div class="row">
         <div class="col offset-xl-1">
-            <div class=""><span class="jakarta-medium-font fs-4080"><a href="http://localhost/quarterback/werk" class="header-a-page active">Werk</a></span></div>
-            <div class=""><span class="jakarta-medium-font fs-4080"><a href="http://localhost/quarterback/over-ons" class="header-a-page">Over ons</a></span></div>
-            <div class=""><span class="jakarta-medium-font fs-4080"><a href="http://localhost/quarterback/contact" class="header-a-page">Contact</a></span></div>
+            <div class=""><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/werk" class="header-a-page active">Werk</a></span></div>
+            <div class=""><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/over-ons" class="header-a-page">Over ons</a></span></div>
+            <div class=""><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/contact" class="header-a-page">Contact</a></span></div>
         </div>
     </div>
 
@@ -59,8 +59,8 @@ defined( "ABSPATH" ) || exit;
         <div class="col-xl-4 offset-xl-1 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
                 <p class="mt-xl-5"><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
-                <p class=""><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">Emmaustraat 1.nl</a></p>
-                <p class=""><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">5492BK Sint-Oedenrode</a></p>
+                <p class=""><a href="https://www.google.nl/maps/place/quarterback/@51.5616223,5.4560555,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6e11eaa4fb99f:0xb25eee034dcc9bd!8m2!3d51.5616223!4d5.4582441" class="a-hover-underline-arrow" title="Google Maps Quarterback" target="_blank">Emmaustraat 1.nl</a></p>
+                <p class=""><a href="https://www.google.nl/maps/place/quarterback/@51.5616223,5.4560555,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6e11eaa4fb99f:0xb25eee034dcc9bd!8m2!3d51.5616223!4d5.4582441" class="a-hover-underline-arrow" title="Google Maps Quarterback" target="_blank">5492BK Sint-Oedenrode</a></p>
             </div>
             
             <div class="col-4 offset-8 col-xl-3 offset-xl-0 text-align-right">
