@@ -20,19 +20,19 @@ get_header();
 
 <div class="container-fluid bg-ink-dark">
     <div class="row">
-        <div class="col-xl-10 offset-xl-1 ink-py-2">
-            <div class="background-image-werk ink-mb-2">
-                <a href="" class="">
+        <div class="col-xl-10 offset-xl-1 ink-py-1 ink-py-lg-2">
+            <a href="#" class="">
+                <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                     <div class="watch-project">
                         <p>Bekijk project</p>
                     </div>
-                </a>
-            </div>
-            <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
-            <p class="p-gray"><a href="#" class="">The smart athletes choice</a></p>
+                </div>
+                <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
+                <p class="p-gray"><a href="#" class="a-gray">The smart athletes choice</a></p>
+            </a>
         </div>
-        <div class="col-xl-10 offset-xl-1 ink-py-2">
-            <div class="background-image-werk ink-mb-2">
+        <div class="col-xl-10 offset-xl-1 ink-py-1 ink-py-lg-2">
+            <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                 <a href="" class="">
                     <div class="watch-project">
                         <p>Bekijk project</p>
@@ -42,8 +42,8 @@ get_header();
             <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
             <p class="p-gray"><a href="#" class="">The smart athletes choice</a></p>
         </div>
-        <div class="col-xl-10 offset-xl-1 ink-py-2">
-            <div class="background-image-werk ink-mb-2">
+        <div class="col-xl-10 offset-xl-1 ink-py-1 ink-py-lg-2">
+            <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                 <a href="" class="">
                     <div class="watch-project">
                         <p>Bekijk project</p>
@@ -58,8 +58,8 @@ get_header();
 
 <div class="container-fluid half-dark-half-light">
     <div class="row">
-        <div class="col-xl-10 offset-xl-1 ink-py-2">
-            <div class="background-image-werk ink-mb-2">
+        <div class="col-xl-10 offset-xl-1 ink-py-1 ink-py-lg-2">
+            <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                 <a href="" class="">
                     <div class="watch-project">
                         <p>Bekijk project</p>
@@ -74,8 +74,8 @@ get_header();
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xl-10 offset-xl-1 ink-py-2">
-            <div class="background-image-werk ink-mb-2">
+        <div class="col-xl-10 offset-xl-1 ink-py-1 ink-py-lg-2">
+            <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                 <a href="" class="">
                     <div class="watch-project">
                         <p>Bekijk project</p>
@@ -85,8 +85,8 @@ get_header();
             <span class="degular-font fs-2440"><a href="#" class="">CBD+Sport</a></span>
             <p class="p-gray"><a href="#" class="">The smart athletes choice</a></p>
         </div>
-        <div class="col-xl-10 offset-xl-1 ink-py-2">
-            <div class="background-image-werk ink-mb-2">
+        <div class="col-xl-10 offset-xl-1 ink-py-1 ink-py-lg-2">
+            <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                 <a href="" class="">
                     <div class="watch-project">
                         <p>Bekijk project</p>

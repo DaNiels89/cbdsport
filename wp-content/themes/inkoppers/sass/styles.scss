@@ -54,7 +54,7 @@ p {
 	}
 
 	&.p-gray {
-		color: $ink-gray;
+		color: $ink-gray !important;
 	}
 	&.p-color-medium-gray {
 		@include jakarta-light;

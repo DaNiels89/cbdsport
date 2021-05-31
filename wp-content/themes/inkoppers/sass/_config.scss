@@ -43,6 +43,9 @@ $clamp4580: clamp(2.8125rem, 10vw, 5rem);
 		&:active {
 			color: set-text-color($color);
 		}
+		&.a-gray {
+			color: $ink-gray;
+		}
 	}
 	button {
 		background-color: Transparent;
