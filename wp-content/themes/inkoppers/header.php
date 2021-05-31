@@ -35,7 +35,7 @@ defined( "ABSPATH" ) || exit;
         </div>
         <div class="col-6 d-flex align-items-center justify-content-end px-0">
             <div class="">
-                <button id="header-menu-btn" class="header-menu-btn">
+                <button id="header-menu-btn" class="header-menu-btn open-overlay">
                     Menu
                     <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" width="25" height="25" viewBox="0 0 25 25">
                         <circle id="Ellipse_1" data-name="Ellipse 1" cx="12.5" cy="12.5" r="12.5" fill="#000"/>
@@ -49,14 +49,14 @@ defined( "ABSPATH" ) || exit;
 <div id="header-main-nav" class="container-fluid d-none">
     <div class="row">
         <div class="col offset-xl-1">
-            <div class=""><span class="degular-font fs-4080"><a href="http://localhost/quarterback/werk" class="header-a-page active">Werk</a></span></div>
-            <div class=""><span class="degular-font fs-4080"><a href="http://localhost/quarterback/over-ons" class="header-a-page">Over ons</a></span></div>
-            <div class=""><span class="degular-font fs-4080"><a href="http://localhost/quarterback/contact" class="header-a-page">Contact</a></span></div>
+            <div class=""><span class="jakarta-medium-font fs-4080"><a href="http://localhost/quarterback/werk" class="header-a-page active">Werk</a></span></div>
+            <div class=""><span class="jakarta-medium-font fs-4080"><a href="http://localhost/quarterback/over-ons" class="header-a-page">Over ons</a></span></div>
+            <div class=""><span class="jakarta-medium-font fs-4080"><a href="http://localhost/quarterback/contact" class="header-a-page">Contact</a></span></div>
         </div>
     </div>
 
-    <div class="row my-5 py-5">
-        <div class="col-xl-3 offset-xl-1 d-flex flex-column">
+    <div class="row ink-my-4 ink-py-4">
+        <div class="col-xl-4 offset-xl-1 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
                 <p class="mt-xl-5"><a href="mailto:info@quarterback.nl" class="" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
                 <p class="">Emmaustraat 1</p>
