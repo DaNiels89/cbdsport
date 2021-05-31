@@ -3,7 +3,7 @@
 defined("ABSPATH") || exit;
 ?>
 
-<div id="footer" class="container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> pb-5 py-xl-5">
+<div id="footer" class="qb-footer container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> pb-5 py-xl-5">
     <div class="row mt-xl-5 pb-5 py-xl-5 my-xl-5">
         <div class="col-xl-5 offset-xl-1 my-5">
             <span class="degular-font fs-4080">Laten we<br />samen werken.</span>
@@ -11,24 +11,24 @@ defined("ABSPATH") || exit;
 
         <div class="col-7 col-xl-3 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
-            <p class="jakarta-light-font mt-xl-5"><a href="mailto:info@quarterback.nl" class="" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
-            <p class="jakarta-light-font ">Emmaustraat 1</p>
-            <p class="jakarta-light-font ">5492BK Sint-Oedenrode</p>
+            <p class="jakarta-light-font mt-xl-5"><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
+            <p class="jakarta-light-font a-hover-underline-arrow">Emmaustraat 1</p>
+            <p class="jakarta-light-font a-hover-underline-arrow">5492BK Sint-Oedenrode</p>
         </div>
         
         <div class="col-5 col-xl-3 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Socials</span>
-            <p class="jakarta-light-font mt-xl-5"><a href="https://www.instagram.com/quarterback.nl/" class="" target="_blank" title="Instagram Quarterback">Instagram</a></p>
-            <p class="jakarta-light-font "><a href="https://nl.linkedin.com/in/danny-siebers" class="" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></p>
-            <p class="jakarta-light-font "><a href="https://www.facebook.com/quarterback.nl/" class="" target="_blank" title="Facebook Quarterback">Facebook</a></p>
+            <p class="jakarta-light-font a-hover-underline-arrow mt-xl-5"><a href="https://www.instagram.com/quarterback.nl/" class="" target="_blank" title="Instagram Quarterback">Instagram</a></p>
+            <p class="jakarta-light-font a-hover-underline-arrow"><a href="https://nl.linkedin.com/in/danny-siebers" class="" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></p>
+            <p class="jakarta-light-font a-hover-underline-arrow"><a href="https://www.facebook.com/quarterback.nl/" class="" target="_blank" title="Facebook Quarterback">Facebook</a></p>
         </div>
     </div>
 
     <div class="row">
         <div class="col col-xl-10 offset-xl-1 d-flex flex-column flex-xl-row">
-            <a href="http://localhost/quarterback/projecten" class="mr-xl-4 mb-xl-2" title="Projecten Quarterback">Projecten</a>
-            <a href="http://localhost/quarterback/over-ons" class="mx-xl-5 mb-xl-2" title="Over Quarterback">Over ons</a>
-            <a href="http://localhost/quarterback/contact" class="ml-xl-4 mb-xl-2" title="Contact Quarterback">Contact</a>
+            <a href="http://localhost/quarterback/projecten" class="a-hover-underline-arrow mr-xl-4 mb-xl-2" title="Projecten Quarterback">Projecten</a>
+            <a href="http://localhost/quarterback/over-ons" class="a-hover-underline-arrow mx-xl-5 mb-xl-2" title="Over Quarterback">Over ons</a>
+            <a href="http://localhost/quarterback/contact" class="a-hover-underline-arrow ml-xl-4 mb-xl-2" title="Contact Quarterback">Contact</a>
         </div>
     </div>
  

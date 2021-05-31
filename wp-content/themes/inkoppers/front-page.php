@@ -9,7 +9,7 @@ get_header();
     <div class="row align-items-center">
         <div class="col-12 col-xl-4 offset-xl-1">
             <h1 class="mb-xl-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
-            <div class="d-flex align-items-center my-5">
+            <div class="div-a-showreal d-flex align-items-center my-5">
                 <a href="http://localhost/quarterback/klanten" class="a-showreal mr-3">Bekijk showreal</a>
                 <a href="/quarterback/klanten" class="">
                     <!-- mobile -->
@@ -63,7 +63,7 @@ get_header();
         <div class="column col-xl-6 offset-xl-1 py-5 p-xl-5">
             <p class="p-gray jakarta-light-font">Over ons</p>
             <p class="fs-2040 my-4">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
-            <div class="d-flex align-items-center my-5">
+            <div class="div-a-showreal d-flex align-items-center my-5">
                 <a href="/quarterback/over-ons" class="a-showreal mr-3">Meer over ons</a>
                 <a href="/quarterback/over-ons" class="">
                     <!-- mobile -->
@@ -99,24 +99,24 @@ get_header();
     </div>
     <div class="row">
         <div class="column pt-5 pt-xl-0 col-xl-5 offset-xl-1 px-xl-0">
-            <div class="background-image-3 h-600 ink-mb-2"></div>
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
+            <a href="#" class=""><div class="background-image-3 h-600 ink-mb-2"></div></a>
+            <a href="#" class=""><span class="degular-font fs-2440">CBD+Sport</span></a>
+            <a href="#" class=""><p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p></a>
         </div>
         <div class="column col-xl-4 offset-xl-1 px-xl-0">
-            <div class="background-image-4 h-750 ink-mb-2"></div>
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
+            <a href="#" class=""><div class="background-image-4 h-750 ink-mb-2"></div></a>
+            <a href="#" class=""><span class="degular-font fs-2440">CBD+Sport</span></a>
+            <a href="#" class=""><p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p></a>
         </div>
         <div class="column col-xl-4 offset-xl-1 px-xl-0">
-            <div class="background-image-4 h-750 ink-mb-2"></div>
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
+            <a href="#" class=""><div class="background-image-4 h-750 ink-mb-2"></div></a>
+            <a href="#" class=""><span class="degular-font fs-2440">CBD+Sport</span></a>
+            <a href="#" class=""><p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p></a>
         </div>
         <div class="column col-xl-5 offset-xl-1 px-xl-0 d-flex flex-column align-self-xl-end">
-            <div class="background-image-3 h-600 ink-mb-2"></div>
-            <span class="degular-font fs-2440">CBD+Sport</span>
-            <p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p>
+            <a href="#" class=""><div class="background-image-3 h-600 ink-mb-2"></div></a>
+            <a href="#" class=""><span class="degular-font fs-2440">CBD+Sport</span></a>
+            <a href="#" class=""><p class="p-gray jakarta-light-font mb-5">The smart athletes choice</p></a>
         </div>
     </div>
 </div>
@@ -181,7 +181,7 @@ get_header();
         </div>
     </div>
     <div class="row my-5">
-        <div class="column col-12 my-5 d-flex align-items-center justify-content-center">
+        <div class="div-a-showreal column col-12 my-5 d-flex align-items-center justify-content-center">
             <a href="http://localhost/quarterback/klanten" class="a-showreal mr-3">Meer klanten</a>
             <a href="/quarterback/klanten" class="">
                 <!-- mobile -->
@@ -214,7 +214,7 @@ get_header();
         <div class="column col-xl-6 offset-xl-1 py-5 p-xl-5">
 
             <span class="degular-font fs-4080 my-5">Helping companies prototype & Launch their ideas faster.</span>
-            <div class="column my-5 d-flex align-items-center px-0">
+            <div class="div-a-showreal column my-5 d-flex align-items-center px-0">
                 <a href="http://localhost/quarterback/contact" class="a-showreal mr-3">Neem contact op</a>
                 <a href="/quarterback/contact" class="">
                     <!-- mobile -->

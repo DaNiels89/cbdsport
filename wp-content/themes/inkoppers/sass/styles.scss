@@ -304,7 +304,7 @@ svg {
 // End cookie melding
 
 // Header
-#header {
+.qb-header {
 	position: fixed;
 	top: 0%;
 	width: 100%;
@@ -316,7 +316,7 @@ svg {
 			margin-left: 15px;
 		}
 	}
-	#header-menu-btn {
+	.qb-header-menu-btn {
 		font-family: "Manrope", sans-serif;
 		font-size: 1.25rem;
 		font-size: clamp(1.25rem, 2.5vw, 1.625rem);
@@ -326,9 +326,15 @@ svg {
 		display: flex;
 		align-items: center;
 		color: $ink-dark;
+		transition: all 1s ease-in-out;
 		.menu-icon {
 			margin-left: 1em;
 			fill: $ink-dark;
+		}
+		&:hover {
+			& svg {
+				transform: scale(1.2);
+			}
 		}
 	}
 }
@@ -341,32 +347,13 @@ svg {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-}
-
-.noscroll {
-	overflow: hidden;
-}
-
-.overlay {
-	position: fixed;
-	overflow-y: scroll;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
-[aria-hidden="true"] {
-	display: none;
-}
-[aria-hidden="false"] {
-	display: block;
+	padding: 0;
 }
 // End header
 
 // Footer
 #header,
-#footer {
+.qb-footer {
 	a,
 	p {
 		text-decoration: underline;
@@ -412,7 +399,7 @@ svg {
 	html {
 		// font-size: 16px;
 	}
-	#header {
+	.qb-header {
 		margin-top: 70px;
 		svg {
 			&.header-logo {
@@ -420,12 +407,13 @@ svg {
 				margin-left: 50px;
 			}
 		}
-		#header-menu-btn {
+		.qb-header-menu-btn {
 			margin-right: 50px;
 			color: $ink-light;
 		}
 	}
 	.header-a-page {
+		position: relative;
 		&.active {
 			text-decoration: underline !important;
 			text-decoration-thickness: 0.05em !important;
@@ -434,8 +422,20 @@ svg {
 				position: absolute;
 				content: "\2794";
 				font-size: 0.75em;
-				top: 0.35em;
-				left: -1em;
+				top: 0.15em;
+				left: -1.5em;
+			}
+		}
+		&:hover {
+			text-decoration: underline !important;
+			text-decoration-thickness: 0.05em !important;
+			text-underline-offset: 0.05em !important;
+			&::before {
+				position: absolute;
+				content: "\2794";
+				font-size: 0.75em;
+				top: 0.15em;
+				left: -1.5em;
 			}
 		}
 	}
@@ -481,6 +481,14 @@ svg {
 		margin: 0;
 	}
 
+	.background-image-3,
+	.background-image-4 {
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			transform: scale(0.95);
+		}
+	}
+
 	.background-image-4 {
 		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/cbdsport2.png");
 	}
@@ -501,6 +509,23 @@ svg {
 		margin-top: unset;
 	}
 
+	.div-a-showreal {
+		transition: all 1s ease-in-out;
+		transform-origin: 50% 50%;
+		&:hover {
+			a {
+				text-decoration: underline;
+				svg {
+					transform: scale(1.25);
+				}
+			}
+		}
+	}
+
+	svg a:hover {
+		text-decoration: none;
+	}
+
 	// Single project page
 	.project-image-text {
 		position: absolute;
@@ -510,12 +535,25 @@ svg {
 	// End singe project page
 
 	// Footer
-	#header,
-	#footer {
+	.qb-header,
+	.qb-footer {
 		a,
 		p {
 			text-decoration: none;
 			margin-bottom: 0.5em;
+		}
+	}
+
+	.a-hover-underline-arrow {
+		transition: all 0.2s ease;
+		position: relative;
+		&:hover {
+			text-decoration: underline;
+			&::before {
+				position: absolute;
+				content: "\2794";
+				left: -1.5em;
+			}
 		}
 	}
 	// End footer

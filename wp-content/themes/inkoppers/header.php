@@ -15,7 +15,7 @@ defined( "ABSPATH" ) || exit;
 <?php do_action("wp_body_open"); ?>
 
 
-<nav id="header" class="container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
+<nav id="header" class="qb-header container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?>">
     <div class="row">
         <div class="col-6 d-flex align-items-center justify-content-start px-0">
             <a href="/" class="mb-0">
@@ -35,7 +35,7 @@ defined( "ABSPATH" ) || exit;
         </div>
         <div class="col-6 d-flex align-items-center justify-content-end px-0">
             <div class="">
-                <button id="header-menu-btn" class="header-menu-btn open-overlay">
+                <button id="header-menu-btn" class="qb-header-menu-btn header-menu-btn open-overlay">
                     Menu
                     <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" width="25" height="25" viewBox="0 0 25 25">
                         <circle id="Ellipse_1" data-name="Ellipse 1" cx="12.5" cy="12.5" r="12.5" fill="#000"/>
@@ -55,19 +55,19 @@ defined( "ABSPATH" ) || exit;
         </div>
     </div>
 
-    <div class="row ink-my-4 ink-py-4">
+    <div class="row ink-my-lg-4 ink-py-lg-4">
         <div class="col-xl-4 offset-xl-1 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
-                <p class="mt-xl-5"><a href="mailto:info@quarterback.nl" class="" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
-                <p class="">Emmaustraat 1</p>
-                <p class="">5492BK Sint-Oedenrode</p>
+                <p class="mt-xl-5"><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
+                <p class=""><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">Emmaustraat 1.nl</a></p>
+                <p class=""><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">5492BK Sint-Oedenrode</a></p>
             </div>
             
             <div class="col-4 offset-8 col-xl-3 offset-xl-0 text-align-right">
                 <span class="jakarta-medium-font fs-30 d-none d-xl-block">Socials</span>
-                <p class="mt-xl-5"><a href="https://www.instagram.com/quarterback.nl/" class="" target="_blank" title="Instagram Quarterback">Instagram</a></p>
-                <p><a href="https://nl.linkedin.com/in/danny-siebers" class="" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></p>
-                <p><a href="https://www.facebook.com/quarterback.nl/" class="" target="_blank" title="Facebook Quarterback">Facebook</a></p>
+                <p class="mt-xl-5"><a href="https://www.instagram.com/quarterback.nl/" class="a-hover-underline-arrow" target="_blank" title="Instagram Quarterback">Instagram</a></p>
+                <p><a href="https://nl.linkedin.com/in/danny-siebers" class="a-hover-underline-arrow" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></p>
+                <p><a href="https://www.facebook.com/quarterback.nl/" class="a-hover-underline-arrow" target="_blank" title="Facebook Quarterback">Facebook</a></p>
             </div>
         </div>
     </div>
