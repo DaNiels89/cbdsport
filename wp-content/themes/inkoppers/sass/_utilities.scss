@@ -1,5 +1,27 @@
 // Margin & padding classes
-$spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
+$spaceamounts: (
+	0,
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11,
+	12,
+	13,
+	14,
+	15,
+	16,
+	17,
+	18,
+	19,
+	20
+);
 
 @each $space in $spaceamounts {
 	.ink-m-#{$space} {
@@ -48,7 +70,29 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 }
 
 @media (min-width: 768px) {
-	$spaceamounts-md: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
+	$spaceamounts-md: (
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20
+	);
 
 	@each $space-md in $spaceamounts-md {
 		.ink-m-md-#{$space-md} {
@@ -98,7 +142,29 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 }
 
 @media (min-width: 992px) {
-	$spaceamounts-lg: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
+	$spaceamounts-lg: (
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20
+	);
 
 	@each $space-lg in $spaceamounts-lg {
 		.ink-m-lg-#{$space-lg} {
@@ -148,7 +214,29 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 }
 
 @media (min-width: 1200px) {
-	$spaceamounts-xl: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
+	$spaceamounts-xl: (
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20
+	);
 
 	@each $space-xl in $spaceamounts-xl {
 		.ink-m-xl-#{$space-xl} {
@@ -198,7 +286,29 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 }
 
 @media (min-width: 1200px) {
-	$spaceamounts-xxl: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
+	$spaceamounts-xxl: (
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20
+	);
 
 	@each $space-xxl in $spaceamounts-xxl {
 		.ink-m-xxl-#{$space-xxl} {

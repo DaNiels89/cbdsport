@@ -5,15 +5,18 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div class="container-fluid bg-ink-dark">
-    <div class="row align-items-center">
+<div class="container-fluid bg-ink-dark min-vh-100">
+    <div class="row align-items-center ink-pt-8">
         <div class="col-xl-7 mb-5">
-            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-2">
+            <div class="overlapping-404-images">
+                <div class="left-404-image"></div>
+                <div class="right-404-image"></div>
+            </div>
         </div>
-        <div class="col-xl-5 p-xl-5">
-            <p class="p-gray mt-4 mb-0">404</p>
+        <div class="col-xl-4 offset-xl-1 trans-trans-y-75">
+            <p class="p-gray mb-0">404</p>
             <h1 class="mb-4">Pagina niet<br /> gevonden.</h1>
-            <p class="">Om de pijn te verzachten is hier een link naar onze Spotify office playlist.</p>
+            <p class="lh-2 ink-mr-xl-4">Om de pijn te verzachten is hier een link naar onze Spotify office playlist.</p>
             <a href="#" class="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="259.478" height="61.941" viewBox="0 0 259.478 61.941" class="my-4 pr-4">
                     <g id="Group_1002" data-name="Group 1002" transform="translate(-883.522 -902.857)">

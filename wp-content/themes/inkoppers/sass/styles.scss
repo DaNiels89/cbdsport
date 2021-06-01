@@ -292,6 +292,39 @@ svg {
 	position: relative;
 }
 
+.overlapping-404-images {
+	position: relative;
+	margin-top: 10em;
+}
+
+.left-404-image {
+	position: absolute;
+	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/contact-image-1.png");
+	background-color: $ink-light;
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+	width: 50vw;
+	top: -12em;
+	left: 0;
+}
+
+.right-404-image {
+	position: absolute;
+	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/image-1.png");
+	background-color: $ink-light;
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+	width: 60vw;
+	top: -10em;
+	right: 0;
+}
+
+.trans-trans-y-75 {
+	transform: translateY(75%);
+}
+
 .vh40 {
 	min-height: 40vh;
 }
@@ -661,6 +694,37 @@ svg {
 			}
 		}
 	}
+
+	// 404
+	.overlapping-404-images {
+		position: relative;
+	}
+
+	.left-404-image {
+		position: absolute;
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/contact-image-1.png");
+		background-color: $ink-light;
+		background-size: cover;
+		background-position: center;
+		height: 50vh;
+		width: 28vw;
+		top: -10em;
+		left: 0;
+	}
+
+	.right-404-image {
+		position: absolute;
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/05/image-1.png");
+		background-color: $ink-light;
+		background-size: cover;
+		background-position: center;
+		height: 50vh;
+		width: 40vw;
+		top: 0;
+		right: 0;
+	}
+
+	// End 404
 
 	// Footer
 	.qb-header,
