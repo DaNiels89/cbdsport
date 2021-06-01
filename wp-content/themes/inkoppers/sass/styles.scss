@@ -288,7 +288,16 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 80vh;
+	min-height: 40vh;
+	position: relative;
+}
+
+.background-image-content {
+	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/contact-image-1.png");
+	background-color: $ink-light;
+	background-size: cover;
+	background-position: center;
+	min-height: 40vh;
 	position: relative;
 }
 
@@ -585,6 +594,10 @@ svg {
 			background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-7.png");
 			min-height: 40vh;
 		}
+	}
+
+	.background-image-contact {
+		min-height: 80vh;
 	}
 
 	// Single project page
