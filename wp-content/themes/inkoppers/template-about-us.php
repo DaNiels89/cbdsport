@@ -7,7 +7,7 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<div class="container-fluid bg-ink-dark">
+<div class="container-fluid upper-container bg-ink-dark">
     <div class="row">
         <div class="col-sm-12 col-xl-5 offset-xl-1 my-5 p-xl-5 d-flex align-items-start">
             <h1 class="">Wij ontwikkelen concepten en bouwen merken</h1>
@@ -182,7 +182,7 @@ get_header();
   </div>
 </div>
 
-<div class="container-fluid bg-ink-dark pt-5">
+<div class="container-fluid bg-ink-dark ink-pt-5">
   <div class="row align-items-center">
     <div class="col-xl-7 offset-xl-1 d-none d-xl-block">
       <span class="degular-font fs-4080">Recente projecten</span>
@@ -193,12 +193,12 @@ get_header();
   </div>
   <div class="row">
     <div class="col-xl-5 offset-xl-1">
-        <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
+        <div class="background-image-3 ink-mt-2 ink-mb-1"></div>
         <span class="degular-font fs-2440">CBD+Sport</span>
         <p class="p-gray">The smart athletes choice</p>
     </div>
     <div class="col-xl-5">
-        <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="my-3 my-xl-5">
+        <div class="background-image-3 ink-mt-2 ink-mb-1"></div>
         <span class="degular-font fs-2440">CBD+Sport</span>
         <p class="p-gray">The smart athletes choice</p>
     </div>
@@ -207,7 +207,7 @@ get_header();
 
 <div class="container-fluid bg-ink-dark">
     <div class="row">
-        <div class="col col-xl-10 offset-xl-1">
+        <div class="col col-xl-10 offset-xl-1 ink-mt-4">
             <hr class="">
         </div>
     </div>
