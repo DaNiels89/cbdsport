@@ -96,6 +96,9 @@ a {
 		color: $ink-yellow !important;
 		text-decoration: underline;
 	}
+	&.a-gray {
+		color: $ink-gray;
+	}
 }
 
 button {
