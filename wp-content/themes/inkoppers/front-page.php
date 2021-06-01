@@ -9,33 +9,24 @@ get_header();
     <div class="row align-items-center">
         <div class="col-12 col-xl-4 offset-xl-1">
             <h1 class="mb-xl-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
-            <div class="div-a-showreal d-flex align-items-center my-5">
-                <a href="<?php echo get_site_url(); ?>/klanten" class="a-showreal mr-3">Bekijk showreal</a>
-                <a href="<?php echo get_site_url(); ?>/klanten" class="">
-                    <!-- mobile -->
-                    <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
-                        <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                    </svg>
-                    <!-- Desktop -->
-                    <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                        <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
-                        <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
-                    </svg>
-                </a>
-            </div>
             <!-- Button trigger modal -->
-            <!-- <button type="button" class="watch-showreal-btn" data-toggle="modal" data-target="#watchShowreal">
+            <button type="button" class="watch-showreal-btn ink-py-2 px-0" data-toggle="modal" data-target="#watchShowreal">
                 Bekijk showreal
-                <svg id="Group_868" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                <!-- mobile -->
+                <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
-                    <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Helvetica" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                    <text id="_" data-name="&gt;" transform="translate(10 21)" fill="#fff" font-size="18" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
                 </svg>
-            </button> -->
+                <!-- Desktop -->
+                <svg id="Group_812" class="d-none d-xl-block" data-name="Group 812" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                    <circle id="Ellipse_19" data-name="Ellipse 19" cx="25" cy="25" r="25"/>
+                    <text id="_" data-name="&gt;" transform="translate(16 35)" fill="#fff" font-size="30" font-family="Manrope-Medium, Manrope" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0">&gt;</tspan></text>
+                </svg>
+            </button>
             <!-- Modal -->
-            <!-- <div class="modal fade" id="watchShowreal" tabindex="-1" role="dialog" aria-labelledby="watchShowrealLabel" aria-hidden="true">
+            <div class="modal fade" id="watchShowreal" tabindex="-1" role="dialog" aria-labelledby="watchShowrealLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
-                    <div class="modal-content background-image">
+                    <div class="modal-content background-image-showreal">
                         <div class="modal-header">
                             <a href="/" class="">
                                 <img src="http://localhost/quarterback/wp-content/uploads/2021/05/logo-quarterback-white-svg.svg" alt="" class="header-logo-svg mt-5 ml-3" width="50" height="50">
@@ -45,11 +36,11 @@ get_header();
                             </button>
                         </div>
                         <div class="modal-body d-flex justify-content-center align-items-end align-items-md-center">
-                            <button class="play-showreal mb-9 mb-md-0">Play Showreal</button>
+                            <button class="play-showreal ink-mb-4 ink-mb-lg-0">Play Showreal</button>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
         <div id="main-image" class="column col-xl-6 offset-xl-1 my-5 my-xl-0 background-image-1">
         </div>
@@ -234,9 +225,9 @@ get_header();
 </div>
 
 <div id="cookie-div" class="container-fluid bg-ink-dark">
-    <div class="row py-xl-4">
+    <div class="row">
         <div class="column col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
-            <p class="font-manrope p-yellow">Deze site maakt gebruik van cookies, je blijft wel anoniem. Voor meer informatie <a href="#" class="font-manrope a-yellow">Cookie en Privacy Voorwaarden</a></p>
+            <p class="font-manrope p-yellow ink-py-1 px-0">Deze site maakt gebruik van cookies, je blijft wel anoniem. Voor meer informatie <a href="#" class="font-manrope a-yellow">Cookie en Privacy Voorwaarden</a></p>
             <button id="cookie-btn" class="font-manrope btn-ink-yellow">OK</button>
         </div>
     </div>

@@ -110,6 +110,13 @@ button {
 		display: flex;
 		align-items: center;
 		border: 0;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			text-decoration: underline;
+			svg {
+				transform: scale(1.2);
+			}
+		}
 		svg {
 			margin-left: 1em;
 		}
@@ -120,6 +127,22 @@ button {
 		color: $ink-light;
 		border: none;
 		background: Transparent;
+		position: relative;
+		text-decoration: underline;
+		text-decoration-thickness: 0.05em;
+		text-underline-offset: 0.1em;
+		&:hover {
+			text-decoration: underline !important;
+			text-decoration-thickness: 0.05em !important;
+			text-underline-offset: 0.1em !important;
+			&::before {
+				position: absolute;
+				content: "\2794";
+				font-size: 0.75em;
+				top: 0.35em;
+				left: -1.25em;
+			}
+		}
 	}
 }
 
@@ -200,6 +223,15 @@ svg {
 
 .background-image-1 {
 	background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/image-1.png");
+	background-color: $ink-light;
+	background-size: cover;
+	background-position: center;
+	min-height: 40vh;
+	position: relative;
+}
+
+.background-image-showreal {
+	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-showreal.png");
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
@@ -559,6 +591,7 @@ svg {
 			}
 		}
 	}
+
 	.background-image,
 	.background-image-1,
 	.background-image-2,
@@ -608,6 +641,13 @@ svg {
 
 	.background-image-contact {
 		min-height: 80vh;
+	}
+
+	.play-showreal {
+		text-decoration: none !important;
+		&:hover {
+			text-decoration: underline !important;
+		}
 	}
 
 	// Single project page

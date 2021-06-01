@@ -55,8 +55,8 @@ defined( "ABSPATH" ) || exit;
         </div>
     </div>
 
-    <div class="row ink-my-lg-4 ink-py-lg-4">
-        <div class="col-xl-4 offset-xl-1 d-flex flex-column">
+    <div class="row ink-my-lg-4 ink-py-lg-4 px-lg-0 py-lg-0">
+        <div class="col-xl-4 offset-xl-1 d-flex flex-column px-lg-0">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
                 <p class="mt-xl-5"><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
                 <p class=""><a href="https://www.google.nl/maps/place/quarterback/@51.5616223,5.4560555,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6e11eaa4fb99f:0xb25eee034dcc9bd!8m2!3d51.5616223!4d5.4582441" class="a-hover-underline-arrow" title="Google Maps Quarterback" target="_blank">Emmaustraat 1.nl</a></p>
