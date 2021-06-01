@@ -1,19 +1,3 @@
-.ink-container-1600 {
-	max-width: 1600px;
-	margin: 0 auto;
-	padding-bottom: 5em;
-}
-
-.ink-container {
-	max-width: 1000px;
-	margin: 0 auto 5em;
-}
-
-.ink-container-small {
-	max-width: 800px;
-	margin: 5em auto;
-}
-
 // Margin & padding classes
 $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 
@@ -71,10 +55,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 			margin: #{$space-md}em;
 		}
 		.ink-mx-md-#{$space-md} {
-			margin: 0 #{$space-md}em;
+			margin: 15px #{$space-md}em;
 		}
 		.ink-my-md-#{$space-md} {
-			margin: #{$space-md}em 0;
+			margin: #{$space-md}em 15px;
 		}
 		.ink-mt-md-#{$space-md} {
 			margin-top: #{$space-md}em;
@@ -93,10 +77,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 			padding: #{$space-md}em;
 		}
 		.ink-px-md-#{$space-md} {
-			padding: 0 #{$space-md}em;
+			padding: 15px #{$space-md}em;
 		}
 		.ink-py-md-#{$space-md} {
-			padding: #{$space-md}em 0;
+			padding: #{$space-md}em 15px;
 		}
 		.ink-pt-md-#{$space-md} {
 			padding-top: #{$space-md}em;
@@ -121,10 +105,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 			margin: #{$space-lg}em;
 		}
 		.ink-mx-lg-#{$space-lg} {
-			margin: 0 #{$space-lg}em;
+			margin: 15px #{$space-lg}em;
 		}
 		.ink-my-lg-#{$space-lg} {
-			margin: #{$space-lg}em 0;
+			margin: #{$space-lg}em 15px;
 		}
 		.ink-mt-lg-#{$space-lg} {
 			margin-top: #{$space-lg}em;
@@ -143,10 +127,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 			padding: #{$space-lg}em;
 		}
 		.ink-px-lg-#{$space-lg} {
-			padding: 0 #{$space-lg}em;
+			padding: 15px #{$space-lg}em;
 		}
 		.ink-py-lg-#{$space-lg} {
-			padding: #{$space-lg}em 0;
+			padding: #{$space-lg}em 15px;
 		}
 		.ink-pt-lg-#{$space-lg} {
 			padding-top: #{$space-lg}em;
@@ -171,10 +155,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 			margin: #{$space-xl}em;
 		}
 		.ink-mx-xl-#{$space-xl} {
-			margin: 0 #{$space-xl}em;
+			margin: 15px #{$space-xl}em;
 		}
 		.ink-my-xl-#{$space-xl} {
-			margin: #{$space-xl}em 0;
+			margin: #{$space-xl}em 15px;
 		}
 		.ink-mt-xl-#{$space-xl} {
 			margin-top: #{$space-xl}em;
@@ -193,10 +177,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 			padding: #{$space-xl}em;
 		}
 		.ink-px-xl-#{$space-xl} {
-			padding: 0 #{$space-xl}em;
+			padding: 15px #{$space-xl}em;
 		}
 		.ink-py-xl-#{$space-xl} {
-			padding: #{$space-xl}em 0;
+			padding: #{$space-xl}em 15px;
 		}
 		.ink-pt-xl-#{$space-xl} {
 			padding-top: #{$space-xl}em;
@@ -221,10 +205,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 			margin: #{$space-xxl}em;
 		}
 		.ink-mx-xxl-#{$space-xxl} {
-			margin: 0 #{$space-xxl}em;
+			margin: 15px #{$space-xxl}em;
 		}
 		.ink-my-xxl-#{$space-xxl} {
-			margin: #{$space-xxl}em 0;
+			margin: #{$space-xxl}em 15px;
 		}
 		.ink-mt-xxl-#{$space-xxl} {
 			margin-top: #{$space-xxl}em;
@@ -243,10 +227,10 @@ $spaceamounts: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
 			padding: #{$space-xxl}em;
 		}
 		.ink-px-xxl-#{$space-xxl} {
-			padding: 0 #{$space-xxl}em;
+			padding: 15px #{$space-xxl}em;
 		}
 		.ink-py-xxl-#{$space-xxl} {
-			padding: #{$space-xxl}em 0;
+			padding: #{$space-xxl}em 15px;
 		}
 		.ink-pt-xxl-#{$space-xxl} {
 			padding-top: #{$space-xxl}em;

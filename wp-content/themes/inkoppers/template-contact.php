@@ -7,6 +7,16 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
+<div class="container-fluid bg-ink-dark">
+    <div class="row">
+        <div class="col-lg-6 background-image-contact">
+
+        </div>
+        <div class="col-lg-6">
+
+        </div>
+    </div>
+</div>
+
 
 <?php get_footer();

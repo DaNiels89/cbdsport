@@ -13,6 +13,7 @@ body {
 	font-size: 1.125rem;
 	font-size: $clamp1825;
 	counter-reset: card;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -67,7 +68,6 @@ p {
 	&.fs-18-40 {
 		font-size: 1.125rem;
 		font-size: $clamp1840;
-		margin-bottom: 2em;
 	}
 }
 
@@ -244,6 +244,54 @@ svg {
 	position: relative;
 }
 
+.background-image-project {
+	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-1.png");
+	background-color: $ink-light;
+	background-size: cover;
+	background-position: center;
+	min-height: 33vh;
+	position: relative;
+	&.upper-project-image {
+		background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/cbdsport1.png");
+		background-size: cover;
+		background-position: right center;
+		min-height: 70vh;
+	}
+	&.project-1 {
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-1.png");
+	}
+	&.project-2 {
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-2.png");
+	}
+	&.project-3 {
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-3.png");
+	}
+	&.project-4 {
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-4.png");
+	}
+	&.project-5 {
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-5.png");
+	}
+	&.project-6 {
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-6.png");
+		min-height: 80vh;
+		background-position: center;
+	}
+	&.project-7 {
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-7.png");
+		min-height: 40vh;
+	}
+}
+
+.background-image-contact {
+	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/contact-image-1.png");
+	background-color: $ink-light;
+	background-size: cover;
+	background-position: center;
+	min-height: 80vh;
+	position: relative;
+}
+
 .vh40 {
 	min-height: 40vh;
 }
@@ -256,8 +304,8 @@ svg {
 
 .project-image-text {
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	left: 1.5em;
+	bottom: 2em;
 }
 
 .lh-175 {
@@ -471,6 +519,48 @@ svg {
 		min-height: 80vh;
 		background-position: center center;
 	}
+
+	.background-image-project {
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-1.png");
+		background-color: $ink-light;
+		background-size: cover;
+		background-position: center;
+		min-height: 80vh;
+		position: relative;
+		&.upper-project-image {
+			min-height: 100vh;
+		}
+		&.project-1 {
+			background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-1.png");
+		}
+		&.project-2 {
+			background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-2.png");
+		}
+		&.project-3 {
+			background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-3.png");
+		}
+		&.project-4 {
+			background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-4.png");
+		}
+		&.project-5 {
+			background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-5.png");
+		}
+		&.project-6 {
+			background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-6.png");
+		}
+		&.project-7 {
+			background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-project-7.png");
+			min-height: 40vh;
+		}
+	}
+
+	// Single project page
+	.project-image-text {
+		position: absolute;
+		left: 10em;
+		bottom: 8em;
+	}
+	// End singe project page
 }
 
 @media (min-width: 1200px) {
@@ -571,14 +661,6 @@ svg {
 			}
 		}
 	}
-
-	// Single project page
-	.project-image-text {
-		position: absolute;
-		left: 10em;
-		bottom: 8em;
-	}
-	// End singe project page
 
 	// Footer
 	.qb-header,
