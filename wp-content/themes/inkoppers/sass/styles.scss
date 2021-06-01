@@ -233,6 +233,15 @@ svg {
 	position: relative;
 }
 
+.background-image-woman {
+	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-showreal.png");
+	background-color: $ink-light;
+	background-size: cover;
+	background-position: center;
+	min-height: 80vh;
+	position: relative;
+}
+
 .background-image-showreal {
 	background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/image-showreal.png");
 	background-color: $ink-light;
@@ -412,7 +421,7 @@ svg {
 }
 
 .upper-container {
-	padding-top: 12em;
+	padding-top: 6em;
 }
 
 // Project page
@@ -444,6 +453,12 @@ svg {
 .card-header {
 	border-bottom: none;
 }
+
+// #accordion {
+// 	& > div {
+// 		padding: 0;
+// 	}
+// }
 // End accordion about us
 
 // Cookie melding
@@ -671,9 +686,6 @@ svg {
 		&.height-600 {
 			height: 600px;
 		}
-	}
-	#accordion {
-		margin: 10em;
 	}
 	.card {
 		border: none;
