@@ -30,7 +30,7 @@ get_header();
                         <div class="modal-header">
                         </div>
                         <div class="modal-body d-flex justify-content-center align-items-end align-items-md-center">
-                            <button class="play-showreal ink-mb-4 ink-mb-lg-0">Play Showreal</button>
+                            <button class="play-showreal ink-mb-3 ink-mb-lg-0">Play Showreal</button>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid ink-my-5">
+<div class="container-fluid ink-my-5 mx-0">
     <div class="row ink-mt-5">
         <div class="column col-xl-10 offset-xl-1">
             <div class="row">
@@ -155,7 +155,7 @@ get_header();
                 ?>
                     <div class="column col-6 col col-md-3 py-5 d-flex justify-content-center align-items-center">
                         <a href="<?php echo $website ?>" class="" target="_blank">
-                            <img src="<?php echo $klantenlogo['sizes']['large']; ?>" class="ink-px-1" alt="<?php echo $klantenlogo['alt']; ?>" />
+                            <img src="<?php echo $klantenlogo['sizes']['large']; ?>" class="ink-px-2" alt="<?php echo $klantenlogo['alt']; ?>" />
                         </a>
                     </div>
                 <?php

@@ -14,8 +14,7 @@ defined( "ABSPATH" ) || exit;
 <body <?php body_class(); ?>>
 <?php do_action("wp_body_open"); ?>
 
-
-<nav id="header" class="qb-header container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?> bg-transparent">
+<nav id="header" class="container-fluid qb-header <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?> bg-transparent">
     <div class="row">
         <div class="col-6 d-flex align-items-center justify-content-start px-0">
             <a href="<?php echo get_site_url(); ?>" class="mb-0">
@@ -35,7 +34,7 @@ defined( "ABSPATH" ) || exit;
         </div>
         <div class="col-6 d-flex align-items-center justify-content-end px-0">
             <div class="header-menu-btn-div">
-                <button id="header-menu-btn" class="qb-header-menu-btn header-menu-btn open-overlay">
+                <button id="header-menu-btn" class="qb-header-menu-btn header-menu-btn">
                     Menu
                     <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" width="25" height="25" viewBox="0 0 25 25">
                         <circle id="Ellipse_1" data-name="Ellipse 1" cx="12.5" cy="12.5" r="12.5" fill="#000"/>
@@ -46,17 +45,16 @@ defined( "ABSPATH" ) || exit;
     </div>
 </nav>
 
-<!-- Position absolute geven -->
-<div id="header-main-nav" class="container-fluid d-none">
-    <div class="row mb-5">
-        <div class="col offset-xl-1">
-            <div class="px-3 px-xl-0"><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/werk" class="header-a-page active">Werk</a></span></div>
-            <div class="px-3 px-xl-0"><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/over-ons" class="header-a-page">Over ons</a></span></div>
-            <div class="px-3 px-xl-0"><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/contact" class="header-a-page">Contact</a></span></div>
+<div id="header-main-nav" class="container-fluid qb-header-main d-none">
+    <div class="row ink-my-6 mx-0">
+        <div class="col offset-xl-1 px-0">
+            <div class=""><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/werk" class="header-a-page active">Werk</a></span></div>
+            <div class=""><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/over-ons" class="header-a-page">Over ons</a></span></div>
+            <div class=""><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/contact" class="header-a-page">Contact</a></span></div>
         </div>
     </div>
 
-    <div class="row ink-my-lg-4 ink-py-lg-4 px-lg-0 py-lg-0">
+    <div class="row ink-my-4 mx-0 ink-my-lg-4 ink-py-lg-4 px-lg-0 py-lg-0">
         <div class="col-xl-4 offset-xl-1 d-flex flex-column px-lg-0">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
                 <p class="mt-xl-5"><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">info@quarterback.nl</a></p>

@@ -520,14 +520,17 @@ svg {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	padding: 0;
+	top: 0;
+	left: 0;
 	position: fixed;
 	background: $ink-light;
+	overflow-x: hidden;
 }
 // End header
 
 // Footer
-#header,
+.qb-header,
+.qb-header-main,
 .qb-footer {
 	a,
 	p {
@@ -837,6 +840,7 @@ svg {
 
 	// Footer
 	.qb-header,
+	.qb-header-main,
 	.qb-footer {
 		a,
 		p {
