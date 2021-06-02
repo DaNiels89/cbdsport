@@ -339,7 +339,7 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 40vh;
+	min-height: 70vh;
 	position: relative;
 }
 
@@ -420,6 +420,12 @@ svg {
 .upper-container {
 	padding-top: 8em;
 }
+
+// Contact page
+.contact-page-footer {
+	bottom: 2em;
+}
+// End contact page
 
 // Project page
 
@@ -822,6 +828,12 @@ svg {
 	}
 
 	// End 404
+
+	// Contact
+	.contact-page-footer {
+		bottom: 10em;
+	}
+	// End contact
 
 	// Footer
 	.qb-header,

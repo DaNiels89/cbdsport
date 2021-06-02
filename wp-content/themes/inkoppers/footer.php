@@ -2,8 +2,9 @@
 // Exit if accessed directly.
 defined("ABSPATH") || exit;
 ?>
-<?php if (!is_page( 30 )): ?> 
+
 <div id="footer" class="qb-footer container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> pb-5 py-xl-5">
+    <?php if (!is_page( 30 )): ?> 
     <div class="row mt-xl-5 pb-5 py-xl-5 my-xl-5 ">
         <div class="col-xl-5 offset-xl-1 my-5">
             <span class="degular-font fs-4080">Laten we<br />samen werken.</span>
@@ -12,7 +13,7 @@ defined("ABSPATH") || exit;
         <div class="col-7 col-xl-3 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
             <p class="jakarta-light-font mt-xl-5"><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
-            <p class="jakarta-light-font a-hover-underline-arrow">Emmaustraat 1</p>
+            <p class="jakarta-light-font a-ho ver-underline-arrow">Emmaustraat 1</p>
             <p class="jakarta-light-font a-hover-underline-arrow">5492BK Sint-Oedenrode</p>
         </div>
         
@@ -23,9 +24,9 @@ defined("ABSPATH") || exit;
             <p class="jakarta-light-font a-hover-underline-arrow"><a href="https://www.facebook.com/quarterback.nl/" class="" target="_blank" title="Facebook Quarterback">Facebook</a></p>
         </div>
     </div>
-
+    <?php endif;?>
     <div class="row">
-        <div class="col col-xl-10 offset-xl-1 d-flex flex-column flex-xl-row">
+        <div class="col col-xl-10 offset-xl-1 d-flex flex-column flex-xl-row my-3">
             <a href="<?php echo get_site_url(); ?>/projecten" class="a-hover-underline-arrow mr-xl-4 mb-xl-2" title="Projecten Quarterback">Projecten</a>
             <a href="<?php echo get_site_url(); ?>/over-ons" class="a-hover-underline-arrow mx-xl-5 mb-xl-2" title="Over Quarterback">Over ons</a>
             <a href="<?php echo get_site_url(); ?>/contact" class="a-hover-underline-arrow ml-xl-4 mb-xl-2" title="Contact Quarterback">Contact</a>
@@ -48,7 +49,7 @@ defined("ABSPATH") || exit;
         </div>
     </div>
 </div>
-<?php endif;?>
+
 <?php wp_footer(); ?>
 
 </body>

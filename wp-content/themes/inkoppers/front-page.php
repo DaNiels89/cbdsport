@@ -28,32 +28,6 @@ get_header();
                 <div class="modal-dialog" role="document">
                     <div class="modal-content background-image-showreal">
                         <div class="modal-header">
-                            <nav id="header-2" class="qb-header container-fluid <?php if (get_field("header_dark")): echo "bg-ink-dark"; endif; ?> bg-transparent">
-                                <div class="row">
-                                    <div class="col-6 d-flex align-items-center justify-content-start px-0">
-                                        <a href="<?php echo get_site_url(); ?>" class="mb-0">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="64.733" height="64.732" viewBox="0 0 64.733 64.732">
-                                                <g id="Group_944" data-name="Group 944">
-                                                    <path id="Path_614" data-name="Path 614" d="M1104.226,1132.18a21.578,21.578,0,0,0,21.578,21.578V1110.6A21.576,21.576,0,0,0,1104.226,1132.18Z" transform="translate(-1104.226 -1110.603)" fill="#fff"/>
-                                                    <path id="Path_615" data-name="Path 615" d="M1110.682,1110.6l21.577,21.577V1110.6Z" transform="translate(-1089.105 -1110.603)" fill="#fff"/>
-                                                </g>
-                                                <g id="Group_945" data-name="Group 945" transform="translate(21.577 21.577)">
-                                                    <path id="Path_616" data-name="Path 616" d="M1110.682,1145.092h21.577l-21.577-21.577Z" transform="translate(-1110.682 -1101.938)" fill="#fff"/>
-                                                    <path id="Path_617" data-name="Path 617" d="M1117.138,1117.059v43.155a21.578,21.578,0,1,0,0-43.155Z" transform="translate(-1095.56 -1117.059)" fill="#fff"/>
-                                                </g>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                    <div class="col-6 d-flex align-items-center justify-content-end px-0">
-                                        <div class="header-menu-btn-div">
-                                            <button class="qb-header-menu-btn header-menu-btn" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">Terug O</span>
-                                            </button>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </nav>
                         </div>
                         <div class="modal-body d-flex justify-content-center align-items-end align-items-md-center">
                             <button class="play-showreal ink-mb-4 ink-mb-lg-0">Play Showreal</button>
