@@ -279,6 +279,13 @@ svg {
 	position: relative;
 }
 
+// Hover effect for overlay with light text
+.p-watch-project {
+	@include degular-font;
+	font-size: 2.5rem;
+	opacity: 0;
+}
+
 .background-image-werk {
 	background-image: url("https://test.inkoppers.nl/qb/wp-content/uploads/2021/05/cbdsport1.png");
 	background-color: $ink-light;
@@ -286,6 +293,23 @@ svg {
 	background-position: center;
 	min-height: 30vh;
 	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&:hover {
+		.p-watch-project {
+			opacity: 1;
+		}
+	}
+	&:hover::before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		background-color: rgba(0, 0, 0, 0.25);
+	}
 }
 
 .background-image-project {
@@ -626,7 +650,8 @@ svg {
 		min-height: 50vh;
 		background-position: center top;
 	}
-	.background-image-werk {
+	.background-image-werk,
+	.background-image-werk-test {
 		min-height: 80vh;
 		background-position: center center;
 	}
@@ -742,16 +767,12 @@ svg {
 		}
 	}
 
-	.watch-project {
-		display: none;
-	}
-
 	.background-image-werk {
 		transition: all 0.2s ease-in-out;
 		position: relative;
 		&:hover {
 			transform: scale(0.98);
-			opacity: 0.75;
+			background-color: rgba(0, 0, 0, 0.1);
 			.watch-project {
 				@include degular-font;
 				font-size: 1.5rem;
@@ -763,6 +784,8 @@ svg {
 				width: 100%;
 				justify-content: center;
 				align-items: center;
+				opacity: 1;
+				background: transparent;
 			}
 		}
 	}
