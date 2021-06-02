@@ -322,19 +322,16 @@ svg {
 		background-position: center;
 	}
 	&.project-7 {
-		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/fitness-woman-working-out-with-battle-ropes-gym.png.png");
-		min-height: 40vh;
+		background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/fitness-woman-working-out-with-battle-ropes-gym.png");
+		min-height: 50vh;
 		position: relative;
-		&:hover {
-			transform: scale(0.97);
-		}
 	}
 }
 
 .next-project-image {
 	position: absolute;
-	top: 14em;
-	left: 6em;
+	left: 1em;
+	bottom: 2em;
 }
 
 .background-image-contact {
@@ -475,7 +472,7 @@ svg {
 	position: fixed;
 	top: 0%;
 	width: 100%;
-	z-index: 1;
+	z-index: 9999;
 	margin-top: 50px;
 	svg {
 		&.header-logo {
@@ -510,7 +507,7 @@ svg {
 }
 
 #header-main-nav {
-	z-index: 2;
+	z-index: 100;
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
@@ -518,6 +515,8 @@ svg {
 	flex-direction: column;
 	justify-content: flex-end;
 	padding: 0;
+	position: fixed;
+	background: $ink-light;
 }
 // End header
 
@@ -654,7 +653,27 @@ svg {
 		&.project-7 {
 			background-image: url("http://localhost/quarterback/wp-content/uploads/2021/06/fitness-woman-working-out-with-battle-ropes-gym.png");
 			min-height: 40vh;
+			transition: all 0.2s ease-in-out;
+			&:hover {
+				transform: scale(0.97);
+				& .next-project-underline-arrow {
+					text-decoration: underline !important;
+					text-decoration-thickness: 0.05em !important;
+					text-underline-offset: 0.05em !important;
+					&::before {
+						position: absolute;
+						content: "\2794";
+						font-size: 0.75em;
+						top: 0.85em;
+						left: -1em;
+					}
+				}
+			}
 		}
+	}
+
+	.next-project-image {
+		left: 6em;
 	}
 
 	.background-image-contact {

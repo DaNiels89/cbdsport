@@ -46,12 +46,13 @@ defined( "ABSPATH" ) || exit;
     </div>
 </nav>
 
+<!-- Position absolute geven -->
 <div id="header-main-nav" class="container-fluid d-none">
-    <div class="row">
+    <div class="row mb-5">
         <div class="col offset-xl-1">
-            <div class=""><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/werk" class="header-a-page active">Werk</a></span></div>
-            <div class=""><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/over-ons" class="header-a-page">Over ons</a></span></div>
-            <div class=""><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/contact" class="header-a-page">Contact</a></span></div>
+            <div class="px-3 px-xl-0"><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/werk" class="header-a-page active">Werk</a></span></div>
+            <div class="px-3 px-xl-0"><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/over-ons" class="header-a-page">Over ons</a></span></div>
+            <div class="px-3 px-xl-0"><span class="jakarta-medium-font fs-4080"><a href="<?php echo get_site_url(); ?>/contact" class="header-a-page">Contact</a></span></div>
         </div>
     </div>
 

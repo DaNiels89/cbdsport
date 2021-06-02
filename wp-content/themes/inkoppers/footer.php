@@ -2,9 +2,9 @@
 // Exit if accessed directly.
 defined("ABSPATH") || exit;
 ?>
-
+<?php if (!is_page( 30 )): ?> 
 <div id="footer" class="qb-footer container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> pb-5 py-xl-5">
-    <div class="row mt-xl-5 pb-5 py-xl-5 my-xl-5">
+    <div class="row mt-xl-5 pb-5 py-xl-5 my-xl-5 ">
         <div class="col-xl-5 offset-xl-1 my-5">
             <span class="degular-font fs-4080">Laten we<br />samen werken.</span>
         </div>
@@ -48,7 +48,7 @@ defined("ABSPATH") || exit;
         </div>
     </div>
 </div>
-
+<?php endif;?>
 <?php wp_footer(); ?>
 
 </body>

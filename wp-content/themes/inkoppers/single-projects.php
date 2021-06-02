@@ -94,12 +94,12 @@ get_header();
 
 <div class="container-fluid bg-ink-dark ink-pt-6 ink-pb-3">
     <div class="row">
-        <div class="col-xl-10 offset-xl-1">
+        <div class="col-xl-10 offset-xl-1 px-0 px-lg-3">
             <div class="row mx-0">
                 <div class="col-xl-4 px-xl-0 d-flex align-items-center bg-ink-light">
-                    <div id="project-div" class="vh40 d-flex flex-column justify-content-center ink-p-3">
-                        <span class="jakarta-regular-font fs-2440 mb-5">Meer weten <br /> over dit project?</span>
-                        <div class="mb-4"><a href="mailto:info@quarterback.nl" class="">info@quarterback.nl</a></div>
+                    <div id="project-div" class="vh40 d-flex flex-column justify-content-center ink-p-lg-3">
+                        <span class="jakarta-regular-font fs-2440 mb-3 mb-lg-5">Meer weten over dit project?</span>
+                        <div class="mb-lg-4"><a href="mailto:info@quarterback.nl" class="">info@quarterback.nl</a></div>
                         <div><a href="tel:0031610835300" class="">+31 6 10 83 53 00</a></div>
                     </div> 
                 </div>
@@ -107,8 +107,8 @@ get_header();
                     <a href="#" class="">
                         <div class="background-image-project project-7">
                             <div class="next-project-image">
-                                <p class="jakarta-light-font mb-0">Volgend project</p>
-                                <span class="degular-font fs-4080 mt-0">Bossche locals</span>
+                                <p class="jakarta-light-font fs-1825 mb-0">Volgend project</p>
+                                <span class="degular-font fs-4080 next-project-underline-arrow mt-0">Bossche locals</span>
                             </div>
                         </div>
                     </a>
@@ -118,7 +118,7 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark">
+<div class="container-fluid bg-ink-dark d-none d-lg-block">
     <div class="row">
         <div class="col col-xl-10 offset-xl-1 ink-mt-4">
             <hr class="">

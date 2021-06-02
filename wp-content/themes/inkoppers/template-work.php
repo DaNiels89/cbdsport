@@ -24,7 +24,7 @@ get_header();
             <a href="#" class="">
                 <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                     <div class="watch-project">
-                        <p>Bekijk project</p>
+                        <p class="p-watch-project d-none d-lg-block">Bekijk project</p>
                     </div>
                 </div>
                 <span class=""><a href="#" class="degular-font fs-2440">CBD+Sport</a></span>
@@ -35,7 +35,7 @@ get_header();
             <a href="#" class="">
                 <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                     <div class="watch-project">
-                        <p>Bekijk project</p>
+                        <p class="p-watch-project d-none d-lg-block">Bekijk project</p>
                     </div>
                 </div>
                 <span class=""><a href="#" class="degular-font fs-2440">CBD+Sport</a></span>
@@ -46,7 +46,7 @@ get_header();
             <a href="#" class="">
                 <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                     <div class="watch-project">
-                        <p>Bekijk project</p>
+                        <p class="p-watch-project d-none d-lg-block">Bekijk project</p>
                     </div>
                 </div>
                 <span class=""><a href="#" class="degular-font fs-2440">CBD+Sport</a></span>
@@ -62,7 +62,7 @@ get_header();
         <a href="#" class="">
                 <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                     <div class="watch-project">
-                        <p>Bekijk project</p>
+                        <p class="p-watch-project d-none d-lg-block">Bekijk project</p>
                     </div>
                 </div>
                 <span class=""><a href="#" class="degular-font fs-2440">CBD+Sport</a></span>
@@ -78,7 +78,7 @@ get_header();
         <a href="#" class="">
                 <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                     <div class="watch-project">
-                        <p>Bekijk project</p>
+                        <p class="p-watch-project d-none d-lg-block">Bekijk project</p>
                     </div>
                 </div>
                 <span class=""><a href="#" class="degular-font fs-2440">CBD+Sport</a></span>
@@ -89,7 +89,7 @@ get_header();
             <a href="#" class="">
                 <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                     <div class="watch-project">
-                        <p>Bekijk project</p>
+                        <p class="p-watch-project d-none d-lg-block">Bekijk project</p>
                     </div>
                 </div>
                 <span class=""><a href="#" class="degular-font fs-2440">CBD+Sport</a></span>
