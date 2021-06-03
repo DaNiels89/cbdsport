@@ -12,14 +12,22 @@ defined("ABSPATH") || exit;
 
         <div class="col-7 col-xl-3 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
-            <p class="jakarta-light-font mt-xl-5"><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
-            <p class="jakarta-light-font a-hover-underline-arrow">Emmaustraat 1</p>
-            <p class="jakarta-light-font a-hover-underline-arrow">5492BK Sint-Oedenrode</p>
+            <?php
+                $contactEmail = get_field("contact_email_address", "option");
+                $contactStreet = get_field("contact_street", "option");
+                $contactZipCity = get_field("contact_zip_code_city", "option");
+            ?>
+            <p class="jakarta-light-font mt-xl-5"><a href="mailto:<?php echo $contactEmail; ?>" class="a-hover-underline-arrow" title="E-mailadres Quarterback"><?php echo $contactEmail; ?></a></p>
+            <p class="jakarta-light-font a-hover-underline-arrow"><?php echo $contactStreet; ?></p>
+            <p class="jakarta-light-font a-hover-underline-arrow"><?php echo $contactZipCity; ?></p>
         </div>
         
         <div class="col-5 col-xl-3 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Socials</span>
-            <p class="jakarta-light-font a-hover-underline-arrow mt-xl-5"><a href="https://www.instagram.com/quarterback.nl/" class="" target="_blank" title="Instagram Quarterback">Instagram</a></p>
+            <?php
+                $socialInstagram = get_field("social_instagram", "option");
+            ?>
+            <p class="jakarta-light-font a-hover-underline-arrow mt-xl-5"><a href="<?php echo $socialInstagram["url"]; ?>" class="" target="<?php echo $socialInstagram["target"]; ?>" title="<?php echo $socialInstagram["title"]; ?>"><?php echo $socialInstagram["title"]; ?></a></p>
             <p class="jakarta-light-font a-hover-underline-arrow"><a href="https://nl.linkedin.com/in/danny-siebers" class="" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></p>
             <p class="jakarta-light-font a-hover-underline-arrow"><a href="https://www.facebook.com/quarterback.nl/" class="" target="_blank" title="Facebook Quarterback">Facebook</a></p>
         </div>

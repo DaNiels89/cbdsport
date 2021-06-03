@@ -5,13 +5,21 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
+<?php 
+    $heroTitle = get_field("hero_title");
+    $heroButtonTitle = get_field("hero_button_title");
+    $heroImage = get_field("hero_image");
+?>
+
 <div id="first-container" class="container-fluid">
     <div class="row align-items-center">
         <div class="col-12 col-xl-4 offset-xl-1">
-            <h1 class="mb-xl-5">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
+            <?php if ($heroTitle): ?>
+                <h1 class="mb-xl-5"><?php echo $heroTitle; ?></h1>
+            <?php endif; ?>
             <!-- Button trigger modal -->
             <button type="button" class="watch-showreal-btn ink-py-2 px-0" data-toggle="modal" data-target="#watchShowreal">
-                Bekijk showreal
+                <?php echo $heroButtonTitle; ?>
                 <!-- mobile -->
                 <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
@@ -36,21 +44,33 @@ get_header();
                 </div>
             </div>
         </div>
-        <div id="main-image" class="column col-xl-6 offset-xl-1 my-5 my-xl-0 background-image-1">
+        <div id="main-image" class="column col-xl-6 offset-xl-1 my-5 my-xl-0 background-image-1" style="background-image: url('<?php echo $heroImage["sizes"]["large"]; ?>')">
         </div>
     </div>
 </div>
 
+<?php 
+    $aboutUsImage = get_field("about_us_image");
+    $aboutUsTitle = get_field("about_us_title");
+    $aboutUsText = get_field("about_us_text");
+    $aboutUsButton = get_field("about_us_button");
+?>
+
 <div class="container-fluid">
     <div class="row align-items-center">
-        <div class="column col-xl-4 p-xl-0 d-none d-xl-block background-image-2 h-900">
+        <div class="column col-xl-4 p-xl-0 d-none d-xl-block background-image-2 h-900" style="background-image: url('<?php echo $aboutUsImage["sizes"]["large"]; ?>')">
         </div>       
         <div class="column col-xl-6 offset-xl-1 py-5 p-xl-5">
-            <p class="p-gray jakarta-light-font my-5">Over ons</p>
-            <p class="fs-2040 my-5">We zijn nuchtere mensen die geloven in hard werken en in het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met doeltreffende ontwerpen en heldere communicatie.</p>
+            <?php if ($aboutUsTitle): ?>
+                <p class="p-gray jakarta-light-font my-5"><?php echo $aboutUsTitle; ?></p>
+            <?php endif; ?>
+            <?php if ($aboutUsText): ?>
+                <p class="fs-2040 my-5"><?php echo $aboutUsText; ?></p>
+            <?php endif; ?>
+            <?php if ($aboutUsButton): ?>
             <div class="div-a-showreal d-flex align-items-center">
-                <a href="<?php echo get_site_url(); ?>/over-ons" class="a-showreal mr-3">Meer over ons</a>
-                <a href="<?php echo get_site_url(); ?>/over-ons" class="">
+                <a href="<?php echo $aboutUsButton["url"]; ?>" class="a-showreal mr-3" target="<?php echo $aboutUsButton["target"]; ?>"><?php echo $aboutUsButton["title"]; ?></a>
+                <a href="<?php echo $aboutUsButton["url"]; ?>" class="" target="<?php echo $aboutUsButton["target"]; ?>">
                     <!-- mobile -->
                     <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                         <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
@@ -63,6 +83,7 @@ get_header();
                     </svg>
                 </a>
             </div>
+            <?php endif; ?>
         </div>
     </div>
 </div>

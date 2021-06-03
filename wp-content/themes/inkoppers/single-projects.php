@@ -5,13 +5,19 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
+<?php
+    $heroBackgroundImage = get_field("hero_background_image");
+    $title = get_the_title();
+    $tagLine = get_field("tag_line");
+?>
+
 <div class="container-fluid p-0">
     <div class="row">
         <div class="col p-0">
-            <div class="background-image-project upper-project-image">
+            <div class="background-image-project upper-project-image" style="background-image: url('<?php echo $heroBackgroundImage["sizes"]["large"]; ?>')">
                 <div class="project-image-text">
-                    <h1 class=""><?php the_title(); ?></h1>
-                    <p class="">The smart athletes choice</p>
+                    <h1 class=""><?php echo $title; ?></h1>
+                    <p class=""><?php echo $tagLine; ?></p>
                 </div>
             </div>
         </div>
