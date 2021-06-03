@@ -112,6 +112,10 @@ $clamp4580: clamp(2.8125rem, 10vw, 5rem);
 	font-family: PlusJakartaSansMedium, sans-serif;
 }
 
+.color-ink-gray {
+	color: $ink-gray;
+}
+
 @mixin degular-font {
 	font-family: degular, sans-serif;
 	font-style: normal;

@@ -13,7 +13,7 @@ get_header();
             <h1 class="">Wij ontwikkelen concepten en bouwen merken</h1>
         </div>
         <div class="col-sm-12 col-xl-5 d-flex align-items-end height-600">
-            <p class="mt-4 mb-5 p-xl-5 p-600">We zijn nuchtere mensen die geloven in hard werken en het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met een geweldig ontwerp en doen er alles aan om een service te bieden die we zelf graag zouden willen ervaren.</p>
+            <p class="jakarta-light-font color-ink-gray lh-175 mt-4 mb-5 p-xl-5 p-600">We zijn nuchtere mensen die geloven in hard werken en het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met een geweldig ontwerp en doen er alles aan om een service te bieden die we zelf graag zouden willen ervaren.</p>
         </div>
     </div>
 </div>
@@ -29,27 +29,31 @@ get_header();
 <div class="container-fluid bg-ink-dark py-5">
     <div class="row">
         <div class="col-xl-8 offset-xl-1">
-            <p class="p-gray">Wat we doen</p>
+            <p class="p-gray jakarta-light-font mb-4 mb-lg-5">Wat we doen</p>
             <p class="fs-1840 mb-5">We werken nauw samen met startups om hun visie tot leven te brengen, werken samen met groeiende merken om hen te verbinden met de toekomst, en zijn een creatieve sparrings partner voor toonaangevende bedrijven.</p>
         </div>
     </div>
 </div>
 
-<div class="container-fluid bg-ink-dark">
-    <div class="row">
-        <div class="col-xl-3 offset-xl-1">
-            <span class="degular-font fs-2440 mb-4">Concept</span>
-            <p class="p-gray fs-1825 my-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+<div class="container-fluid bg-ink-dark py-5">
+  <div class="row">
+    <div class="col-xl-10 offset-xl-1">
+      <div class="row">
+        <div class="col-xl-4 pt-4">
+          <span class="degular-font fs-2440">Concept</span>
+          <p class="p-gray jakarta-light-font fs-1825 my-3 my-lg-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
         </div>
-        <div class="col-xl-3 ">
-            <span class="degular-font fs-2440 mb-4">Branding</span>
-            <p class="p-gray fs-1825 my-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+        <div class="col-xl-4 pt-4">
+          <span class="degular-font fs-2440">Branding</span>
+          <p class="p-gray jakarta-light-font fs-1825 my-3 my-lg-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
         </div>
-        <div class="col-xl-3 mb-5">
-            <span class="degular-font fs-2440 mb-4">Design</span>
-            <p class="p-gray fs-1825 my-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+        <div class="col-xl-4 pt-4 mb-5">
+          <span class="degular-font fs-2440">Design</span>
+          <p class="p-gray jakarta-light-font fs-1825 my-3 my-lg-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="container-fluid d-block d-md-none">
@@ -88,27 +92,27 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid my-5">
+<div class="container-fluid">
     <div class="row">
         <div class="col-xl-4 offset-xl-1">
             <p class="p-gray mt-5">Wat we doen</p>
             <span class="degular-font fs-4080">Design and development for every stage of your journey.</span>
         </div>
         <div class="col-xl-5 offset-xl-1">
-          <div id="accordion" class="modified-accordion ink-my-5">
+          <div id="accordion" class="modified-accordion ink-my-4 mx-0 ink-my-lg-16">
             <div class="card">
-                <div class="card-header bg-ink-light ink-mt-5" id="headingOne">
+                <div class="card-header bg-ink-light px-0" id="headingOne">
                   <h5 class="mb-0">
-                    <button class="btn btn-link ink-btn p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="btn btn-link ink-btn card-btn p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                       Ontdekken
                     </button>
                   </h5>
                 </div>
               </div>
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  <p class="lh-175 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
-                  <div class="row">
+                <div class="card-body px-0">
+                  <p class="jakarta-light-font lh-175 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
+                  <div class="row ink-mb-2 ink-mb-lg-6">
                     <div class="d-flex flex-column col-xl-5 px-xl-3">
                       <a href="#" class="a-gray lh-175">Merk & Identiteit</a>
                       <a href="#" class="a-gray lh-175">Art direction</a>
@@ -123,19 +127,19 @@ get_header();
                 </div>
               </div>
               <div class="card">
-                <div class="card-header bg-ink-light ink-mt-5" id="headingTwo">
+                <div class="card-header bg-ink-light px-0" id="headingTwo">
                   <h5 class="mb-0">
-                    <button class="btn btn-link ink-btn p-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link ink-btn card-btn p-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       Ontwerpen
                     </button>
                   </h5>
                 </div>
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  <p class="lh-175 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
+                <div class="card-body px-0">
+                  <p class="jakarta-light-font lh-175 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
                   <div class="d-flex flex-column">
-                  <div class="row">
+                  <div class="row ink-mb-2 ink-mb-lg-6">
                     <div class="d-flex flex-column col-xl-5 px-xl-3">
                       <a href="#" class="a-gray lh-175">Merk & Identiteit</a>
                       <a href="#" class="a-gray lh-175">Art direction</a>
@@ -151,30 +155,30 @@ get_header();
                 </div>
               </div>
               <div class="card">
-                <div class="card-header bg-ink-light ink-mt-5" id="headingThree">
+                <div class="card-header last-header bg-ink-light px-0" id="headingThree">
                   <h5 class="mb-0">
-                    <button class="btn btn-link ink-btn p-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn btn-link ink-btn card-btn p-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       Ontwikkelen
                     </button>
                   </h5>
                 </div>
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  <p class="lh-175 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
+                <div class="card-body px-0">
+                  <p class="jakarta-light-font lh-175 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
                   <div class="d-flex flex-column">
-                  <div class="row">
-                    <div class="d-flex flex-column col-xl-5 px-xl-3">
-                      <a href="#" class="a-gray lh-175">Merk & Identiteit</a>
-                      <a href="#" class="a-gray lh-175">Art direction</a>
-                      <a href="#" class="a-gray lh-175">Creatief advies</a>
+                    <div class="row">
+                      <div class="d-flex flex-column col-xl-5 px-xl-3">
+                        <a href="#" class="a-gray lh-175">Merk & Identiteit</a>
+                        <a href="#" class="a-gray lh-175">Art direction</a>
+                        <a href="#" class="a-gray lh-175">Creatief advies</a>
+                      </div>
+                      <div class="d-flex flex-column col-xl-7 px-xl-3">
+                        <a href="#" class="a-gray lh-175">UX/UI Design</a>
+                        <a href="#" class="a-gray lh-175">Website design</a>
+                        <a href="#" class="a-gray lh-175">Website development</a>
+                      </div>
                     </div>
-                    <div class="d-flex flex-column col-xl-7 px-xl-3">
-                      <a href="#" class="a-gray lh-175">UX/UI Design</a>
-                      <a href="#" class="a-gray lh-175">Website design</a>
-                      <a href="#" class="a-gray lh-175">Website development</a>
-                    </div>
-                  </div>
                   </div>
                 </div>
               </div>
@@ -182,91 +186,6 @@ get_header();
         </div>
     </div>
 </div>
-
-<!-- <div id="accordion">
-  <div class="card col-xl-6 offset-xl-6">
-    <div class="card-header bg-ink-light" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link ink-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Ontdekken
-        </button>
-      </h5>
-    </div>
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-        <p class="mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
-        <div class="row">
-          <div class="d-flex flex-column col-xl-5 px-xl-3">
-            <a href="#" class="a-gray">Merk & Identiteit</a>
-            <a href="#" class="a-gray">Art direction</a>
-            <a href="#" class="a-gray">Creatief advies</a>
-          </div>
-          <div class="d-flex flex-column col-xl-7 px-xl-3">
-            <a href="#" class="a-gray">UX/UI Design</a>
-            <a href="#" class="a-gray">Website design</a>
-            <a href="#" class="a-gray">Website development</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="card col-xl-6 offset-xl-6">
-    <div class="card-header bg-ink-light" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link ink-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Ontwerpen
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-        <p class="mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
-        <div class="d-flex flex-column">
-        <div class="row">
-          <div class="d-flex flex-column col-xl-5 px-xl-3">
-            <a href="#" class="a-gray">Merk & Identiteit</a>
-            <a href="#" class="a-gray">Art direction</a>
-            <a href="#" class="a-gray">Creatief advies</a>
-          </div>
-          <div class="d-flex flex-column col-xl-7 px-xl-3">
-            <a href="#" class="a-gray">UX/UI Design</a>
-            <a href="#" class="a-gray">Website design</a>
-            <a href="#" class="a-gray">Website development</a>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="card col-xl-6 offset-xl-6 mb-6">
-    <div class="card-header bg-ink-light" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link ink-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Ontwikkelen
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-        <p class="mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
-        <div class="d-flex flex-column">
-        <div class="row">
-          <div class="d-flex flex-column col-xl-5 px-xl-3">
-            <a href="#" class="a-gray">Merk & Identiteit</a>
-            <a href="#" class="a-gray">Art direction</a>
-            <a href="#" class="a-gray">Creatief advies</a>
-          </div>
-          <div class="d-flex flex-column col-xl-7 px-xl-3">
-            <a href="#" class="a-gray">UX/UI Design</a>
-            <a href="#" class="a-gray">Website design</a>
-            <a href="#" class="a-gray">Website development</a>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
 
 <div class="container-fluid bg-ink-dark ink-pt-5">
   <div class="row align-items-center mb-3">

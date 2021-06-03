@@ -238,7 +238,7 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 80vh;
+	min-height: 40vh;
 	position: relative;
 }
 
@@ -503,15 +503,23 @@ svg {
 	color: $ink-dark;
 }
 
-.card-header {
-	border-bottom: none;
+.card {
+	border: none;
 }
 
-// #accordion {
-// 	& > div {
-// 		padding: 0;
-// 	}
-// }
+.card-header {
+	border-top: 1px solid $ink-gray;
+	padding: 1em 0;
+	border-bottom: none;
+	&.last-header {
+		border-bottom: 1px solid $ink-gray;
+	}
+}
+
+.card-btn {
+	@include degular-font;
+	font-size: 1.5rem;
+}
 // End accordion about us
 
 // Cookie melding
@@ -677,7 +685,7 @@ svg {
 		background-position: center top;
 	}
 	.background-image-werk,
-	.background-image-werk-test {
+	.background-image-woman {
 		min-height: 80vh;
 		background-position: center center;
 	}
@@ -747,6 +755,19 @@ svg {
 		}
 	}
 
+	.card-header {
+		border-top: none;
+		&.last-header {
+			border-bottom: none;
+		}
+	}
+
+	.card-btn {
+		@include jakarta-regular;
+		font-size: 2.5rem;
+		font-size: $clamp2440;
+	}
+
 	// Single project page
 	.project-image-text {
 		position: absolute;
@@ -767,7 +788,6 @@ svg {
 		}
 	}
 	.card {
-		border: none;
 		button::before {
 			vertical-align: bottom;
 		}
