@@ -7,4 +7,10 @@ jQuery(document).ready(function ($) {
 	$("#cookie-btn").on("click", function () {
 		$("#cookie-div").addClass("d-none");
 	});
+	// Slick Slider
+	$(".qb-slider-desktop").slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+	});
 });

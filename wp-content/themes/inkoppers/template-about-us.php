@@ -87,7 +87,11 @@ get_header();
 <div class="container-fluid bg-ink-dark d-none d-md-block">
     <div class="row">
         <div class="col col-xl-10 offset-xl-1">
-            <img src="http://localhost/quarterback/wp-content/uploads/2021/05/light-gray.png" alt="" class="">
+          <div class="qb-slider-desktop">
+            <div class="background-image">Content</div>
+            <div class="background-image">Content</div>
+            <div class="background-image">Content</div>
+          </div>
         </div>
     </div>
 </div>
