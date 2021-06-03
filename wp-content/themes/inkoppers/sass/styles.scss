@@ -365,7 +365,7 @@ svg {
 	background-position: center;
 	min-height: 40vh;
 	position: relative;
-	&.mvh-70 {
+	&.mvh-mobile-70 {
 		min-height: 70vh;
 	}
 }
@@ -753,6 +753,9 @@ svg {
 
 	.background-image-contact {
 		min-height: 80vh;
+		&.mvh-desktop-80 {
+			min-height: 80vh;
+		}
 	}
 
 	.play-showreal {

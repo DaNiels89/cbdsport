@@ -7,10 +7,12 @@ jQuery(document).ready(function ($) {
 	$("#cookie-btn").on("click", function () {
 		$("#cookie-div").addClass("d-none");
 	});
-	// Slick Slider
+	// Slick Slider mobile
+	$(".qb-slider-mobile").slick();
+	// Slick Slider desktop
 	$(".qb-slider-desktop").slick({
 		infinite: true,
-		slidesToShow: 3,
-		slidesToScroll: 3,
+		slidesToShow: 2,
+		slidesToScroll: 1,
 	});
 });

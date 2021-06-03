@@ -13,7 +13,7 @@ defined("ABSPATH") || exit;
         <div class="col-7 col-xl-3 d-flex flex-column">
             <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
             <p class="jakarta-light-font mt-xl-5"><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
-            <p class="jakarta-light-font a-ho ver-underline-arrow">Emmaustraat 1</p>
+            <p class="jakarta-light-font a-hover-underline-arrow">Emmaustraat 1</p>
             <p class="jakarta-light-font a-hover-underline-arrow">5492BK Sint-Oedenrode</p>
         </div>
         
