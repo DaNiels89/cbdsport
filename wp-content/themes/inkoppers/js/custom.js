@@ -3,10 +3,6 @@ jQuery(document).ready(function ($) {
 	$("#header-menu-btn").on("click", function () {
 		$("#header-main-nav").toggleClass("d-none");
 	});
-	// Add class show to Bootstrap accordion on big sizes so it fully opens
-	if ($(window).width() > 767) {
-		$(".collapse").addClass("show");
-	}
 	// Cookie bar
 	$("#cookie-btn").on("click", function () {
 		$("#cookie-div").addClass("d-none");
