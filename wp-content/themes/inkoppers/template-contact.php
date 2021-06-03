@@ -38,7 +38,7 @@ get_header();
 
 <div class="container-fluid qb-footer bg-ink-dark">
     <div class="row">
-        <div class="col-xl-6 background-image-contact position-relative">
+        <div class="col-xl-6 background-image-contact mvh-70 position-relative">
             <div class="row">
                 <div class="col-12 offset-xl-2 position-absolute contact-page-footer">
                     <span class="degular-font fs-4080">Laten we<br />samen werken.</span>
