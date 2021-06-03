@@ -16,7 +16,7 @@ get_header();
                     <h1 class="">Met deze bedrijven hebben wij een duurzame relatie</h1>
                 </div>
                 <div class="col-xl-5 offset-xl-1 px-0">
-                    <p class="ink-my-3 mx-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
+                    <p class="ink-my-3 mx-0 lh-175">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
                 </div>
             </div>
         </div>

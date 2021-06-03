@@ -363,7 +363,7 @@ svg {
 	background-color: $ink-light;
 	background-size: cover;
 	background-position: center;
-	min-height: 70vh;
+	min-height: 40vh;
 	position: relative;
 }
 
@@ -405,6 +405,10 @@ svg {
 	right: 0;
 }
 
+.trans-trans-y-50 {
+	transform: translateY(50%);
+}
+
 .trans-trans-y-75 {
 	transform: translateY(75%);
 }
@@ -442,7 +446,7 @@ svg {
 }
 
 .upper-container {
-	padding-top: 8em;
+	padding-top: 10em;
 }
 
 // Contact page
@@ -766,6 +770,14 @@ svg {
 		@include jakarta-regular;
 		font-size: 2.5rem;
 		font-size: $clamp2440;
+	}
+
+	.lh-lg-2 {
+		line-height: 2;
+	}
+
+	.trans-trans-y-lg-75 {
+		transform: translateY(75%);
 	}
 
 	// Single project page

@@ -13,7 +13,7 @@ get_header();
             <h1 class="">Wij ontwikkelen concepten en bouwen merken</h1>
         </div>
         <div class="col-sm-12 col-xl-5 d-flex align-items-end height-600">
-            <p class="jakarta-light-font color-ink-gray lh-175 mt-4 mb-5 p-xl-5 p-600">We zijn nuchtere mensen die geloven in hard werken en het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met een geweldig ontwerp en doen er alles aan om een service te bieden die we zelf graag zouden willen ervaren.</p>
+            <p class="jakarta-light-font color-ink-gray lh-lg-2 mt-4 mb-5 p-xl-5 p-600">We zijn nuchtere mensen die geloven in hard werken en het opbouwen van duurzame relaties. We vinden het leuk om bedrijven er beter uit te laten zien met een geweldig ontwerp en doen er alles aan om een service te bieden die we zelf graag zouden willen ervaren.</p>
         </div>
     </div>
 </div>
@@ -41,15 +41,15 @@ get_header();
       <div class="row">
         <div class="col-xl-4 pt-4">
           <span class="degular-font fs-2440">Concept</span>
-          <p class="p-gray jakarta-light-font fs-1825 my-3 my-lg-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+          <p class="p-gray jakarta-light-font lh-lg-2 fs-1825 my-3 my-lg-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
         </div>
         <div class="col-xl-4 pt-4">
           <span class="degular-font fs-2440">Branding</span>
-          <p class="p-gray jakarta-light-font fs-1825 my-3 my-lg-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+          <p class="p-gray jakarta-light-font lh-lg-2 fs-1825 my-3 my-lg-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
         </div>
         <div class="col-xl-4 pt-4 mb-5">
           <span class="degular-font fs-2440">Design</span>
-          <p class="p-gray jakarta-light-font fs-1825 my-3 my-lg-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+          <p class="p-gray jakarta-light-font lh-lg-2 fs-1825 my-3 my-lg-5">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
         </div>
       </div>
     </div>
@@ -111,17 +111,17 @@ get_header();
               </div>
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body px-0">
-                  <p class="jakarta-light-font lh-175 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
+                  <p class="jakarta-light-font lh-lg-2 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
                   <div class="row ink-mb-2 ink-mb-lg-6">
                     <div class="d-flex flex-column col-xl-5 px-xl-3">
-                      <a href="#" class="a-gray lh-175">Merk & Identiteit</a>
-                      <a href="#" class="a-gray lh-175">Art direction</a>
-                      <a href="#" class="a-gray lh-175">Creatief advies</a>
+                      <a href="#" class="a-gray lh-lg-2">Merk & Identiteit</a>
+                      <a href="#" class="a-gray lh-lg-2">Art direction</a>
+                      <a href="#" class="a-gray lh-lg-2">Creatief advies</a>
                     </div>
                     <div class="d-flex flex-column col-xl-7 px-xl-3">
-                      <a href="#" class="a-gray lh-175">UX/UI Design</a>
-                      <a href="#" class="a-gray lh-175">Website design</a>
-                      <a href="#" class="a-gray lh-175">Website development</a>
+                      <a href="#" class="a-gray lh-lg-2">UX/UI Design</a>
+                      <a href="#" class="a-gray lh-lg-2">Website design</a>
+                      <a href="#" class="a-gray lh-lg-2">Website development</a>
                     </div>
                   </div>
                 </div>
@@ -137,18 +137,18 @@ get_header();
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body px-0">
-                  <p class="jakarta-light-font lh-175 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
+                  <p class="jakarta-light-font lh-lg-2 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
                   <div class="d-flex flex-column">
                   <div class="row ink-mb-2 ink-mb-lg-6">
                     <div class="d-flex flex-column col-xl-5 px-xl-3">
-                      <a href="#" class="a-gray lh-175">Merk & Identiteit</a>
-                      <a href="#" class="a-gray lh-175">Art direction</a>
-                      <a href="#" class="a-gray lh-175">Creatief advies</a>
+                      <a href="#" class="a-gray lh-lg-2">Merk & Identiteit</a>
+                      <a href="#" class="a-gray lh-lg-2">Art direction</a>
+                      <a href="#" class="a-gray lh-lg-2">Creatief advies</a>
                     </div>
                     <div class="d-flex flex-column col-xl-7 px-xl-3">
-                      <a href="#" class="a-gray lh-175">UX/UI Design</a>
-                      <a href="#" class="a-gray lh-175">Website design</a>
-                      <a href="#" class="a-gray lh-175">Website development</a>
+                      <a href="#" class="a-gray lh-lg-2">UX/UI Design</a>
+                      <a href="#" class="a-gray lh-lg-2">Website design</a>
+                      <a href="#" class="a-gray lh-lg-2">Website development</a>
                     </div>
                   </div>
                   </div>
@@ -165,18 +165,18 @@ get_header();
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body px-0">
-                  <p class="jakarta-light-font lh-175 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
+                  <p class="jakarta-light-font lh-lg-2 mb-5">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
                   <div class="d-flex flex-column">
                     <div class="row">
                       <div class="d-flex flex-column col-xl-5 px-xl-3">
-                        <a href="#" class="a-gray lh-175">Merk & Identiteit</a>
-                        <a href="#" class="a-gray lh-175">Art direction</a>
-                        <a href="#" class="a-gray lh-175">Creatief advies</a>
+                        <a href="#" class="a-gray lh-lg-2">Merk & Identiteit</a>
+                        <a href="#" class="a-gray lh-lg-2">Art direction</a>
+                        <a href="#" class="a-gray lh-lg-2">Creatief advies</a>
                       </div>
                       <div class="d-flex flex-column col-xl-7 px-xl-3">
-                        <a href="#" class="a-gray lh-175">UX/UI Design</a>
-                        <a href="#" class="a-gray lh-175">Website design</a>
-                        <a href="#" class="a-gray lh-175">Website development</a>
+                        <a href="#" class="a-gray lh-lg-2">UX/UI Design</a>
+                        <a href="#" class="a-gray lh-lg-2">Website design</a>
+                        <a href="#" class="a-gray lh-lg-2">Website development</a>
                       </div>
                     </div>
                   </div>

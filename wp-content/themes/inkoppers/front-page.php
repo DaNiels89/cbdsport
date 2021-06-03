@@ -115,10 +115,10 @@ get_header();
 </div>
 
 <div class="container-fluid bg-ink-dark ink-pt-lg-2 ink-pb-6">
-    <div class="row">
+    <div class="row ink-mb-4">
         <div class="column col-xl-7 offset-xl-1 px-xl-0">
             <p class="p-gray jakarta-light-font pt-5">Wat we doen</p>
-            <h2 class="degular-font fs-4080 ink-mb-1">Design and development for every stage of your journey.</h2>
+            <h2 class="degular-font fs-4080">Design and development for every stage of your journey.</h2>
         </div> 
     </div>
     <div class="row">

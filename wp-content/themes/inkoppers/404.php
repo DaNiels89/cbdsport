@@ -13,7 +13,7 @@ get_header();
                 <div class="right-404-image"></div>
             </div>
         </div>
-        <div class="col-xl-4 offset-xl-1 trans-trans-y-75">
+        <div class="col-xl-4 offset-xl-1 trans-trans-y-50 trans-trans-y-lg-75">
             <p class="p-gray mb-0">404</p>
             <h1 class="mb-4">Pagina niet<br /> gevonden.</h1>
             <p class="lh-2 ink-mr-xl-4">Om de pijn te verzachten is hier een link naar onze Spotify office playlist.</p>
