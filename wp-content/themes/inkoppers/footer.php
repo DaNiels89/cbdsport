@@ -24,7 +24,7 @@ defined("ABSPATH") || exit;
 ?>
 
 <div id="footer" class="qb-footer container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> pb-5 py-xl-5">
-    <?php if (!is_page( 30 )): ?> 
+    <?php if (!is_page( "contact" )): ?> 
     <div class="row mt-xl-5 pb-5 py-xl-5 my-xl-5 ">
         <div class="col-xl-5 offset-xl-1 my-5">
             <?php if ($footerTitle): ?>
@@ -65,19 +65,35 @@ defined("ABSPATH") || exit;
     <?php endif;?>
     <div class="row">
         <div class="col col-xl-10 offset-xl-1 d-flex flex-column flex-xl-row my-3">
-            <?php if(is_front_page()): ?>
+            <?php if(is_front_page() || is_404() || is_page( "klanten" ) || is_page( "content" )): ?>
                 <?php if ($footerProjectsLink): ?>
                     <a href="<?php echo $footerProjectsLink["url"]; ?>" class="a-hover-underline-arrow mr-xl-4 mb-xl-2" target="<?php echo $footerProjectsLink["target"]; ?>" title="<?php echo $footerProjectsLink["title"]; ?>"><?php echo $footerProjectsLink["title"]; ?></a>
-                <?php endif; ?>     
+                <?php endif; ?>
             <?php else: ?>
                 <?php if ($footerHomeLink): ?>
                     <a href="<?php echo $footerHomeLink["url"]; ?>" class="a-hover-underline-arrow mr-xl-4 mb-xl-2" target="<?php echo $footerHomeLink["target"]; ?>" title="<?php echo $footerHomeLink["title"]; ?>"><?php echo $footerHomeLink["title"]; ?></a>
                 <?php endif; ?>   
             <?php endif; ?>
 
-
-            <a href="<?php echo get_site_url(); ?>/over-ons" class="a-hover-underline-arrow mx-xl-5 mb-xl-2" title="Over Quarterback">Over ons</a>
-            <a href="<?php echo get_site_url(); ?>/contact" class="a-hover-underline-arrow ml-xl-4 mb-xl-2" title="Contact Quarterback">Contact</a>
+            <?php if(is_page( "contact" ) || is_page( "over-ons" )): ?>
+                <?php if ($footerProjectsLink): ?>
+                    <a href="<?php echo $footerProjectsLink["url"]; ?>" class="a-hover-underline-arrow mx-xl-5 mb-xl-2" target="<?php echo $footerProjectsLink["target"]; ?>" title="<?php echo $footerProjectsLink["title"]; ?>"><?php echo $footerProjectsLink["title"]; ?></a>
+                <?php endif; ?> 
+            <?php else: ?>
+                <?php if ($footerAboutUsLink): ?>
+                    <a href="<?php echo $footerAboutUsLink["url"]; ?>" class="a-hover-underline-arrow mx-xl-5 mb-xl-2" target="<?php echo $footerAboutUsLink["target"]; ?>" title="<?php echo $footerAboutUsLink["title"]; ?>"><?php echo $footerAboutUsLink["title"]; ?></a>
+                <?php endif; ?>  
+            <?php endif; ?>
+ 
+            <?php if(is_page( "contact" )): ?>
+                <?php if ($footerAboutUsLink): ?>
+                    <a href="<?php echo $footerAboutUsLink["url"]; ?>" class="a-hover-underline-arrow ml-xl-4 mb-xl-2" target="<?php echo $footerAboutUsLink["target"]; ?>" title="<?php echo $footerAboutUsLink["title"]; ?>"><?php echo $footerAboutUsLink["title"]; ?></a>
+                <?php endif; ?>  
+            <?php else: ?>
+                <?php if ($footerContactLink): ?>
+                    <a href="<?php echo $footerContactLink["url"]; ?>" class="a-hover-underline-arrow ml-xl-4 mb-xl-2" target="<?php echo $footerContactLink["target"]; ?>" title="<?php echo $footerContactLink["title"]; ?>"><?php echo $footerContactLink["title"]; ?></a>
+                <?php endif; ?>
+            <?php endif; ?>
         </div>
     </div>
  
