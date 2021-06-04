@@ -13,10 +13,10 @@ defined("ABSPATH") || exit;
     $socialInstagram = get_field("social_instagram", "option");
     $socialLinkedIn = get_field("social_linkedin", "option");
     $socialFacebook = get_field("social_facebook", "option");
-    $footerHomeLink = get_field("footer_home_link");
-    $footerProjectsLink = get_field("footer_projects_link");
-    $footerAboutUsLink = get_field("footer_about_us_link");
-    $footerContactLink = get_field("footer_contact_link");
+    $footerHomeLink = get_field("footer_home_link", "option");
+    $footerProjectsLink = get_field("footer_projects_link", "option");
+    $footerAboutUsLink = get_field("footer_about_us_link", "option");
+    $footerContactLink = get_field("footer_contact_link", "option");
     $footerCopyright = get_field("footer_copyright", "option");
     $footerTermsAndConditions = get_field("footer_terms_and_conditions", "option");
     $footerPrivacy = get_field("footer_privacy", "option" );
@@ -65,7 +65,17 @@ defined("ABSPATH") || exit;
     <?php endif;?>
     <div class="row">
         <div class="col col-xl-10 offset-xl-1 d-flex flex-column flex-xl-row my-3">
-            <a href="<?php echo get_site_url(); ?>/projecten" class="a-hover-underline-arrow mr-xl-4 mb-xl-2" title="Projecten Quarterback">Projecten</a>
+            <?php if(is_front_page()): ?>
+                <?php if ($footerProjectsLink): ?>
+                    <a href="<?php echo $footerProjectsLink["url"]; ?>" class="a-hover-underline-arrow mr-xl-4 mb-xl-2" target="<?php echo $footerProjectsLink["target"]; ?>" title="<?php echo $footerProjectsLink["title"]; ?>"><?php echo $footerProjectsLink["title"]; ?></a>
+                <?php endif; ?>     
+            <?php else: ?>
+                <?php if ($footerHomeLink): ?>
+                    <a href="<?php echo $footerHomeLink["url"]; ?>" class="a-hover-underline-arrow mr-xl-4 mb-xl-2" target="<?php echo $footerHomeLink["target"]; ?>" title="<?php echo $footerHomeLink["title"]; ?>"><?php echo $footerHomeLink["title"]; ?></a>
+                <?php endif; ?>   
+            <?php endif; ?>
+
+
             <a href="<?php echo get_site_url(); ?>/over-ons" class="a-hover-underline-arrow mx-xl-5 mb-xl-2" title="Over Quarterback">Over ons</a>
             <a href="<?php echo get_site_url(); ?>/contact" class="a-hover-underline-arrow ml-xl-4 mb-xl-2" title="Contact Quarterback">Contact</a>
         </div>
