@@ -11,12 +11,23 @@ get_header();
     <div class="row ink-my-5">
         <div class="col-xl-10 offset-xl-1">
             <div class="row">
+                <?php
+                    $customersSubtitle = get_field("customers_subtitle");
+                    $customersTitle = get_field("customers_title");
+                    $customersText = get_field("customers_text");
+                ?>
                 <div class="col-xl-6 px-0 ink-pl-lg-3">
-                    <p class="p-gray d-none d-sm-block">Klanten</p>
-                    <h1 class="">Met deze bedrijven hebben wij een duurzame relatie</h1>
+                    <?php if ($customersSubtitle): ?>
+                        <p class="p-gray d-none d-sm-block"><?php echo $customersSubtitle; ?></p>
+                    <?php endif; ?>
+                    <?php if ($customersTitle): ?>
+                        <h1 class=""><?php echo $customersTitle; ?></h1>
+                    <?php endif; ?>
                 </div>
                 <div class="col-xl-5 offset-xl-1 px-0">
-                    <p class="ink-my-3 mx-0 lh-175">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p>
+                    <?php if ($customersText): ?>
+                        <p class="ink-my-3 mx-0 lh-175"><?php echo $customersText; ?></p>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
