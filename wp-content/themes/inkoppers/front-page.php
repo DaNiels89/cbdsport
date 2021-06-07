@@ -38,7 +38,7 @@ get_header();
                         <div class="modal-header">
                         </div>
                         <div class="modal-body d-flex justify-content-center align-items-end align-items-md-center">
-                            <button class="play-showreal ink-mb-3 ink-mb-lg-0">Play Showreal</button>
+                            <button class="play-showreal ink-mb-3 ink-mb-lg-0">Play Showreel</button>
                         </div>
                     </div>
                 </div>
