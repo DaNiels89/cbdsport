@@ -24,53 +24,26 @@ get_header();
     </div>
 </div>
 
-<div class="container-fluid ink-my-5 mx-0">
-    <div class="row"> 
-        <div class="col-xl-7 offset-xl-2">
-            <p class="p-gray">Wat we doen</p>
-            <p class="fs-18-40 lh-175 ink-my-2 mx-0">We specialise in building brands, selling products and telling stories. We are a team of creatives who design identities, custom-built WordPress and Shopify websites and launch digital products that empower teams.</p>
-            <p class="p-gray">Merk & identiteit</p>
-        </div>
-    </div>
-</div>
+<?php include "flexible-content.php"; ?>
 
-<div class="container-fluid ink-mb-1">
-    <div class="row">
-        <div class="col-xl-6 py-3">
-            <div class="background-image-project project-1"></div>
-        </div>
-        <div class="col-xl-6 py-xl-3">
-            <div class="background-image-project project-2"></div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <div class="background-image-project project-3"></div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid ink-my-6">
+<!-- <div class="container-fluid ink-my-6">
     <div class="row">
         <div class="col-xl-6 offset-xl-3">
             <span class="jakarta-regular-font fs-2440"><span class="stage-number">01.</span> Ontwikkelen</span>
             <p class="mt-5 lh-175">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="container-fluid half-light-half-dark ink-pb-1">
+<!-- <div class="container-fluid half-light-half-dark ink-pb-1">
     <div class="row">
         <div class="col">
             <div class="background-image-project project-3"></div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="container-fluid bg-ink-dark">
+<!-- <div class="container-fluid bg-ink-dark">
     <div class="row">
         <div class="col-xl-6 py-xl-3">
             <div class="background-image-project project-4"></div>
@@ -79,24 +52,24 @@ get_header();
             <div class="background-image-project project-5"></div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="container-fluid bg-ink-dark ink-py-6">
+<!-- <div class="container-fluid bg-ink-dark ink-py-6">
     <div class="row">
         <div class="col-xl-6 offset-xl-3">
             <span class="jakarta-regular-font fs-2440"><span class="stage-number">03.</span> Ontwikkelen</span>
             <p class="mt-5 lh-175">Our main goal is to help enterprise brands uplift their online presence with little to no effort, while still keeping their original roots. We’re big lovers of design sprints & agile methodologies, so every project is taking 2 weeks or less.</p>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="container-fluid bg-ink-dark">
+<!-- <div class="container-fluid bg-ink-dark">
     <div class="row">
         <div class="col p-3">
             <div class="background-image-project project-6"></div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container-fluid bg-ink-dark ink-pt-6 ink-pb-3">
     <div class="row">

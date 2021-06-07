@@ -6,16 +6,16 @@ defined("ABSPATH") || exit;
 
 get_header();
 ?>
+<?php
+    $customersSubtitle = get_field("customers_subtitle");
+    $customersTitle = get_field("customers_title");
+    $customersText = get_field("customers_text");
+?>
 
 <div class="container-fluid upper-container">
     <div class="row ink-my-5">
         <div class="col-xl-10 offset-xl-1">
             <div class="row">
-                <?php
-                    $customersSubtitle = get_field("customers_subtitle");
-                    $customersTitle = get_field("customers_title");
-                    $customersText = get_field("customers_text");
-                ?>
                 <div class="col-xl-6 px-0 ink-pl-lg-3">
                     <?php if ($customersSubtitle): ?>
                         <p class="p-gray d-none d-sm-block"><?php echo $customersSubtitle; ?></p>
