@@ -61,6 +61,51 @@
                 </div>
             </div>
 
+        <?php elseif (get_row_layout() == "know_more_about_project"): ?>
+            <?php
+                $knowMoreTitle = get_sub_field("know_more_title");
+                $knowMoreEmail = get_sub_field("know_more_email_address");
+                $knowMorePhone = get_sub_field("know_more_phone_number");
+                $nextProjectImage = get_sub_field("next_project_image");
+                $nextProjectSubtitle = get_sub_field("next_project_subtitle");
+                $nextProjectCustomer = get_sub_field("next_project_customer_name");
+            ?>
+            <div class="container-fluid bg-ink-dark ink-pt-6 ink-pb-3">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1 px-0 px-lg-3">
+                        <div class="row mx-0">
+                            <div class="col-xl-4 px-xl-0 d-flex align-items-center bg-ink-light">
+                                <div id="project-div" class="vh40 d-flex flex-column justify-content-center ink-p-lg-3">
+                                    <?php if ($knowMoreTitle): ?>
+                                        <span class="jakarta-regular-font fs-2440 mb-3 mb-lg-5"><?php echo $knowMoreTitle; ?></span>
+                                    <?php endif; ?>
+                                    <?php if ($knowMoreEmail): ?>    
+                                        <div class="mb-lg-4"><a href="mailto:info@quarterback.nl" class=""><?php echo $knowMoreEmail; ?></a></div>
+                                    <?php endif; ?>
+                                    <?php if ($knowMorePhone): ?>
+                                        <div><a href="tel:0031610835300" class=""><?php echo $knowMorePhone; ?></a></div>
+                                    <?php endif; ?>
+                                </div> 
+                            </div>
+                            <div class="col-xl-8 px-0">
+                                <a href="#" class="">
+                                    <div class="background-image-project project-7" style="background-image: url('<?php echo $nextProjectImage["sizes"]["large"]; ?>')">
+                                        <div class="next-project-image">
+                                            <?php if ($nextProjectSubtitle): ?>
+                                                <p class="jakarta-light-font fs-1825 mb-0"><?php echo $nextProjectSubtitle; ?></p>
+                                            <?php endif; ?>
+                                            <?php if ($nextProjectCustomer): ?>
+                                                <span class="degular-font fs-4080 next-project-underline-arrow mt-0"><?php echo $nextProjectCustomer; ?></span>
+                                            <?php endif; ?>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         <?php endif; ?>
 
     <?php endwhile; ?>

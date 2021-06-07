@@ -71,7 +71,7 @@ get_header();
     </div>
 </div> -->
 
-<div class="container-fluid bg-ink-dark ink-pt-6 ink-pb-3">
+<!-- <div class="container-fluid bg-ink-dark ink-pt-6 ink-pb-3">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 px-0 px-lg-3">
             <div class="row mx-0">
@@ -95,7 +95,7 @@ get_header();
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container-fluid bg-ink-dark d-none d-lg-block">
     <div class="row">
