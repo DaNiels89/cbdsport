@@ -317,19 +317,34 @@ get_header();
     </div>
 </div>
 
-<div id="cookie-div" class="container-fluid bg-ink-dark">
-    <div class="row">
-        <div class="column col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
-            <p class="font-manrope p-yellow ink-py-1 px-0">Deze site maakt gebruik van cookies, je blijft wel anoniem. Voor meer informatie <a href="#" class="font-manrope a-yellow">Cookie en Privacy Voorwaarden</a></p>
-            <button id="cookie-btn" class="font-manrope btn-ink-yellow">OK</button>
-        </div>
-    </div>
-</div>
-
 <div class="container-fluid">
     <div class="row">
         <div class="column col-xl-10 offset-xl-1 px-xl-0 d-xl-none">
             <hr class="">
+        </div>
+    </div>
+</div>
+
+<?php
+    $cookieText = get_field("cookie_text", "option");
+    $cookieQbLink = get_field("cookie_qb_link", "option");
+    $cookieButton = get_field("cookie_button", "option");
+?>
+
+<div id="cookie-div" class="container-fluid bg-ink-dark">
+    <div class="row">
+        <div class="column col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
+            <?php if ($cookieText): ?>
+                <p class="font-manrope p-yellow ink-py-1 px-0">
+                    <?php echo $cookieText; ?>
+            <?php endif; ?>
+                <?php if ($cookieQbLink): ?>
+                    <a href="<?php echo $cookieQbLink["url"]; ?>" class="font-manrope a-yellow" target="<?php echo $cookieQbLink["target"]; ?>"><?php echo $cookieQbLink["title"]; ?></a>
+                <?php endif; ?>
+                </p>
+            <?php if ($cookieButton): ?>    
+                <button id="cookie-btn" class="font-manrope btn-ink-yellow"><?php echo $cookieButton; ?></button>
+            <?php endif; ?>
         </div>
     </div>
 </div>
