@@ -7,13 +7,22 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
+<?php
+    $workTitle = get_field("work_title");
+    $workParagraph = get_field("work_paragraph");
+?>
+
 <div class="container-fluid upper-container bg-ink-dark">
     <div class="row">
         <div class="col-xl-7 offset-xl-1">
-            <h1 class="">Wij ontwikkelen concepten en bouwen merken zonder fratsen.</h1>
+            <?php if ($workTitle): ?>
+                <h1 class=""><?php echo $workTitle; ?></h1>
+            <?php endif; ?>
          </div>
          <div class="col-xl-5 offset-xl-1">
-            <p class="p-gray ink-pb-2 ink-my-2 mr-xl-5 lh-2 mx-0">We create brands that stand out. We are here to tell a story through visual language & brand identity</p>
+            <?php if ($workParagraph): ?>
+                <p class="p-gray ink-pb-2 ink-my-2 mr-xl-5 lh-175 mx-0"><?php echo $workParagraph; ?></p>
+            <?php endif; ?>
          </div>
     </div>
 </div>
@@ -27,6 +36,7 @@ get_header();
                 setup_postdata($post);
                 $title = get_the_title();
                 $tagLine = get_field("tag_line");
+                $overlayText = get_field("overlay_text");
 
                 if ($projectCounter == 2):
         ?>
@@ -41,7 +51,9 @@ get_header();
                 <a href="#" class="">
                     <div class="background-image-werk ink-mb-1 ink-mb-lg-2">
                         <div class="watch-project">
-                            <p class="p-watch-project d-none d-lg-block">Bekijk project</p>
+                            <?php if ($overlayText): ?>
+                                <p class="p-watch-project d-none d-lg-block"><?php echo $overlayText; ?></p>
+                            <?php endif; ?>
                         </div>
                     </div>
                     <span class=""><a href="#" class="degular-font fs-2440"><?php echo $title; ?></a></span>

@@ -89,7 +89,7 @@ get_header();
     <div class="row">
         <div class="col-xl-8 offset-xl-1">
           <?php if ($aboutUsInfoSubtitle): ?>
-            <p class="p-gray jakarta-light-font mb-4 mb-lg-5"><?php echo $aboutUsInfoSubtitle; ?>Wat we doen</p>
+            <p class="p-gray jakarta-light-font mb-4 mb-lg-5"><?php echo $aboutUsInfoSubtitle; ?></p>
           <?php endif; ?>
           <?php if ($aboutUsInfoTitle): ?>
             <p class="fs-1840 mb-5"><?php echo $aboutUsInfoTitle; ?></p>
@@ -131,6 +131,7 @@ get_header();
   </div>
 </div>
 
+<!-- Mobile slider -->
 <div class="container-fluid d-block d-md-none">
     <div class="row">
         <div class="col half-dark-half-light">
@@ -143,6 +144,7 @@ get_header();
     </div>
 </div>
 
+<!-- Desktop slider -->
 <div class="container-fluid bg-ink-dark d-none d-md-block">
     <div class="row">
         <div class="col col-xl-10 offset-xl-1">
