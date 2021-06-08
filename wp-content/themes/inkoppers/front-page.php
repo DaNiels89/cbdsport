@@ -6,20 +6,20 @@ get_header();
 ?>
 
 <?php 
-    $heroTitle = get_field("hero_title");
-    $heroButtonTitle = get_field("hero_button_title");
     $heroImage = get_field("hero_image");
 ?>
 
 <div id="first-container" class="container-fluid">
     <div class="row align-items-center">
         <div class="col-12 col-xl-4 offset-xl-1">
-            <?php if ($heroTitle): ?>
-                <h1 class="mb-xl-5"><?php echo $heroTitle; ?></h1>
+            <?php if (get_field("hero_title")): ?>
+                <h1 class="mb-xl-5"><?php the_field("hero_title"); ?></h1>
             <?php endif; ?>
             <!-- Button trigger modal -->
             <button type="button" class="watch-showreal-btn ink-py-2 px-0" data-toggle="modal" data-target="#watchShowreal">
-                <?php echo $heroButtonTitle; ?>
+                <?php if (get_field("hero_button_title")): ?>
+                    <?php the_field("hero_button_title"); ?>
+                <?php endif; ?>
                 <!-- mobile -->
                 <svg id="Group_868" class="d-xl-none" data-name="Group 868" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                     <circle id="Ellipse_19" data-name="Ellipse 19" cx="15" cy="15" r="15"/>
@@ -51,8 +51,6 @@ get_header();
 
 <?php 
     $aboutUsImage = get_field("about_us_image");
-    $aboutUsTitle = get_field("about_us_title");
-    $aboutUsText = get_field("about_us_text");
     $aboutUsButton = get_field("about_us_button");
 ?>
 
@@ -61,11 +59,11 @@ get_header();
         <div class="column col-xl-4 p-xl-0 d-none d-xl-block background-image-2 h-900" style="background-image: url('<?php echo $aboutUsImage["sizes"]["large"]; ?>')">
         </div>       
         <div class="column col-xl-6 offset-xl-1 py-5 p-xl-5">
-            <?php if ($aboutUsTitle): ?>
-                <p class="p-gray jakarta-light-font my-5"><?php echo $aboutUsTitle; ?></p>
+            <?php if (get_field("about_us_title")): ?>
+                <p class="p-gray jakarta-light-font my-5"><?php the_field("about_us_title"); ?></p>
             <?php endif; ?>
-            <?php if ($aboutUsText): ?>
-                <p class="fs-2040 my-5"><?php echo $aboutUsText; ?></p>
+            <?php if (get_field("about_us_text")): ?>
+                <p class="fs-2040 my-5"><?php the_field("about_us_text"); ?></p>
             <?php endif; ?>
             <?php if ($aboutUsButton): ?>
             <div class="div-a-showreal d-flex align-items-center">
@@ -97,8 +95,6 @@ get_header();
 </div>
 
 <?php 
-    $homeWorkSubtitle = get_field("home_work_subtitle");
-    $homeWorkTitle = get_field("home_work_title");
     $homeWorkImage1 = get_field("home_work_image_1");
     $homeWorkCustomer1 = get_field("home_customer_name_1");
     $homeWorkTagLine1 = get_field("home_tag_line_1");
@@ -116,11 +112,11 @@ get_header();
 <div class="container-fluid bg-ink-dark ink-pt-lg-5 ink-pb-lg-2">
     <div class="row">
         <div class="column col-xl-7 offset-xl-1 px-xl-0">
-            <?php if ($homeWorkSubtitle): ?>
-                <p class="p-gray jakarta-light-font"><?php echo $homeWorkSubtitle; ?></p>
+            <?php if (get_field("home_work_subtitle")): ?>
+                <p class="p-gray jakarta-light-font"><?php the_field("home_work_subtitle"); ?></p>
             <?php endif; ?>
-            <?php if ($homeWorkTitle): ?>
-                <h2 class="degular-font fs-4080 ink-mb-xl-1"><?php echo $homeWorkTitle; ?></h2>
+            <?php if (get_field("home_work_title")): ?>
+                <h2 class="degular-font fs-4080 ink-mb-xl-1"><?php the_field("home_work_title"); ?></h2>
             <?php endif; ?>
         </div>
     </div>
@@ -172,25 +168,14 @@ get_header();
     </div>
 </div>
 
-<?php
-    $homeActivitiesSubtitle = get_field("home_activities_subtitle");
-    $homeActivitiesTitle = get_field("home_activities_title");
-    $homeActivitiesColumnTitle1 = get_field("home_activities_column_title_1");
-    $homeActivitiesColumnText1 = get_field("home_activities_column_text_1");
-    $homeActivitiesColumnTitle2 = get_field("home_activities_column_title_2");
-    $homeActivitiesColumnText2 = get_field("home_activities_column_text_2");
-    $homeActivitiesColumnTitle3 = get_field("home_activities_column_title_3");
-    $homeActivitiesColumnText3 = get_field("home_activities_column_text_3");
-?>
-
 <div class="container-fluid bg-ink-dark ink-pt-lg-2 ink-pb-6">
     <div class="row ink-mb-4">
         <div class="column col-xl-7 offset-xl-1 px-xl-0">
-            <?php if ($homeActivitiesSubtitle): ?>
-                <p class="p-gray jakarta-light-font pt-5"><?php echo $homeActivitiesSubtitle; ?></p>
+            <?php if (get_field("home_activities_subtitle")): ?>
+                <p class="p-gray jakarta-light-font pt-5"><?php the_field("home_activities_subtitle"); ?></p>
             <?php endif; ?>
-            <?php if ($homeActivitiesTitle): ?>
-                <h2 class="degular-font fs-4080"><?php echo $homeActivitiesTitle; ?></h2>
+            <?php if (get_field("home_activities_title")): ?>
+                <h2 class="degular-font fs-4080"><?php the_field("home_activities_title"); ?></h2>
             <?php endif; ?>
         </div> 
     </div>
@@ -198,27 +183,27 @@ get_header();
         <div class="column col-xl-10 offset-xl-1">
             <div class="row">
                 <div class="col-xl-4 pl-xl-0 pr-xl-2">
-                    <?php if ($homeActivitiesColumnTitle1): ?>
-                        <span class="degular-font fs-2440"><?php echo $homeActivitiesColumnTitle1; ?></span>
+                    <?php if (get_field("home_activities_column_title_1")): ?>
+                        <span class="degular-font fs-2440"><?php the_field("home_activities_column_title_1"); ?></span>
                     <?php endif; ?>
-                    <?php if ($homeActivitiesColumnText1): ?>
-                        <p class="p-color-medium-gray mt-3 mb-5 my-xl-5 mr-3 lh-175"><?php echo $homeActivitiesColumnText1; ?></p>
-                    <?php endif; ?>
-                </div>
-                <div class="col-xl-4 pl-xl-0 pr-xl-2">
-                    <?php if ($homeActivitiesColumnTitle2): ?>
-                        <span class="degular-font fs-2440"><?php echo $homeActivitiesColumnTitle2; ?></span>
-                    <?php endif; ?>
-                    <?php if ($homeActivitiesColumnText2): ?>
-                        <p class="p-color-medium-gray mt-3 mb-5 my-xl-5 mr-3 lh-175"><?php echo $homeActivitiesColumnText2; ?></p>
+                    <?php if (get_field("home_activities_column_text_1")): ?>
+                        <p class="p-color-medium-gray mt-3 mb-5 my-xl-5 mr-3 lh-175"><?php the_field("home_activities_column_text_1"); ?></p>
                     <?php endif; ?>
                 </div>
                 <div class="col-xl-4 pl-xl-0 pr-xl-2">
-                    <?php if ($homeActivitiesColumnTitle3): ?>
-                        <span class="degular-font fs-2440"><?php echo $homeActivitiesColumnTitle3; ?></span>
+                    <?php if (get_field("home_activities_column_title_2")): ?>
+                        <span class="degular-font fs-2440"><?php the_field("home_activities_column_title_2"); ?></span>
                     <?php endif; ?>
-                    <?php if ($homeActivitiesColumnText3): ?>
-                        <p class="p-color-medium-gray mt-3 mb-5 my-xl-5 mr-3 lh-175"><?php echo $homeActivitiesColumnText3; ?></p>
+                    <?php if (get_field("home_activities_column_text_2")): ?>
+                        <p class="p-color-medium-gray mt-3 mb-5 my-xl-5 mr-3 lh-175"><?php the_field("home_activities_column_text_2"); ?></p>
+                    <?php endif; ?>
+                </div>
+                <div class="col-xl-4 pl-xl-0 pr-xl-2">
+                    <?php if (get_field("home_activities_column_title_3")): ?>
+                        <span class="degular-font fs-2440"><?php the_field("home_activities_column_title_3"); ?></span>
+                    <?php endif; ?>
+                    <?php if (get_field("home_activities_column_text_3")): ?>
+                        <p class="p-color-medium-gray mt-3 mb-5 my-xl-5 mr-3 lh-175"><?php the_field("home_activities_column_text_3"); ?></p>
                     <?php endif; ?>
                 </div>
             </div>
@@ -276,7 +261,6 @@ get_header();
 
 <?php 
     $contactUsImage = get_field("contact_us_image");
-    $contactUsTitle = get_field("contact_us_title");
     $contactUsButton = get_field("contact_us_button");
 ?>
 
@@ -293,8 +277,8 @@ get_header();
         <div class="column col-xl-4 p-xl-0 d-none d-xl-block background-image-2 h-900" style="background-image: url('<?php echo $contactUsImage["sizes"]["large"]; ?>')">
         </div>       
         <div class="column col-xl-6 offset-xl-1 py-5 p-xl-5">
-            <?php if ($contactUsTitle): ?>
-                <span class="degular-font fs-4080 my-5"><?php echo $contactUsTitle; ?></span>
+            <?php if (get_field("contact_us_title")): ?>
+                <span class="degular-font fs-4080 my-5"><?php the_field("contact_us_title"); ?></span>
             <?php endif; ?>
             <?php if ($contactUsButton): ?>
                 <div class="div-a-showreal column my-5 d-flex align-items-center px-0">
@@ -326,24 +310,22 @@ get_header();
 </div>
 
 <?php
-    $cookieText = get_field("cookie_text", "option");
     $cookieQbLink = get_field("cookie_qb_link", "option");
-    $cookieButton = get_field("cookie_button", "option");
 ?>
 
 <div id="cookie-div" class="container-fluid bg-ink-dark">
     <div class="row">
         <div class="column col-xl-10 offset-xl-1 d-flex align-items-center justify-content-between">
-            <?php if ($cookieText): ?>
+            <?php if (get_field("cookie_text", "option")): ?>
                 <p class="font-manrope p-yellow ink-py-1 px-0">
-                    <?php echo $cookieText; ?>
+                <?php the_field("cookie_text", "option"); ?>
             <?php endif; ?>
                 <?php if ($cookieQbLink): ?>
                     <a href="<?php echo $cookieQbLink["url"]; ?>" class="font-manrope a-yellow" target="<?php echo $cookieQbLink["target"]; ?>"><?php echo $cookieQbLink["title"]; ?></a>
                 <?php endif; ?>
                 </p>
-            <?php if ($cookieButton): ?>    
-                <button id="cookie-btn" class="font-manrope btn-ink-yellow"><?php echo $cookieButton; ?></button>
+            <?php if (get_field("cookie_button", "option")): ?>
+                <button id="cookie-btn" class="font-manrope btn-ink-yellow"><?php the_field("cookie_button", "option"); ?></button>
             <?php endif; ?>
         </div>
     </div>
