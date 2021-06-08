@@ -8,25 +8,9 @@ get_header();
 ?>
 
 <?php 
-  $aboutUsTitle = get_field("about_us_title");
-  $aboutUsText = get_field("about_us_text");
   $aboutUsHeroImage = get_field("about_us_hero_image");
-
-  $aboutUsInfoSubtitle = get_field("about_us_information_subtitle");
-  $aboutUsInfoTitle = get_field("about_us_information_title");
-  $aboutUsColumnTitle1 = get_field("about_us_column_title_1");
-  $aboutUsColumnText1 = get_field("about_us_column_text_1");
-  $aboutUsColumnTitle2 = get_field("about_us_column_title_2");
-  $aboutUsColumnText2 = get_field("about_us_column_text_2");
-  $aboutUsColumnTitle3 = get_field("about_us_column_title_3");
-  $aboutUsColumnText3 = get_field("about_us_column_text_3");
-
   $aboutUsSlider = get_field("about_us_slider");
 
-  $aboutUsAccordionSubtitle = get_field("about_us_accordion_subtitle");
-  $aboutUsAccordionTitle = get_field("about_us_accordion_title");
-  $aboutUsAccordion1Title = get_field("accordion_1_title");
-  $aboutUsAccordion1Text = get_field("accordion_1_text");
   $aboutUsAccordion1Link1 = get_field("accordion_1_link_1");
   $aboutUsAccordion1Link2 = get_field("accordion_1_link_2");
   $aboutUsAccordion1Link3 = get_field("accordion_1_link_3");
@@ -34,8 +18,6 @@ get_header();
   $aboutUsAccordion1Link5 = get_field("accordion_1_link_5");
   $aboutUsAccordion1Link6 = get_field("accordion_1_link_6");
 
-  $aboutUsAccordion2Title = get_field("accordion_2_title");
-  $aboutUsAccordion2Text = get_field("accordion_2_text");
   $aboutUsAccordion2Link1 = get_field("accordion_2_link_1");
   $aboutUsAccordion2Link2 = get_field("accordion_2_link_2");
   $aboutUsAccordion2Link3 = get_field("accordion_2_link_3");
@@ -43,8 +25,6 @@ get_header();
   $aboutUsAccordion2Link5 = get_field("accordion_2_link_5");
   $aboutUsAccordion2Link6 = get_field("accordion_2_link_6");
 
-  $aboutUsAccordion3Title = get_field("accordion_3_title");
-  $aboutUsAccordion3Text = get_field("accordion_3_text");
   $aboutUsAccordion3Link1 = get_field("accordion_3_link_1");
   $aboutUsAccordion3Link2 = get_field("accordion_3_link_2");
   $aboutUsAccordion3Link3 = get_field("accordion_3_link_3");
@@ -52,7 +32,6 @@ get_header();
   $aboutUsAccordion3Link5 = get_field("accordion_3_link_5");
   $aboutUsAccordion3Link6 = get_field("accordion_3_link_6");
 
-  $aboutUsRecentProjectsTitle = get_field("about_us_recent_projects_title");
   $aboutUsRecentProjectsButton = get_field("about_us_more_work");
   $aboutUsRecentProjectsImageLeft = get_field("about_us_recent_projects_image_left");
   $aboutUsRecentProjectsCustomerLeft = get_field("about_us_customer_name_left");
@@ -65,13 +44,13 @@ get_header();
 <div class="container-fluid upper-container bg-ink-dark">
     <div class="row">
         <div class="col-sm-12 col-xl-5 offset-xl-1 my-5 p-xl-5 d-flex align-items-start">
-          <?php if ($aboutUsTitle): ?>
-            <h1 class=""><?php echo $aboutUsTitle; ?></h1>
+          <?php if (get_field("about_us_title")): ?>
+            <h1 class=""><?php the_field("about_us_title"); ?></h1>
           <?php endif; ?>
         </div>
         <div class="col-sm-12 col-xl-5 d-flex align-items-end height-600">
-          <?php if ($aboutUsText): ?>
-            <p class="jakarta-light-font color-ink-gray lh-lg-2 mt-4 mb-5 p-xl-5 p-600"><?php echo $aboutUsText; ?></p>
+        <?php if (get_field("about_us_text")): ?>
+            <p class="jakarta-light-font color-ink-gray lh-lg-2 mt-4 mb-5 p-xl-5 p-600"><?php the_field("about_us_text"); ?></p>
           <?php endif; ?>
         </div>
     </div>
@@ -88,42 +67,44 @@ get_header();
 <div class="container-fluid bg-ink-dark py-5">
     <div class="row">
         <div class="col-xl-8 offset-xl-1">
-          <?php if ($aboutUsInfoSubtitle): ?>
-            <p class="p-gray jakarta-light-font mb-4 mb-lg-5"><?php echo $aboutUsInfoSubtitle; ?></p>
+          <?php if (get_field("about_us_information_subtitle")): ?>
+            <p class="p-gray jakarta-light-font mb-4 mb-lg-5"><?php the_field("about_us_information_subtitle"); ?></p>
           <?php endif; ?>
-          <?php if ($aboutUsInfoTitle): ?>
-            <p class="fs-1840 mb-5"><?php echo $aboutUsInfoTitle; ?></p>
+          <?php if (get_field("about_us_information_title")): ?>
+            <p class="fs-1840 mb-5"><?php the_field("about_us_information_title"); ?></p>
           <?php endif; ?>
         </div>
     </div>
 </div>
+
+  
 
 <div class="container-fluid bg-ink-dark py-5">
   <div class="row">
     <div class="col-xl-10 offset-xl-1">
       <div class="row">
         <div class="col-xl-4 pt-4">
-          <?php if ($aboutUsColumnTitle1): ?>
-            <span class="degular-font fs-2440"><?php echo $aboutUsColumnTitle1; ?></span>
+          <?php if (get_field("about_us_column_title_1")): ?>
+            <span class="degular-font fs-2440"><?php the_field("about_us_column_title_1"); ?></span>
           <?php endif; ?>
-          <?php if ($aboutUsColumnText1): ?>
-            <p class="p-gray jakarta-light-font lh-lg-2 fs-1825 my-3 my-lg-5"><?php echo $aboutUsColumnText1; ?></p>
+          <?php if (get_field("about_us_column_text_1")): ?>
+            <p class="p-gray jakarta-light-font lh-lg-2 fs-1825 my-3 my-lg-5"><?php the_field("about_us_column_text_1"); ?></p>
           <?php endif; ?>
         </div>
         <div class="col-xl-4 pt-4">
-          <?php if ($aboutUsColumnTitle2): ?>
-            <span class="degular-font fs-2440"><?php echo $aboutUsColumnTitle2; ?></span>
+          <?php if (get_field("about_us_column_title_2")): ?>
+            <span class="degular-font fs-2440"><?php the_field("about_us_column_title_2"); ?></span>
           <?php endif; ?>
-          <?php if ($aboutUsColumnText2): ?>
-            <p class="p-gray jakarta-light-font lh-lg-2 fs-1825 my-3 my-lg-5"><?php echo $aboutUsColumnText2; ?></p>
+          <?php if (get_field("about_us_column_text_2")): ?>
+            <p class="p-gray jakarta-light-font lh-lg-2 fs-1825 my-3 my-lg-5"><?php the_field("about_us_column_text_2"); ?></p>
           <?php endif; ?>
         </div>
-        <div class="col-xl-4 pt-4 mb-5">
-          <?php if ($aboutUsColumnTitle3): ?>
-            <span class="degular-font fs-2440"><?php echo $aboutUsColumnTitle3; ?></span>
+        <div class="col-xl-4 pt-4">
+          <?php if (get_field("about_us_column_title_3")): ?>
+            <span class="degular-font fs-2440"><?php the_field("about_us_column_title_3"); ?></span>
           <?php endif; ?>
-          <?php if ($aboutUsColumnText3): ?>
-            <p class="p-gray jakarta-light-font lh-lg-2 fs-1825 my-3 my-lg-5"><?php echo $aboutUsColumnText3; ?></p>
+          <?php if (get_field("about_us_column_text_3")): ?>
+            <p class="p-gray jakarta-light-font lh-lg-2 fs-1825 my-3 my-lg-5"><?php the_field("about_us_column_text_3"); ?></p>
           <?php endif; ?>
         </div>
       </div>
@@ -160,11 +141,11 @@ get_header();
 <div class="container-fluid">
     <div class="row">
         <div class="col-xl-4 offset-xl-1">
-          <?php if ($aboutUsAccordionSubtitle): ?>
-            <p class="p-gray mt-5"><?php echo $aboutUsAccordionSubtitle; ?></p>
+          <?php if (get_field("about_us_accordion_subtitle")): ?>
+            <p class="p-gray mt-5"><?php the_field("about_us_accordion_subtitle"); ?></p>
           <?php endif; ?>
-          <?php if ($aboutUsAccordionTitle): ?>
-            <span class="degular-font fs-4080"><?php echo $aboutUsAccordionTitle; ?></span>
+          <?php if (get_field("about_us_accordion_title")): ?>
+            <span class="degular-font fs-4080"><?php the_field("about_us_accordion_title"); ?></span>
           <?php endif; ?>
         </div>
         <div class="col-xl-5 offset-xl-1">
@@ -172,11 +153,11 @@ get_header();
             <div class="card">
                 <div class="card-header bg-ink-light px-0" id="headingOne">
                   <h5 class="mb-0">
-                    <button class="btn btn-link ink-btn card-btn p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <?php if ($aboutUsAccordion1Title): ?>
-                        <?php echo $aboutUsAccordion1Title; ?>
-                      <?php endif; ?>
-                    </button>
+                    <?php if (get_field("accordion_1_title")): ?>
+                      <button class="btn btn-link ink-btn card-btn p-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <?php the_field("accordion_1_title"); ?>
+                      </button>
+                    <?php endif; ?>
                   </h5>
                 </div>
               </div>
@@ -214,11 +195,11 @@ get_header();
               <div class="card">
                 <div class="card-header bg-ink-light px-0" id="headingTwo">
                   <h5 class="mb-0">
-                    <button class="btn btn-link ink-btn card-btn p-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      <?php if ($aboutUsAccordion2Title): ?>
-                        <?php echo $aboutUsAccordion2Title; ?>
-                      <?php endif; ?>
-                    </button>
+                    <?php if (get_field("accordion_2_title")): ?>
+                      <button class="btn btn-link ink-btn card-btn p-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <?php the_field("accordion_2_title"); ?>
+                      </button>
+                    <?php endif; ?>
                   </h5>
                 </div>
               </div>
@@ -258,11 +239,11 @@ get_header();
               <div class="card">
                 <div class="card-header last-header bg-ink-light px-0" id="headingThree">
                   <h5 class="mb-0">
-                    <button class="btn btn-link ink-btn card-btn p-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      <?php if ($aboutUsAccordion3Title): ?>
-                        <?php echo $aboutUsAccordion3Title; ?>
-                      <?php endif; ?>
-                    </button>
+                    <?php if (get_field("accordion_3_title")): ?>
+                      <button class="btn btn-link ink-btn card-btn p-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        <?php the_field("accordion_3_title"); ?>
+                      </button>
+                    <?php endif; ?>
                   </h5>
                 </div>
               </div>
@@ -307,8 +288,8 @@ get_header();
 <div class="container-fluid bg-ink-dark ink-pt-5">
   <div class="row align-items-center mb-3">
     <div class="col-xl-7 offset-xl-1 d-none d-xl-block">
-      <?php if ($aboutUsRecentProjectsTitle): ?>
-        <span class="degular-font fs-4080"><?php echo $aboutUsRecentProjectsTitle; ?></span>
+      <?php if (get_field("about_us_recent_projects_title")): ?>
+        <span class="degular-font fs-4080"><?php the_field("about_us_recent_projects_title"); ?></span>
       <?php endif; ?>
     </div>
     <div class="col-xl-3 text-right d-none d-xl-flex justify-content-end">

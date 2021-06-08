@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-02 08:48:54+0000\n"
+"PO-Revision-Date: 2021-06-04 08:34:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -308,7 +308,7 @@ msgstr "<strong>Reacties</strong> &mdash; Reacties worden niet verwijderd, maar 
 
 #: wp-admin/erase-personal-data.php:37 wp-admin/export-personal-data.php:37
 msgid "<strong>Session Tokens</strong> &mdash; User login information, IP Addresses, Expiration Date, User Agent (Browser/OS), and Last Login."
-msgstr "<strong>Sessie tokens</strong>  &mdash; Inloggegevens van gebruikers, IP-adressen, vervaldatum, gebruikersagent (browser/besturingssysteem) en laatste login."
+msgstr "<strong>Sessie tokens</strong> &mdash; Inloggegevens van gebruikers, IP-adressen, vervaldatum, gebruikersagent (browser/besturingssysteem) en laatste login."
 
 #: wp-admin/erase-personal-data.php:36
 msgid "<strong>Community Events Location</strong> &mdash; The IP Address of the user which is used for the Upcoming Community Events shown in the dashboard widget."
@@ -2140,7 +2140,7 @@ msgstr "UTC tijd is %s."
 #. translators: %s: UTC abbreviation
 #: wp-admin/options-general.php:235
 msgid "Choose either a city in the same timezone as you or a %s (Coordinated Universal Time) time offset."
-msgstr "Kies een stad of een tijdzone die bij je past of een %s (Coordinated Universal Time) time offset."
+msgstr "Kies een stad in dezelfde tijdzone als jij of een %s (Coordinated Universal Time) tijd offset."
 
 #: wp-admin/options-general.php:111
 msgid "Administration Email Address"
@@ -4474,7 +4474,7 @@ msgstr "Deze sites kunnen gegevens over je verzamelen, cookies gebruiken, extra 
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:538
 msgid "Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website."
-msgstr "Berichten op deze site kunnen ingesloten (embedded) inhoud bevatten (bijvoorbeeld video's, afbeeldingen, berichten, etc.). Ingesloten inhoud van andere sites gedraagt zich exact hetzelfde alsof de bezoeker deze andere site heeft bezocht."
+msgstr "Berichten op deze site kunnen ingesloten inhoud bevatten (bijvoorbeeld video's, afbeeldingen, berichten, enz.). Ingesloten inhoud van andere sites gedraagt zich exact hetzelfde alsof de bezoeker deze andere site heeft bezocht."
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:536
@@ -6555,7 +6555,7 @@ msgstr "Vereist %1$s in het %2$s bestand."
 #. translators: %s: Date and time.
 #: wp-admin/options-general.php:289
 msgid "Standard time begins on: %s."
-msgstr "Standaard tijd begint om: %s."
+msgstr "Standaard tijd begint op: %s."
 
 #. translators: %s: Date and time.
 #: wp-admin/options-general.php:287
@@ -7775,7 +7775,7 @@ msgstr "Nadat je een selectie hebt gemaakt kun je dit aanpassen door het aantal 
 
 #: wp-admin/includes/image-edit.php:173
 msgid "The aspect ratio is the relationship between the width and height. You can preserve the aspect ratio by holding down the shift key while resizing your selection. Use the input box to specify the aspect ratio, e.g. 1:1 (square), 4:3, 16:9, etc."
-msgstr "De aspect ratio is de relatie tussen de breedte en de hoogte. Je kunt de aspect ratio bewaren door op de shift toets te drukken terwijl je de selectie schaalt. Gebruik de input box om de aspect ratio te specificeren. Bijv: 1:1 (vierkant), 4:3, 16:9, etc."
+msgstr "De aspect ratio is de relatie tussen de breedte en de hoogte. Je kunt de aspect ratio bewaren door op de shift toets te drukken terwijl je de selectie schaalt. Gebruik de input box om de aspect ratio te specificeren. Bijv: 1:1 (vierkant), 4:3, 16:9, enz."
 
 #: wp-admin/includes/image-edit.php:170
 msgid "To crop the image, click on it and drag to make your selection."
@@ -11399,7 +11399,7 @@ msgstr "Je kunt het uiterlijk van je site aanpassen zonder enige code van je the
 
 #: wp-admin/user-new.php:286
 msgid "Editors can publish posts, manage posts as well as manage other people&#8217;s posts, etc."
-msgstr "Redacteuren kunnen berichten publiceren, berichten beheren en tevens berichten van andere mensen beheren."
+msgstr "Redacteuren kunnen berichten publiceren, berichten beheren en tevens berichten van andere mensen beheren, enz."
 
 #: wp-admin/user-edit.php:59
 msgid "Remember to click the Update Profile button when you are finished."

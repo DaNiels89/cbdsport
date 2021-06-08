@@ -7,21 +7,16 @@ defined("ABSPATH") || exit;
 get_header();
 ?>
 
-<?php
-    $workTitle = get_field("work_title");
-    $workParagraph = get_field("work_paragraph");
-?>
-
 <div class="container-fluid upper-container bg-ink-dark">
     <div class="row">
         <div class="col-xl-7 offset-xl-1">
-            <?php if ($workTitle): ?>
-                <h1 class=""><?php echo $workTitle; ?></h1>
+            <?php if (get_field("work_title")): ?>
+                <h1 class=""><?php the_field("work_title"); ?></h1>
             <?php endif; ?>
          </div>
          <div class="col-xl-5 offset-xl-1">
-            <?php if ($workParagraph): ?>
-                <p class="p-gray ink-pb-2 ink-my-2 mr-xl-5 lh-175 mx-0"><?php echo $workParagraph; ?></p>
+            <?php if (get_field("work_paragraph")): ?>
+                <p class="p-gray ink-pb-2 ink-my-2 mr-xl-5 lh-175 mx-0"><?php the_field("work_paragraph"); ?></p>
             <?php endif; ?>
          </div>
     </div>

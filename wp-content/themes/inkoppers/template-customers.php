@@ -6,27 +6,22 @@ defined("ABSPATH") || exit;
 
 get_header();
 ?>
-<?php
-    $customersSubtitle = get_field("customers_subtitle");
-    $customersTitle = get_field("customers_title");
-    $customersText = get_field("customers_text");
-?>
 
 <div class="container-fluid upper-container">
     <div class="row ink-my-5">
         <div class="col-xl-10 offset-xl-1">
             <div class="row">
                 <div class="col-xl-6 px-0 ink-pl-lg-3">
-                    <?php if ($customersSubtitle): ?>
-                        <p class="p-gray d-none d-sm-block"><?php echo $customersSubtitle; ?></p>
+                    <?php if (get_field("customers_subtitle")): ?>
+                        <p class="p-gray d-none d-sm-block"><?php the_field("customers_subtitle"); ?></p>
                     <?php endif; ?>
-                    <?php if ($customersTitle): ?>
-                        <h1 class=""><?php echo $customersTitle; ?></h1>
+                    <?php if (get_field("customers_title")): ?>
+                        <h1 class=""><?php the_field("customers_title"); ?></h1>
                     <?php endif; ?>
                 </div>
                 <div class="col-xl-5 offset-xl-1 px-0">
-                    <?php if ($customersText): ?>
-                        <p class="ink-my-3 mx-0 lh-175"><?php echo $customersText; ?></p>
+                    <?php if (get_field("customers_text")): ?>
+                        <p class="ink-my-3 mx-0 lh-175"><?php the_field("customers_text"); ?></p>
                     <?php endif; ?>
                 </div>
             </div>
