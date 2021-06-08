@@ -4,12 +4,6 @@ defined("ABSPATH") || exit;
 ?>
 
 <?php 
-    $footerTitle = get_field("footer_title", "option");
-    $contactTitle = get_field("contact_title", "option");
-    $contactEmail = get_field("contact_email_address", "option");
-    $contactStreet = get_field("contact_street", "option");
-    $contactZipCity = get_field("contact_zip_code_city", "option");
-    $socialsTitle = get_field("socials_title", "option");
     $socialInstagram = get_field("social_instagram", "option");
     $socialLinkedIn = get_field("social_linkedin", "option");
     $socialFacebook = get_field("social_facebook", "option");
@@ -17,7 +11,6 @@ defined("ABSPATH") || exit;
     $footerProjectsLink = get_field("footer_projects_link", "option");
     $footerAboutUsLink = get_field("footer_about_us_link", "option");
     $footerContactLink = get_field("footer_contact_link", "option");
-    $footerCopyright = get_field("footer_copyright", "option");
     $footerTermsAndConditions = get_field("footer_terms_and_conditions", "option");
     $footerPrivacy = get_field("footer_privacy", "option" );
 
@@ -27,29 +20,30 @@ defined("ABSPATH") || exit;
     <?php if (!is_page( "contact" )): ?> 
     <div class="row mt-xl-5 pb-5 py-xl-5 my-xl-5 ">
         <div class="col-xl-5 offset-xl-1 my-5">
-            <?php if ($footerTitle): ?>
-                <span class="degular-font fs-4080"><?php echo $footerTitle; ?></span>
+            <?php if (get_field("footer_title", "option")): ?>
+                <span class="degular-font fs-4080"><?php the_field("footer_title", "option"); ?></span>
             <?php endif; ?>
         </div>
 
         <div class="col-7 col-xl-3 d-flex flex-column">
-            <?php if ($contactTitle): ?>
-                <span class="jakarta-medium-font fs-30 d-none d-xl-block"><?php echo $contactTitle; ?></span>
+            <?php if (get_field("contact_title", "option")): ?>
+                <span class="jakarta-medium-font fs-30 d-none d-xl-block"><?php the_field("contact_title", "option"); ?></span>
             <?php endif; ?>        
-            <?php if ($contactEmail): ?>
-                <p class="jakarta-light-font mt-xl-5"><a href="mailto:<?php echo $contactEmail; ?>" class="a-hover-underline-arrow" title="E-mailadres Quarterback"><?php echo $contactEmail; ?></a></p>
+            <?php if (get_field("contact_email_address", "option")): ?>
+                <p class="jakarta-light-font mt-xl-5"><a href="mailto:<?php the_field("contact_email_address", "option"); ?>" class="a-hover-underline-arrow" title="E-mailadres Quarterback"><?php the_field("contact_email_address", "option"); ?></a></p>
             <?php endif; ?>
-            <?php if ($contactStreet): ?>
-                <p class="jakarta-light-font a-hover-underline-arrow"><?php echo $contactStreet; ?></p>
+            <?php if (get_field("contact_street", "option")): ?>
+                <p class="jakarta-light-font a-hover-underline-arrow"><?php the_field("contact_street", "option"); ?></p>
             <?php endif; ?>
-            <?php if ($contactZipCity): ?>
-                <p class="jakarta-light-font a-hover-underline-arrow"><?php echo $contactZipCity; ?></p>
+            <?php if (get_field("contact_zip_code_city", "option")): ?>
+                <p class="jakarta-light-font a-hover-underline-arrow"><?php the_field("contact_zip_code_city", "option"); ?></p>
             <?php endif; ?>
         </div>
         
         <div class="col-5 col-xl-3 d-flex flex-column">
-            <?php if ($socialsTitle): ?>
-                <span class="jakarta-medium-font fs-30 d-none d-xl-block"><?php echo $socialsTitle; ?></span>
+            <?php if (get_field("socials_title", "option")): ?>
+                <span class="jakarta-medium-font fs-30 d-none d-xl-block"><?php the_field("socials_title", "option"); ?></span>
+            <?php the_field("content_title"); ?>
             <?php endif; ?> 
             <?php if ($socialInstagram): ?>
                 <p class="jakarta-light-font a-hover-underline-arrow mt-xl-5"><a href="<?php echo $socialInstagram["url"]; ?>" class="" target="<?php echo $socialInstagram["target"]; ?>" title="<?php echo $socialInstagram["title"]; ?>"><?php echo $socialInstagram["title"]; ?></a></p>
@@ -105,8 +99,8 @@ defined("ABSPATH") || exit;
  
      <div class="row">
         <div class="col-xl-5 offset-xl-1">
-            <?php if ($footerCopyright): ?>
-                <p class="p-copyright jakarta-light-font"><a href="<?php echo get_site_url(); ?>" class="fs-1418"><?php echo $footerCopyright; ?></a></p>
+            <?php if (get_field("footer_copyright", "option")): ?>
+                <p class="p-copyright jakarta-light-font"><a href="<?php echo get_site_url(); ?>" class="fs-1418"><?php the_field("footer_copyright", "option"); ?></a></p>
             <?php endif;?>
         </div>
         <div class="col-xl-5 d-flex justify-content-xl-end">
