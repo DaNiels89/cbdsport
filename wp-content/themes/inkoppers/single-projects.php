@@ -7,8 +7,6 @@ get_header();
 
 <?php
     $heroBackgroundImage = get_field("hero_background_image");
-    $title = get_the_title();
-    $tagLine = get_field("tag_line");
 ?>
 
 <div class="container-fluid p-0">
@@ -16,8 +14,12 @@ get_header();
         <div class="col p-0">
             <div class="background-image-project upper-project-image" style="background-image: url('<?php echo $heroBackgroundImage["sizes"]["large"]; ?>')">
                 <div class="project-image-text">
-                    <h1 class=""><?php echo $title; ?></h1>
-                    <p class=""><?php echo $tagLine; ?></p>
+                    <?php if (get_the_title()): ?>
+                        <h1 class=""><?php echo get_the_title(); ?></h1>
+                    <?php endif; ?>
+                    <?php if (get_field("tag_line")): ?>
+                        <p class=""><?php the_field("tag_line"); ?></p>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
