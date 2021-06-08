@@ -56,17 +56,37 @@ defined( "ABSPATH" ) || exit;
 
     <div class="row ink-my-4 mx-0 ink-my-lg-4 ink-py-lg-4 px-lg-0 py-lg-0">
         <div class="col-xl-4 offset-xl-1 d-flex flex-column px-lg-0">
-            <span class="jakarta-medium-font fs-30 d-none d-xl-block">Contact</span>
-                <p class="mt-xl-5"><a href="mailto:info@quarterback.nl" class="a-hover-underline-arrow" title="E-mailadres Quarterback">info@quarterback.nl</a></p>
-                <p class=""><a href="https://www.google.nl/maps/place/quarterback/@51.5616223,5.4560555,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6e11eaa4fb99f:0xb25eee034dcc9bd!8m2!3d51.5616223!4d5.4582441" class="a-hover-underline-arrow" title="Google Maps Quarterback" target="_blank">Emmaustraat 1.nl</a></p>
-                <p class=""><a href="https://www.google.nl/maps/place/quarterback/@51.5616223,5.4560555,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6e11eaa4fb99f:0xb25eee034dcc9bd!8m2!3d51.5616223!4d5.4582441" class="a-hover-underline-arrow" title="Google Maps Quarterback" target="_blank">5492BK Sint-Oedenrode</a></p>
+            <?php if (get_field("contact_title", "option")): ?>
+                <span class="jakarta-medium-font fs-30 d-none d-xl-block"><?php the_field("contact_title", "option"); ?></span>
+            <?php endif; ?>    
+            <?php if (get_field("contact_email_address", "option")): ?>
+                <p class="mt-xl-5"><a href="mailto:<?php the_field("contact_email_address", "option"); ?>" class="a-hover-underline-arrow" title="E-mailadres Quarterback"><?php the_field("contact_email_address", "option"); ?></a></p>
+            <?php endif; ?>
+            <?php if (get_field("contact_street", "option")): ?>
+                <p class=""><a href="https://www.google.nl/maps/place/quarterback/@51.5616223,5.4560555,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6e11eaa4fb99f:0xb25eee034dcc9bd!8m2!3d51.5616223!4d5.4582441" class="a-hover-underline-arrow" title="Google Maps Quarterback" target="_blank"><?php the_field("contact_street", "option"); ?></a></p>
+            <?php endif; ?>
+            <?php if (get_field("contact_zip_code_city", "option")): ?>    
+                <p class=""><a href="https://www.google.nl/maps/place/quarterback/@51.5616223,5.4560555,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6e11eaa4fb99f:0xb25eee034dcc9bd!8m2!3d51.5616223!4d5.4582441" class="a-hover-underline-arrow" title="Google Maps Quarterback" target="_blank"><?php the_field("contact_zip_code_city", "option"); ?></a></p>
+            <?php endif; ?>
             </div>
+
+            <?php 
+                $socialInstagram = get_field("social_instagram", "option");
+                $socialLinkedIn = get_field("social_linkedin", "option");
+                $socialFacebook = get_field("social_facebook", "option");
+            ?>
             
             <div class="col-4 offset-8 col-xl-3 offset-xl-0 text-align-right">
                 <span class="jakarta-medium-font fs-30 d-none d-xl-block">Socials</span>
-                <p class="mt-xl-5"><a href="https://www.instagram.com/quarterback.nl/" class="a-hover-underline-arrow" target="_blank" title="Instagram Quarterback">Instagram</a></p>
-                <p><a href="https://nl.linkedin.com/in/danny-siebers" class="a-hover-underline-arrow" target="_blank" title="LinkedIn Quarterback">LinkedIn</a></p>
-                <p><a href="https://www.facebook.com/quarterback.nl/" class="a-hover-underline-arrow" target="_blank" title="Facebook Quarterback">Facebook</a></p>
+                <?php if ($socialInstagram): ?>
+                    <p class="mt-xl-5"><a href="<?php echo $socialInstagram["url"]; ?>" class="a-hover-underline-arrow" target="<?php echo $socialInstagram["target"]; ?>" title="<?php echo $socialInstagram["title"]; ?>"><?php echo $socialInstagram["title"]; ?></a></p>
+                <?php endif; ?>
+                <?php if ($socialLinkedIn): ?>
+                    <p class=""><a href="<?php echo $socialLinkedIn["url"]; ?>" class="a-hover-underline-arrow" target="<?php echo $socialLinkedIn["target"]; ?>" title="<?php echo $socialLinkedIn["title"]; ?>"><?php echo $socialLinkedIn["title"]; ?></a></p>
+                <?php endif; ?>
+                <?php if ($socialFacebook): ?>
+                    <p class=""><a href="<?php echo $socialFacebook["url"]; ?>" class="a-hover-underline-arrow" target="<?php echo $socialFacebook["target"]; ?>" title="<?php echo $socialFacebook["title"]; ?>"><?php echo $socialFacebook["title"]; ?></a></p>
+                <?php endif; ?>
             </div>
         </div>
     </div>
