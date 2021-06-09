@@ -22,7 +22,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
-                        <div class="background-image-project project-3" style="background-image: url('<?php echo $photo["sizes"]["large"]; ?>')"></div>
+                        <div class="">
+                            <img src="<?php echo $photo["sizes"]["large"]; ?>" alt="<?php echo $photo["title"]; ?>">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -35,10 +37,14 @@
             <div class="container-fluid ink-mb-1">
                 <div class="row">
                     <div class="col-xl-6 py-3">
-                        <div class="background-image-project project-1" style="background-image: url('<?php echo $photo1["sizes"]["large"]; ?>')"></div>
+                        <div class="">
+                            <img src="<?php echo $photo1["sizes"]["large"]; ?>" alt="<?php echo $photo1["title"]; ?>">
+                        </div>
                     </div>
                     <div class="col-xl-6 py-xl-3">
-                        <div class="background-image-project project-2" style="background-image: url('<?php echo $photo2["sizes"]["large"]; ?>')"></div>
+                        <div class="">
+                            <img src="<?php echo $photo2["sizes"]["large"]; ?>" alt="<?php echo $photo2["title"]; ?>">
+                        </div>
                     </div>
                 </div>
             </div>
