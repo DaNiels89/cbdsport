@@ -43,7 +43,6 @@ defined("ABSPATH") || exit;
         <div class="col-5 col-xl-3 d-flex flex-column">
             <?php if (get_field("socials_title", "option")): ?>
                 <span class="jakarta-medium-font fs-30 d-none d-xl-block"><?php the_field("socials_title", "option"); ?></span>
-            <?php the_field("content_title"); ?>
             <?php endif; ?> 
             <?php if ($socialInstagram): ?>
                 <p class="jakarta-light-font a-hover-underline-arrow mt-xl-5"><a href="<?php echo $socialInstagram["url"]; ?>" class="" target="<?php echo $socialInstagram["target"]; ?>" title="<?php echo $socialInstagram["title"]; ?>"><?php echo $socialInstagram["title"]; ?></a></p>
