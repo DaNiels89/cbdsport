@@ -58,8 +58,8 @@ get_header();
 
 <div class="container-fluid bg-ink-dark py-5">
     <div class="row">
-        <div class="col-xl-11 background-image-woman" style="background-image: url('<?php echo $aboutUsHeroImage["sizes"]["large"]; ?>')">
-            
+        <div class="col-xl-11 px-0">
+          <img src="<?php echo $aboutUsHeroImage["sizes"]["large"]; ?>" alt="<?php echo $aboutUsHeroImage["title"]; ?>" class="mb-3">
         </div>
     </div>
 </div>
@@ -314,7 +314,8 @@ get_header();
   </div>
   <div class="row">
     <div class="col-xl-5 offset-xl-1">
-      <div class="background-image-3 ink-mt-2 ink-mb-1"></div>
+      <div class="ink-mt-2 ink-mb-1"></div>
+        <img src="<?php echo $aboutUsRecentProjectsImageLeft["sizes"]["large"]; ?>" alt="<?php echo $aboutUsRecentProjectsImageLeft["title"]; ?>" class="mb-3">
         <?php if ($aboutUsRecentProjectsCustomerLeft): ?>
           <span class=""><a href="<?php echo $aboutUsRecentProjectsCustomerLeft["url"]; ?>" class="degular-font fs-2440" target="<?php echo $aboutUsRecentProjectsCustomerLeft["target"]; ?>"><?php echo $aboutUsRecentProjectsCustomerLeft["title"]; ?></a></span>
         <?php endif; ?>
@@ -323,7 +324,8 @@ get_header();
         <?php endif; ?>
     </div>
     <div class="col-xl-5">
-        <div class="background-image-3 ink-mt-2 ink-mb-1"></div>
+        <div class="ink-mt-2 ink-mb-1"></div>
+          <img src="<?php echo $aboutUsRecentProjectsImageRight["sizes"]["large"]; ?>" alt="<?php echo $aboutUsRecentProjectsImageRight["title"]; ?>" class="mb-3">
           <?php if ($aboutUsRecentProjectsCustomerRight): ?>
             <span class=""><a href="<?php echo $aboutUsRecentProjectsCustomerRight["url"]; ?>" class="degular-font fs-2440" target="<?php echo $aboutUsRecentProjectsCustomerRight["target"]; ?>"><?php echo $aboutUsRecentProjectsCustomerRight["title"]; ?></a></span>
           <?php endif; ?>
