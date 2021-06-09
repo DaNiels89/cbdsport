@@ -49,7 +49,7 @@ get_header();
           <?php endif; ?>
         </div>
         <div class="col-sm-12 col-xl-5 d-flex align-items-end height-600">
-        <?php if (get_field("about_us_text")): ?>
+          <?php if (get_field("about_us_text")): ?>
             <p class="jakarta-light-font color-ink-gray lh-lg-2 mt-4 mb-5 p-xl-5 p-600"><?php the_field("about_us_text"); ?></p>
           <?php endif; ?>
         </div>
@@ -163,8 +163,8 @@ get_header();
               </div>
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body px-0">
-                  <?php if ($aboutUsAccordion1Text): ?>
-                    <p class="jakarta-light-font lh-lg-2 mb-5"><?php echo $aboutUsAccordion1Text; ?></p>
+                  <?php if (get_field("accordion_1_text")): ?>
+                    <p class="jakarta-light-font lh-lg-2 mb-5"><?php the_field("accordion_1_text"); ?></p>
                   <?php endif; ?>
                   <div class="row ink-mb-2 ink-mb-lg-6">
                     <div class="d-flex flex-column col-xl-5 px-xl-3">
@@ -205,8 +205,8 @@ get_header();
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body px-0">
-                  <?php if ($aboutUsAccordion2Text): ?>
-                    <p class="jakarta-light-font lh-lg-2 mb-5"><?php echo $aboutUsAccordion2Text; ?></p>
+                  <?php if (get_field("accordion_2_text")): ?>
+                    <p class="jakarta-light-font lh-lg-2 mb-5"><?php the_field("accordion_2_text"); ?></p>
                   <?php endif; ?>
                   <div class="d-flex flex-column">
                   <div class="row ink-mb-2 ink-mb-lg-6">
@@ -249,8 +249,8 @@ get_header();
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body px-0">
-                  <?php if ($aboutUsAccordion3Text): ?>
-                    <p class="jakarta-light-font lh-lg-2 mb-5"><?php echo $aboutUsAccordion3Text; ?></p>
+                <?php if (get_field("accordion_3_text")): ?>
+                    <p class="jakarta-light-font lh-lg-2 mb-5"><?php the_field("accordion_3_text"); ?></p>
                   <?php endif; ?>
                   <div class="d-flex flex-column">
                     <div class="row">

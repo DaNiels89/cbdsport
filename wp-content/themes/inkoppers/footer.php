@@ -13,7 +13,6 @@ defined("ABSPATH") || exit;
     $footerContactLink = get_field("footer_contact_link", "option");
     $footerTermsAndConditions = get_field("footer_terms_and_conditions", "option");
     $footerPrivacy = get_field("footer_privacy", "option" );
-
 ?>
 
 <div id="footer" class="qb-footer container-fluid <?php if (get_field("footer_dark")): echo "bg-ink-dark"; endif; ?> pb-5 py-xl-5">

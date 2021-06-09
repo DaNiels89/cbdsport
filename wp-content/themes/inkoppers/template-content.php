@@ -89,8 +89,8 @@ get_header();
     <div class="row">
         <div class="col-xl-8 offset-xl-2">
             <div class="row ink-my-3 ink-my-lg-5 mx-0">
-                <div class="col-xl-5 background-image-content m-1 m-lg-0 px-0" style="background-image: url('<?php echo $contentImage2["sizes"]["large"]; ?>')">
-
+                <div class="col-xl-5 m-1 m-lg-0 px-0">
+                    <img src="<?php echo $contentImage2["sizes"]["large"]; ?>" alt="<?php echo $contentImage2["title"]; ?>" class="">
                 </div>
                 <div class="col-xl-6 offset-xl-1 px-0 d-flex align-items-center">
                     <?php if (get_field("content_text_next_to_image")): ?>
