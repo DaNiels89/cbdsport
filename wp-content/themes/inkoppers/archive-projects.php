@@ -13,7 +13,7 @@ get_header();
 
 <div class="col-6 col-xl-3 py-5  my-5 d-flex justify-content-center align-items-center">
     <div class="" style="margin-top:20em;">
-        <!-- Tijdelijk div -->
+        <!-- Temporary div to add margin on top so links are clickable -->
     </div>
     <a href="<?php the_permalink(); ?>" class="p-3">
         <?php the_title(); ?>

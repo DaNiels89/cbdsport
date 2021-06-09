@@ -122,7 +122,11 @@ get_header();
     </div>
     <div class="row">
         <div class="column pt-5 pt-xl-0 col-xl-5 offset-xl-1 px-xl-0">
-            <a href="<?php echo $homeWorkCustomer1["url"]; ?>" class="" target="<?php echo $homeWorkCustomer1["target"]; ?>" class=""><div class="background-image-3 h-600 ink-mb-2" style="background-image: url('<?php echo $homeWorkImage1["sizes"]["large"]; ?>')"></div></a>
+            <a href="<?php echo $homeWorkCustomer1["url"]; ?>" class="" target="<?php echo $homeWorkCustomer1["target"]; ?>" class="">
+                <div class="ink-mb-2">
+                    <img src="<?php echo $homeWorkImage1["sizes"]["large"]; ?>" alt="<?php echo $homeWorkImage1["title"]; ?>" class="">
+                </div>
+            </a>
             <?php if ($homeWorkCustomer1): ?>
                 <a href="<?php echo $homeWorkCustomer1["url"]; ?>" class="" target="<?php echo $homeWorkCustomer1["target"]; ?>"><span class="degular-font fs-2440"><?php echo $homeWorkCustomer1["title"]; ?></span></a>
             <?php endif; ?>
@@ -131,7 +135,11 @@ get_header();
             <?php endif; ?>
         </div>
         <div class="column col-xl-4 offset-xl-1 px-xl-0">
-            <a href="<?php echo $homeWorkCustomer2["url"]; ?>" class="" target="<?php echo $homeWorkCustomer2["target"]; ?>" class=""><div class="background-image-4 h-750 ink-mb-2" style="background-image: url('<?php echo $homeWorkImage2["sizes"]["large"]; ?>')"></div></a>
+            <a href="<?php echo $homeWorkCustomer1["url"]; ?>" class="" target="<?php echo $homeWorkCustomer1["target"]; ?>" class="">
+                <div class="ink-mb-2">
+                    <img src="<?php echo $homeWorkImage2["sizes"]["large"]; ?>" alt="<?php echo $homeWorkImage2["title"]; ?>" class="">
+                </div>
+            </a>
             <?php if ($homeWorkCustomer2): ?>
                 <a href="<?php echo $homeWorkCustomer2["url"]; ?>" class="" target="<?php echo $homeWorkCustomer2["target"]; ?>"><span class="degular-font fs-2440"><?php echo $homeWorkCustomer2["title"]; ?></span></a>
             <?php endif; ?>
@@ -140,7 +148,11 @@ get_header();
             <?php endif; ?>
         </div>
         <div class="column col-xl-4 offset-xl-1 px-xl-0">
-            <a href="<?php echo $homeWorkCustomer3["url"]; ?>" class="" target="<?php echo $homeWorkCustomer3["target"]; ?>" class=""><div class="background-image-4 h-750 ink-mb-2" style="background-image: url('<?php echo $homeWorkImage3["sizes"]["large"]; ?>')"></div></a>
+            <a href="<?php echo $homeWorkCustomer1["url"]; ?>" class="" target="<?php echo $homeWorkCustomer1["target"]; ?>" class="">
+                <div class="ink-mb-2">
+                    <img src="<?php echo $homeWorkImage3["sizes"]["large"]; ?>" alt="<?php echo $homeWorkImage3["title"]; ?>" class="">
+                </div>
+            </a>
             <?php if ($homeWorkCustomer3): ?>
                 <a href="<?php echo $homeWorkCustomer3["url"]; ?>" class="" target="<?php echo $homeWorkCustomer3["target"]; ?>"><span class="degular-font fs-2440"><?php echo $homeWorkCustomer3["title"]; ?></span></a>
             <?php endif; ?>
@@ -149,7 +161,11 @@ get_header();
             <?php endif; ?>
         </div>
         <div class="column col-xl-5 offset-xl-1 px-xl-0 d-flex flex-column align-self-xl-end">
-            <a href="<?php echo $homeWorkCustomer4["url"]; ?>" class="" target="<?php echo $homeWorkCustomer4["target"]; ?>" class=""><div class="background-image-3 h-600 ink-mb-2" style="background-image: url('<?php echo $homeWorkImage4["sizes"]["large"]; ?>')"></div></a>
+            <a href="<?php echo $homeWorkCustomer1["url"]; ?>" class="" target="<?php echo $homeWorkCustomer1["target"]; ?>" class="">
+                <div class="ink-mb-2">
+                    <img src="<?php echo $homeWorkImage4["sizes"]["large"]; ?>" alt="<?php echo $homeWorkImage4["title"]; ?>" class="">
+                </div>
+            </a>
             <?php if ($homeWorkCustomer4): ?>
                 <a href="<?php echo $homeWorkCustomer4["url"]; ?>" class="" target="<?php echo $homeWorkCustomer4["target"]; ?>"><span class="degular-font fs-2440"><?php echo $homeWorkCustomer4["title"]; ?></span></a>
             <?php endif; ?>
