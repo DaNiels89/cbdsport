@@ -24,8 +24,8 @@ get_header();
 
 <div class="container-fluid ink-my-4 mx-0">
     <div class="row">
-        <div class="col-xl-10 offset-xl-1 background-image-contact" style="background-image: url('<?php echo $contentMainImage["sizes"]["large"]; ?>')">
-
+        <div class="col-xl-10 offset-xl-1 px-0">
+            <img src="<?php echo $contentMainImage["sizes"]["large"]; ?>" alt="<?php echo $contentMainImage["title"]; ?>" class="">
         </div>
     </div>
 </div>
