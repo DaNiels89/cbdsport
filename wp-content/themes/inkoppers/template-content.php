@@ -61,6 +61,9 @@ get_header();
             <?php endif; ?>
         </div> 
     </div>
+</div>
+
+<div class="container-fluid">
     <div class="row">
         <div class="column col-xl-8 offset-xl-2">
             <div class="row ink-mb-3">
@@ -94,6 +97,7 @@ get_header();
                 </div>
                 <div class="col-xl-6 offset-xl-1 px-0 d-flex align-items-center">
                     <?php if (get_field("content_text_next_to_image")): ?>
+                    
                         <p class="jakarta-light-font fs-1825 lh-175 p-1 p-lg-0 ink-mt-3 ink-mt-lg-0"><?php the_field("content_text_next_to_image"); ?></p>
                     <?php endif; ?>
                 </div>
